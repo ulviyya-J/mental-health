@@ -34,11 +34,9 @@
           "photosPermission": "Lavia profil şəklinizi seçmək üçün qalereyaya giriş icazəsi istəyir.",
           "cameraPermission": "Lavia şəkil çəkmək üçün kameraya giriş icazəsi istəyir."
         }
-      ],
-      "@react-native-firebase/app"
+      ]
     ],
     "ios": {
-      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
       "bundleIdentifier": "com.lavia.app",
       "infoPlist": {
