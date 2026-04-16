@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "iawn",
+    "cancel": "Canslo",
+    "next": "Nesaf",
+    "submit": "Anfon",
+    "start": "Cychwyn",
+    "save": "Arbed",
+    "loading": "Wrthi'n llwytho...",
+    "delete": "Dileu",
+    "hello": "Helo"
+  },
+  "lang": {
+    "title": "Dewiswch eich iaith",
+    "english": "Saesneg",
+    "azerbaijani": "Azerbaijani",
+    "russian": "Rwsiaidd"
+  },
+  "menu": {
+    "greeting": "Helo",
+    "journal": "Dyddiadur",
+    "settings": "GOSODIADAU",
+    "change_language": "Newid Iaith",
+    "notifications": "Hysbysiadau",
+    "manage_notifications": "Rheoli hysbysiadau",
+    "logout": "Allgofnodi",
+    "delete_account": "Dileu cyfrif",
+    "delete_account_title": "Dileu Cyfrif",
+    "delete_account_desc": "Bydd eich holl ddata yn cael ei ddileu. Ydych chi'n siŵr?",
+    "choose_language": "Dewiswch iaith"
+  },
+  "notifications": {
+    "welcome_title": "Croeso, {{name}}! 😊",
+    "welcome_body_static": "Mae hwn yn ddechrau newydd i chi! Credwch yn y nerth ynoch chi'ch hun, bydd popeth yn iawn.",
+    "welcome_body": "Rydym yn hapus i'ch gweld gyda ni. Cyn bo hir byddaf yn rhannu rhywbeth diddorol gyda chi.",
+    "teaser_title": "Mae gen i newyddion i chi... ✨",
+    "final_test_title": "Mae eich prawf unigol yn barod 📝",
+    "test_title_only": "Neges brawf 🧪",
+    "test_body": "Rydym wedi paratoi dadansoddiad arbennig i chi.",
+    "test_body_short": "Rydym wedi paratoi dadansoddiad newydd i chi.",
+    "preparing_test": "AI yn paratoi prawf i chi...",
+    "general_title": "Ysgogiad y dydd 💡",
+    "ready_body": "Tapiwch i agor y prawf.",
+    "empty": "Nid oes gennych hysbysiadau eto."
+  },
+  "dynamic_test": {
+    "title": "Prawf wythnosol annisgwyl",
+    "error_loading": "Methu llwytho'r prawf. Ceisiwch eto.",
+    "retry": "Ceisiwch eto"
+  },
+  "register": {
+    "title": "Cofrestru",
+    "confirm_password": "Cadarnhau Cyfrinair",
+    "passwords_dont_match": "Nid yw cyfrineiriau yn cyfateb",
+    "password_min_length": "Rhaid i'r cyfrinair fod o leiaf 6 nod"
+  },
+  "onboarding": {
+    "title": "Croeso",
+    "fullName": "Enw Llawn",
+    "gender": "Rhyw",
+    "gender_female": "Benyw",
+    "gender_male": "Gwryw",
+    "gender_other": "Arall",
+    "dob": "Dyddiad Geni",
+    "maritalStatus": "Statws Priodasol",
+    "marital_single": "Sengl",
+    "marital_married": "Priod",
+    "employed": "Cyflogedig",
+    "jobTitle": "Teitl Swydd",
+    "continue": "Parhewch",
+    "isMarried": "Priod"
+  },
+  "journal": {
+    "hello": "Helo",
+    "friend": "Ffrind",
+    "how_are_you": "Sut wyt ti heddiw?",
+    "daily_journal": "Eich nodiadau dyddiol",
+    "input_placeholder": "Beth sydd ar eich meddwl? (pryderon, llawenydd...)",
+    "save_to_journal": "Ychwanegu at y Cyfnodolyn",
+    "saved_title": "Cadwedig",
+    "saved_body": "Gallwch drafod y nodyn hwn gyda'ch seicolegydd AI yn ystod y sesiwn.",
+    "session_title": "Sesiwn Seicolegydd",
+    "evening_title": "Dadansoddiad min nos",
+    "session_desc": "Cefnogaeth AI dyddiol 10 munud.",
+    "start_10min_session": "Sesiwn Dechrau",
+    "footer_info": "Mae popeth a ysgrifennwch yn gwbl gyfrinachol.",
+    "empty_title": "Dim testun wedi'i fewnbynnu",
+    "empty_body": "Ysgrifennwch ychydig eiriau.",
+    "save_error": "Methu cadw'r nodyn."
+  },
+  "therapy_prep": {
+    "title": "Gadewch i ni baratoi ar gyfer eich sesiwn therapi",
+    "subtitle": "Bydd hyn yn fy helpu i ddeall chi'n well a darparu cymorth mwy personol",
+    "purpose_section": {
+      "title": "Beth sy'n dod â chi yma heddiw?",
+      "stress": "Straen a Phryder",
+      "relationships": "Materion Perthynas",
+      "self_understanding": "Hunan-ddealltwriaeth",
+      "decision": "Gwneud Penderfyniadau",
+      "daily_life": "Problemau Bywyd Dyddiol",
+      "other": "Arall"
+    },
+    "expectation_section": {
+      "title": "Beth ydych chi'n gobeithio amdano?",
+      "listen": "Dim ond i gael ei glywed",
+      "advice": "Mynnwch gyngor",
+      "understand": "Gwell dealltwriaeth",
+      "solution": "Dod o hyd i atebion"
+    },
+    "chat_style_section": {
+      "title": "Sut hoffech chi i mi siarad â chi?",
+      "professional": "Proffesiynol",
+      "professional_desc": "Sgwrs ffurfiol a strwythuredig",
+      "friendly": "Cyfeillgar",
+      "friendly_desc": "Amgylchedd sgwrsio diffuant a chyfforddus",
+      "supportive": "Cefnogol",
+      "supportive_desc": "Seiliedig ar empathi ac anogaeth"
+    },
+    "tips_section": {
+      "title": "Awgrymiadau ar gyfer sesiwn well:",
+      "tip1": "📍 Dewch o hyd i le cyfforddus",
+      "tip2": "⏱️ Neilltuo 10-15 munud",
+      "tip3": "💭 Ysgrifennwch eich meddyliau yn rhydd",
+      "tip4": "🔒 Mae'r sgwrs hon yn gwbl gyfrinachol"
+    },
+    "continue_button": "Sesiwn Dechrau"
+  },
+  "assessment": {
+    "title": "Sut wyt ti'n teimlo heddiw? Beth ddaeth â chi i mi?",
+    "placeholder": "Disgrifiwch eich teimladau...",
+    "submit": "Cyflwyno"
+  },
+  "test": {
+    "title": "Prawf Seicolegol",
+    "submit": "Cyflwyno Atebion",
+    "questions": [
+      { "id": "q1", "text": "Rwy'n aml yn teimlo'n bryderus neu'n bryderus." },
+      { "id": "q2", "text": "Rwy'n cael trafferth canolbwyntio." },
+      { "id": "q3", "text": "Rwy'n teimlo'n drist neu'n obeithiol y rhan fwyaf o'r amser." },
+      { "id": "q4", "text": "Mae gen i amser caled yn ymlacio." },
+      { "id": "q5", "text": "Rwy'n aml yn rhy feirniadol ohonof fy hun." },
+      { "id": "q6", "text": "Nid oes gennyf ddiddordeb mewn pethau roeddwn i'n arfer eu mwynhau." },
+      { "id": "q7", "text": "Rwy'n teimlo fy mod wedi fy llethu gan fy nhasgau dyddiol." },
+      { "id": "q8", "text": "Rwy'n cael trafferth cysgu." },
+      { "id": "q9", "text": "Rwy'n teimlo'n unig hyd yn oed pan fyddaf gydag eraill." },
+      { "id": "q10", "text": "Rwy'n teimlo bod fy mhroblemau'n rhy fawr i'w datrys." }
+    ],
+    "options": {
+      "strongly_agree": "Cytuno'n Gryf",
+      "agree": "Cytuno",
+      "neutral": "Niwtral",
+      "disagree": "Anghytuno",
+      "strongly_disagree": "Anghytuno'n Gryf"
+    },
+    "alerts": {
+      "incomplete_title": "Sylw",
+      "incomplete_body": "Atebwch bob cwestiwn!",
+      "success_title": "Llwyddiant",
+      "success_body": "Canlyniadau profion wedi'u cadw'n llwyddiannus!",
+      "error_title": "Gwall",
+      "save_error_body": "Methu cadw canlyniadau profion.",
+      "user_error_body": "Defnyddiwr heb ei ganfod. Mewngofnodwch eto."
+    }
+  },
+  "ai_wait": {
+    "title": "Eich dadansoddiad personol",
+    "subtitle": "Arhoswch tra byddaf yn adolygu eich gwybodaeth",
+    "subtitle_with_name": "Arhoswch os gwelwch yn dda, rwy'n adolygu eich gwybodaeth, {{name}}.",
+    "countdown_prefix": "Amser ar ôl:",
+    "notification_title": "Mae eich dadansoddiad yn barod",
+    "notification_body": "Tapiwch i weld eich cyflwyniad personol.",
+    "processing_data": "Wrthi'n prosesu eich gwybodaeth..."
+  },
+  "ai_intro": {
+    "title_with_name": "Helo, {{name}}.",
+    "positive_diagnosis": "Mae canlyniadau eich prawf yn dangos cyflwr meddwl cadarnhaol. Mae hyn yn dangos eich bod yn gwneud yn dda.",
+    "neutral_diagnosis": "Yn seiliedig ar eich atebion, mae eich cyflwr emosiynol mewn ystod niwtral.",
+    "negative_diagnosis": "Mae canlyniadau eich profion yn dangos y gallech fod yn mynd trwy gyfnod heriol. Mae'n bwysig gwybod nad ydych chi ar eich pen eich hun.",
+    "instruction_to_chat": "Gallwch chi ddechrau'r sgwrs nawr. Rwy'n barod i wrando a helpu.",
+    "acknowledge": "Parhau i sgwrsio"
+  },
+  "chat": {
+    "title": "Sesiwn Fyw",
+    "input_placeholder": "Teipiwch eich neges...",
+    "end_session": "Sesiwn Diwedd",
+    "offer_test": "Rwy'n argymell prawf byr nawr.",
+    "send_button": "Anfon"
+  },
+  "login": {
+    "welcome": "Croeso!",
+    "email": "Ebost",
+    "password": "Cyfrinair",
+    "login_button": "Mewngofnodi",
+    "register_button": "Cofrestrwch",
+    "register_prompt": "Dim cyfrif? Cofrestrwch nawr",
+    "login_prompt": "Oes gennych chi gyfrif yn barod? Mewngofnodi",
+    "error": "Gwall",
+    "empty_fields": "Llenwch bob maes.",
+    "invalid_email": "Cyfeiriad e-bost annilys.",
+    "wrong_password": "Cyfrinair anghywir.",
+    "login_failed": "Methodd y mewngofnodi.",
+    "forgot_password": "Wedi anghofio cyfrinair?",
+    "reset_email_sent": "Mae e-bost ailosod cyfrinair wedi'i anfon.",
+    "reset_password_failed": "Methodd ailosod cyfrinair."
+  }
+}

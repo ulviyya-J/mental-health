@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "Labi",
+    "cancel": "Atcelt",
+    "next": "Tālāk",
+    "submit": "Sūtīt",
+    "start": "Sākt",
+    "save": "Saglabāt",
+    "loading": "Ielādē...",
+    "delete": "Dzēst",
+    "hello": "Sveiki"
+  },
+  "lang": {
+    "title": "Izvēlieties savu valodu",
+    "english": "Angļu",
+    "azerbaijani": "Azerbaidžāņu",
+    "russian": "Krievu"
+  },
+  "menu": {
+    "greeting": "Sveiki",
+    "journal": "Žurnāls",
+    "settings": "IESTATĪJUMI",
+    "change_language": "Mainīt valodu",
+    "notifications": "Paziņojumi",
+    "manage_notifications": "Pārvaldīt paziņojumus",
+    "logout": "Iziet",
+    "delete_account": "Dzēst kontu",
+    "delete_account_title": "Dzēst kontu",
+    "delete_account_desc": "Visi jūsu dati tiks neatgriezeniski dzēsti. Vai esat pārliecināts?",
+    "choose_language": "Izvēlieties valodu"
+  },
+  "notifications": {
+    "welcome_title": "Laipni lūdzam, {{name}}! 😊",
+    "welcome_body_static": "Šis jums ir jauns sākums! Ticiet savam iekšējam spēkam, viss būs kārtībā.",
+    "welcome_body": "Priecājamies, ka esat kopā ar mums. Drīz es padalīšos ar jums ar kaut ko interesantu.",
+    "teaser_title": "Es gribētu jums kaut ko pateikt... ✨",
+    "final_test_title": "Jūsu individuālais tests ir gatavs 📝",
+    "test_title_only": "Testa paziņojums 🧪",
+    "test_body": "Mēs esam sagatavojuši jums īpašu analīzi.",
+    "test_body_short": "Mēs esam sagatavojuši jums jaunu analīzi.",
+    "preparing_test": "Mākslīgais intelekts gatavo jums testu...",
+    "general_title": "Dienas motivācija 💡",
+    "ready_body": "Pieskarieties, lai sāktu testu.",
+    "empty": "Paziņojumu pagaidām nav."
+  },
+  "dynamic_test": {
+    "title": "Nedēļas pārsteiguma tests",
+    "error_loading": "Neizdevās ielādēt testu. Mēģiniet vēlreiz.",
+    "retry": "Mēģināt vēlreiz"
+  },
+  "register": {
+    "title": "Reģistrācija",
+    "confirm_password": "Apstipriniet paroli",
+    "passwords_dont_match": "Paroles nesakrīt",
+    "password_min_length": "Parolei jābūt vismaz 6 rakstzīmēm"
+  },
+  "onboarding": {
+    "title": "Laipni lūdzam",
+    "fullName": "Vārds un uzvārds",
+    "gender": "Dzimums",
+    "gender_female": "Sieviete",
+    "gender_male": "Vīrietis",
+    "gender_other": "Cits",
+    "dob": "Dzimšanas datums",
+    "maritalStatus": "Ģimenes stāvoklis",
+    "marital_single": "Neprecējies/neprecējusies",
+    "marital_married": "Precējies/precējusies",
+    "employed": "Nodarbināts/-a",
+    "jobTitle": "Amats",
+    "continue": "Turpināt",
+    "isMarried": "Precējies/precējusies"
+  },
+  "journal": {
+    "hello": "Sveiki",
+    "friend": "draugs",
+    "how_are_you": "kā tev šodien klājas?",
+    "daily_journal": "Jūsu ikdienas piezīmes",
+    "input_placeholder": "Kas tev prātā? (rūpes, prieki...)",
+    "save_to_journal": "Pievienot žurnālam",
+    "saved_title": "Saglabāts",
+    "saved_body": "Sesijas laikā varat apspriest šo piezīmi ar savu AI psihologu.",
+    "session_title": "Psichologa sesija",
+    "evening_title": "Vakara analīze",
+    "session_desc": "Ikdienas 10 minūšu AI atbalsts.",
+    "start_10min_session": "Sākt sesiju",
+    "footer_info": "Viss, ko rakstāt, ir pilnīgi konfidenciāls.",
+    "empty_title": "Nav ievadīts teksts",
+    "empty_body": "Lūdzu, uzrakstiet dažus vārdus.",
+    "save_error": "Nevarēja saglabāt piezīmi."
+  },
+  "therapy_prep": {
+    "title": "Sagatavosimies jūsu sesijai",
+    "subtitle": "Tas man palīdzēs labāk jūs saprast un sniegt personalizētāku atbalstu",
+    "purpose_section": {
+      "title": "Kas tevi šodien atved uz šejieni?",
+      "stress": "Stress un trauksme",
+      "relationships": "Attiecību jautājumi",
+      "self_understanding": "Pašizpratne",
+      "decision": "Lēmumu pieņemšana",
+      "daily_life": "Ikdienas dzīves problēmas",
+      "other": "Cits"
+    },
+    "expectation_section": {
+      "title": "Ko tu ceri iegūt?",
+      "listen": "Tikai būt uzklausītam/-ai",
+      "advice": "Saņemt padomu",
+      "understand": "Labāku izpratni",
+      "solution": "Atrast risinājumus"
+    },
+    "chat_style_section": {
+      "title": "Kā tu vēlētos, lai es ar tevi runātu?",
+      "professional": "Profesionāli",
+      "professional_desc": "Formāla un strukturēta saruna",
+      "friendly": "Draudzīgi",
+      "friendly_desc": "Sirsnīga un nepiespiesta gaisotne",
+      "supportive": "Atbalstoši",
+      "supportive_desc": "Balstīts uz empātiju un iedrošinājumu"
+    },
+    "tips_section": {
+      "title": "Padomi labākai sesijai:",
+      "tip1": "📍 Atrodi ērtu vietu",
+      "tip2": "⏱️ Atvēli 10-15 minūtes",
+      "tip3": "💭 Brīvi raksti savas domas",
+      "tip4": "🔒 Šī saruna ir pilnīgi konfidenciāla"
+    },
+    "continue_button": "Sākt sesiju"
+  },
+  "assessment": {
+    "title": "Kā tu šodien jūties?",
+    "placeholder": "Apraksti savas sajūtas...",
+    "submit": "Sūtīt"
+  },
+  "test": {
+    "title": "Psiholoģiskais tests",
+    "submit": "Iesniegt atbildes",
+    "questions": [
+      { "id": "q1", "text": "Es bieži jūtos noraizējies/-usies vai satraukts/-a." },
+      { "id": "q2", "text": "Man ir grūtības koncentrēties." },
+      { "id": "q3", "text": "Lielāko daļu laika jūtos skumjš/-a vai bezcerīgs/-a." },
+      { "id": "q4", "text": "Man ir grūti atslābināties." },
+      { "id": "q5", "text": "Es bieži esmu pārlieku kritisks/-a pret sevi." },
+      { "id": "q6", "text": "Mani vairs neinteresē lietas, kas agrāk sagādāja prieku." },
+      { "id": "q7", "text": "Es jūtos pārslogots/-a ar saviem ikdienas uzdevumiem." },
+      { "id": "q8", "text": "Man ir grūti aizmigt." },
+      { "id": "q9", "text": "Es jūtos vientuļš/-a pat tad, kad esmu kopā ar citiem." },
+      { "id": "q10", "text": "Man šķiet, ka manas problēmas ir pārāk lielas, lai tās atrisinātu." }
+    ],
+    "options": {
+      "strongly_agree": "Pilnīgi piekrītu",
+      "agree": "Piekrītu",
+      "neutral": "Neitrāli",
+      "disagree": "Nepiekrītu",
+      "strongly_disagree": "Pilnīgi nepiekrītu"
+    },
+    "alerts": {
+      "incomplete_title": "Uzmanību",
+      "incomplete_body": "Lūdzu, atbildiet uz visiem jautājumiem!",
+      "success_title": "Gatavs",
+      "success_body": "Testa rezultāti veiksmīgi saglabāti!",
+      "error_title": "Kļūda",
+      "save_error_body": "Neizdevās saglabāt testa rezultātus.",
+      "user_error_body": "Lietotājs nav atrasts. Lūdzu, piesakieties vēlreiz."
+    }
+  },
+  "ai_wait": {
+    "title": "Jūsu personalizētā analīze",
+    "subtitle": "Lūdzu, uzgaidiet, kamēr es pārskatu informāciju",
+    "subtitle_with_name": "Lūdzu, uzgaidiet, {{name}}, es izvērtēju informāciju.",
+    "countdown_prefix": "Atlikušais laiks:",
+    "notification_title": "Analīze ir gatava",
+    "notification_body": "Pieskarieties, lai skatītu savu personalizēto ievadu.",
+    "processing_data": "Notiek informācijas apstrāde..."
+  },
+  "ai_intro": {
+    "title_with_name": "Sveiki, {{name}}.",
+    "positive_diagnosis": "Testa rezultāti liecina par pozitīvu garīgo stāvokli. Jums klājas labi.",
+    "neutral_diagnosis": "Pamatojoties uz jūsu atbildēm, jūsu emocionālais stāvoklis ir neitrāls.",
+    "negative_diagnosis": "Rezultāti liecina, ka jūs varētu piedzīvot sarežģītu periodu. Jūs neesat viens/-a.",
+    "instruction_to_chat": "Tagad varat sākt sarunu. Esmu gatavs uzklausīt.",
+    "acknowledge": "Turpināt uz tērzēšanu"
+  },
+  "chat": {
+    "title": "Tiešraides sesija",
+    "input_placeholder": "Ierakstiet ziņu...",
+    "end_session": "Beigt sesiju",
+    "offer_test": "Es iesaku tagad veikt īsu testu.",
+    "send_button": "Sūtīt"
+  },
+  "login": {
+    "welcome": "Laipni lūdzam!",
+    "email": "E-pasts",
+    "password": "Parole",
+    "login_button": "Pieteikties",
+    "register_button": "Reģistrēties",
+    "register_prompt": "Vai jums nav konta? Reģistrējieties",
+    "login_prompt": "Vai jums jau ir konts? Pieteikties",
+    "error": "Kļūda",
+    "empty_fields": "Lūdzu, aizpildiet visus laukus.",
+    "invalid_email": "Nederīga e-pasta adrese vai lietotājs nav atrasts.",
+    "wrong_password": "Nepareiza parole.",
+    "login_failed": "Pieteikšanās neizdevās.",
+    "forgot_password": "Aizmirsāt paroli?",
+    "reset_email_sent": "Atiestatīšanas e-pasts ir nosūtīts.",
+    "reset_password_failed": "Atiestatīšana neizdevās."
+  }
+}

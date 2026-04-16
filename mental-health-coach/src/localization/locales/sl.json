@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "V redu",
+    "cancel": "Prekliči",
+    "next": "Naprej",
+    "submit": "Pošlji",
+    "start": "Začni",
+    "save": "Shrani",
+    "loading": "Nalaganje...",
+    "delete": "Izbriši",
+    "hello": "Pozdravljeni"
+  },
+  "lang": {
+    "title": "Izberite jezik",
+    "english": "Angleščina",
+    "azerbaijani": "Azerbajdžanščina",
+    "russian": "Ruščina"
+  },
+  "menu": {
+    "greeting": "Živijo",
+    "journal": "Dnevnik",
+    "settings": "NASTAVITVE",
+    "change_language": "Spremeni jezik",
+    "notifications": "Obvestila",
+    "manage_notifications": "Upravljanje obvestil",
+    "logout": "Odjava",
+    "delete_account": "Izbriši račun",
+    "delete_account_title": "Izbris računa",
+    "delete_account_desc": "Vsi vaši podatki bodo trajno izbrisani. Ste prepričani?",
+    "choose_language": "Izberite jezik"
+  },
+  "notifications": {
+    "welcome_title": "Dobrodošli, {{name}}! 😊",
+    "welcome_body_static": "To je vaš nov začetek! Verjemite v svojo notranjo moč, vse bo v redu.",
+    "welcome_body": "Veseli smo, da ste z nami. Kmalu bom z vami delil nekaj zanimivega.",
+    "teaser_title": "Nekaj vam želim povedati... ✨",
+    "final_test_title": "Vaša individualna analiza je pripravljena 📝",
+    "test_title_only": "Obvestilo o analizi 🧪",
+    "test_body": "Za vas smo pripravili posebno analizo.",
+    "test_body_short": "Za vas smo pripravili novo analizo.",
+    "preparing_test": "Umetna inteligenca pripravlja analizo...",
+    "general_title": "Dnevna motivacija 💡",
+    "ready_body": "Tapnite za začetek testa.",
+    "empty": "Trenutno nimate obvestil."
+  },
+  "dynamic_test": {
+    "title": "Presenečenje tedna",
+    "error_loading": "Napaka pri nalaganju. Poskusite znova.",
+    "retry": "Poskusi znova"
+  },
+  "register": {
+    "title": "Registracija",
+    "confirm_password": "Potrdite geslo",
+    "passwords_dont_match": "Gesli se ne ujemata",
+    "password_min_length": "Geslo mora imeti vsaj 6 znakov"
+  },
+  "onboarding": {
+    "title": "Dobrodošli",
+    "fullName": "Polno ime",
+    "gender": "Spol",
+    "gender_female": "Ženska",
+    "gender_male": "Moški",
+    "gender_other": "Drugo",
+    "dob": "Datum rojstva",
+    "maritalStatus": "Zakonski stan",
+    "marital_single": "Neporočen(a)",
+    "marital_married": "Poročen(a)",
+    "employed": "Zaposlen(a)",
+    "jobTitle": "Delovno mesto",
+    "continue": "Nadaljuj",
+    "isMarried": "Poročen(a)"
+  },
+  "journal": {
+    "hello": "Pozdravljeni",
+    "friend": "prijatelj",
+    "how_are_you": "kako si danes?",
+    "daily_journal": "Vaši dnevni zapiski",
+    "input_placeholder": "O čem razmišljate? (skrbi, veselje...)",
+    "save_to_journal": "Dodaj v dnevnik",
+    "saved_title": "Shranjeno",
+    "saved_body": "O tem zapisu se lahko pogovorite s svojim AI psihologom med sejo.",
+    "session_title": "Seja s psihologom",
+    "evening_title": "Večerna analiza",
+    "session_desc": "Dnevna 10-minutna podpora AI.",
+    "start_10min_session": "Začni sejo",
+    "footer_info": "Vse, kar napišete, je popolnoma zaupno.",
+    "empty_title": "Besedilo ni vneseno",
+    "empty_body": "Prosim, napišite nekaj besed.",
+    "save_error": "Zapisa ni bilo mogoče shraniti."
+  },
+  "therapy_prep": {
+    "title": "Pripravimo se na sejo",
+    "subtitle": "To mi bo pomagalo, da vas bolje razumem",
+    "purpose_section": {
+      "title": "Kaj vas danes prinaša sem?",
+      "stress": "Stres in tesnoba",
+      "relationships": "Težave v odnosih",
+      "self_understanding": "Spoznavanje sebe",
+      "decision": "Sprejemanje odločitev",
+      "daily_life": "Vsakdanje težave",
+      "other": "Drugo"
+    },
+    "expectation_section": {
+      "title": "Kaj pričakujete?",
+      "listen": "Želim biti slišan(a)",
+      "advice": "Želim nasvet",
+      "understand": "Boljše razumevanje",
+      "solution": "Iskanje rešitev"
+    },
+    "chat_style_section": {
+      "title": "Kako želite, da komuniciram?",
+      "professional": "Profesionalno",
+      "professional_desc": "Formalen in strukturiran pogovor",
+      "friendly": "Prijazno",
+      "friendly_desc": "Iskreno in sproščeno vzdušje",
+      "supportive": "Spodbudno",
+      "supportive_desc": "Temelji na empatiji in podpori"
+    },
+    "tips_section": {
+      "title": "Nasveti za boljšo sejo:",
+      "tip1": "📍 Poiščite miren in udoben prostor",
+      "tip2": "⏱️ Vzemite si 10-15 minut časa",
+      "tip3": "💭 Prosto zapišite svoje misli",
+      "tip4": "🔒 Pogovor je popolnoma zaupen"
+    },
+    "continue_button": "Začni sejo"
+  },
+  "assessment": {
+    "title": "Kako se počutite danes?",
+    "placeholder": "Opišite svoje občutke...",
+    "submit": "Pošlji"
+  },
+  "test": {
+    "title": "Psihološki test",
+    "submit": "Pošlji odgovore",
+    "questions": [
+      { "id": "q1", "text": "Pogosto sem zaskrbljen(a) ali tesnoben(na)." },
+      { "id": "q2", "text": "Imam težave s koncentracijo." },
+      { "id": "q3", "text": "Večino časa sem žalosten(na) ali obupan(a)." },
+      { "id": "q4", "text": "Težko se sprostim." },
+      { "id": "q5", "text": "Pogosto sem preveč kritičen(na) do sebe." },
+      { "id": "q6", "text": "Stvari, ki so me včasih veselile, me ne zanimajo več." },
+      { "id": "q7", "text": "Počutim se preobremenjen(a) z vsakodnevnimi opravili." },
+      { "id": "q8", "text": "Imam težave s spanjem." },
+      { "id": "q9", "text": "Počutim se osamljeno, tudi ko sem z drugimi." },
+      { "id": "q10", "text": "Čutim, da so moje težave prevelike, da bi jih rešil(a)." }
+    ],
+    "options": {
+      "strongly_agree": "Močno se strinjam",
+      "agree": "Se strinjam",
+      "neutral": "Nevtralno",
+      "disagree": "Se ne strinjam",
+      "strongly_disagree": "Sploh se ne strinjam"
+    },
+    "alerts": {
+      "incomplete_title": "Pozor",
+      "incomplete_body": "Prosimo, odgovorite na vsa vprašanja!",
+      "success_title": "Uspeh",
+      "success_body": "Rezultati testa so uspešno shranjeni!",
+      "error_title": "Napaka",
+      "save_error_body": "Rezultatov testa ni bilo mogoče shraniti.",
+      "user_error_body": "Uporabnik ni bil najden. Prosimo, prijavite se znova."
+    }
+  },
+  "ai_wait": {
+    "title": "Vaša prilagojena analiza",
+    "subtitle": "Prosim počakajte, preverjam vaše podatke",
+    "subtitle_with_name": "Prosim počakaj, {{name}}, analiziram tvoje podatke.",
+    "countdown_prefix": "Preostali čas:",
+    "notification_title": "Analiza je pripravljena",
+    "notification_body": "Tapnite za ogled analize.",
+    "processing_data": "Obdelava podatkov..."
+  },
+  "ai_intro": {
+    "title_with_name": "Pozdravljeni, {{name}}.",
+    "positive_diagnosis": "Rezultati kažejo na pozitivno duševno stanje. Gre vam dobro!",
+    "neutral_diagnosis": "Vaše čustveno stanje je v nevtralnem območju.",
+    "negative_diagnosis": "Rezultati kažejo, da morda prehajate skozi težko obdobje. Niste sami.",
+    "instruction_to_chat": "Zdaj lahko začnete pogovor. Pripravljen sem prisluhniti.",
+    "acknowledge": "Nadaljuj s klepetom"
+  },
+  "chat": {
+    "title": "Seja v živo",
+    "input_placeholder": "Vnesite sporočilo...",
+    "end_session": "Končaj sejo",
+    "offer_test": "Priporočam kratek test.",
+    "send_button": "Pošlji"
+  },
+  "login": {
+    "welcome": "Dobrodošli!",
+    "email": "E-pošta",
+    "password": "Geslo",
+    "login_button": "Prijava",
+    "register_button": "Registracija",
+    "register_prompt": "Nimate računa? Registrirajte se",
+    "login_prompt": "Že imate račun? Prijava",
+    "error": "Napaka",
+    "empty_fields": "Prosimo, izpolnite vsa polja.",
+    "invalid_email": "Neveljaven e-poštni naslov ali uporabnik ni bil najden.",
+    "wrong_password": "Napačno geslo.",
+    "login_failed": "E-poštni naslov və ya geslo ni pravilno.",
+    "forgot_password": "Ste pozabili geslo?",
+    "reset_email_sent": "E-pošta za ponastavitev gesla je bila poslana.",
+    "reset_password_failed": "Ponastavitev gesla ni uspela."
+  }
+}

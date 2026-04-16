@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Avbryt",
+    "next": "Nästa",
+    "submit": "Skicka",
+    "start": "Starta",
+    "save": "Spara",
+    "loading": "Laddar...",
+    "delete": "Radera",
+    "hello": "Hej"
+  },
+  "lang": {
+    "title": "Välj ditt språk",
+    "english": "Engelska",
+    "azerbaijani": "Azerbajdzjanska",
+    "russian": "Ryska"
+  },
+  "menu": {
+    "greeting": "Hej",
+    "journal": "Journal",
+    "settings": "INSTÄLLNINGAR",
+    "change_language": "Ändra språk",
+    "notifications": "Aviseringar",
+    "manage_notifications": "Hantera aviseringar",
+    "logout": "Logga ut",
+    "delete_account": "Radera konto",
+    "delete_account_title": "Radera konto",
+    "delete_account_desc": "All din data kommer att raderas permanent. Är du säker?",
+    "choose_language": "Välj språk"
+  },
+  "notifications": {
+    "welcome_title": "Välkommen, {{name}}! 😊",
+    "welcome_body_static": "Detta är din nya början! Tro på din inre styrka, allt kommer att bli bra.",
+    "welcome_body": "Vi är glada att ha dig här. Snart kommer jag att dela något intressant med dig.",
+    "teaser_title": "Jag vill berätta något för dig... ✨",
+    "final_test_title": "Din individuella analys är klar 📝",
+    "test_title_only": "Analysmeddelande 🧪",
+    "test_body": "Vi har förberett en speciell analys för dig.",
+    "test_body_short": "Vi har förberett en ny analys för dig.",
+    "preparing_test": "AI förbereder analysen...",
+    "general_title": "Daglig motivation 💡",
+    "ready_body": "Tryck för att starta testet.",
+    "empty": "Du har inga aviseringar just nu."
+  },
+  "dynamic_test": {
+    "title": "Veckans överraskningstest",
+    "error_loading": "Kunde inte ladda testet. Försök igen.",
+    "retry": "Försök igen"
+  },
+  "register": {
+    "title": "Registrering",
+    "confirm_password": "Bekräfta lösenord",
+    "passwords_dont_match": "Lösenorden stämmer inte överens",
+    "password_min_length": "Lösenordet måste vara minst 6 tecken"
+  },
+  "onboarding": {
+    "title": "Välkommen",
+    "fullName": "Fullständigt namn",
+    "gender": "Kön",
+    "gender_female": "Kvinna",
+    "gender_male": "Man",
+    "gender_other": "Annat",
+    "dob": "Födelsedatum",
+    "maritalStatus": "Civilstånd",
+    "marital_single": "Singel",
+    "marital_married": "Gift",
+    "employed": "Anställd",
+    "jobTitle": "Yrke",
+    "continue": "Fortsätt",
+    "isMarried": "Gift"
+  },
+  "journal": {
+    "hello": "Hej",
+    "friend": "vän",
+    "how_are_you": "hur mår du idag?",
+    "daily_journal": "Dina dagliga anteckningar",
+    "input_placeholder": "Vad tänker du på? (oro, glädje...)",
+    "save_to_journal": "Spara i journalen",
+    "saved_title": "Sparad",
+    "saved_body": "Du kan diskutera denna anteckning med din AI-psykolog under sessionen.",
+    "session_title": "Psykologsession",
+    "evening_title": "Kvällsanalys",
+    "session_desc": "Dagligt 10-minuters AI-stöd.",
+    "start_10min_session": "Starta session",
+    "footer_info": "Allt du skriver är helt konfidentiellt.",
+    "empty_title": "Ingen text inmatad",
+    "empty_body": "Vänligen skriv några ord.",
+    "save_error": "Kunde inte spara anteckningen."
+  },
+  "therapy_prep": {
+    "title": "Låt oss förbereda din session",
+    "subtitle": "Det hjälper mig att förstå dig bättre och ge rätt stöd",
+    "purpose_section": {
+      "title": "Vad för dig hit idag?",
+      "stress": "Stress & Ångest",
+      "relationships": "Relationsproblem",
+      "self_understanding": "Självförståelse",
+      "decision": "Beslutsfattande",
+      "daily_life": "Vardagsproblem",
+      "other": "Annat"
+    },
+    "expectation_section": {
+      "title": "Vad hoppas du på?",
+      "listen": "Bara att bli hörd",
+      "advice": "Få råd",
+      "understand": "Bättre förståelse",
+      "solution": "Hitta lösningar"
+    },
+    "chat_style_section": {
+      "title": "Hur vill du att jag pratar med dig?",
+      "professional": "Professionellt",
+      "professional_desc": "Formellt och strukturerat samtal",
+      "friendly": "Vänligt",
+      "friendly_desc": "En öppen och avslappnad miljö",
+      "supportive": "Stödjande",
+      "supportive_desc": "Baserat på empati och uppmuntran"
+    },
+    "tips_section": {
+      "title": "Tips för en bättre session:",
+      "tip1": "📍 Hitta en bekväm plats",
+      "tip2": "⏱️ Avsätt 10-15 minuter",
+      "tip3": "💭 Skriv dina tankar fritt",
+      "tip4": "🔒 Den här chatten är helt konfidentiell"
+    },
+    "continue_button": "Starta session"
+  },
+  "assessment": {
+    "title": "Hur mår du idag?",
+    "placeholder": "Beskriv dina känslor...",
+    "submit": "Skicka"
+  },
+  "test": {
+    "title": "Psykologiskt test",
+    "submit": "Skicka in svar",
+    "questions": [
+      { "id": "q1", "text": "Jag känner mig ofta orolig eller har ångest." },
+      { "id": "q2", "text": "Jag har svårt att koncentrera mig." },
+      { "id": "q3", "text": "Jag känner mig ledsen eller hopplös för det mesta." },
+      { "id": "q4", "text": "Jag har svårt att slappna av." },
+      { "id": "q5", "text": "Jag är ofta för kritisk mot mig själv." },
+      { "id": "q6", "text": "Jag har tappat intresset för saker jag brukade tycka om." },
+      { "id": "q7", "text": "Jag känner mig överväldigad av mina dagliga sysslor." },
+      { "id": "q8", "text": "Jag har svårt att sova." },
+      { "id": "q9", "text": "Jag känner mig ensam även när jag är med andra." },
+      { "id": "q10", "text": "Jag känner att mina problem är för stora för att lösas." }
+    ],
+    "options": {
+      "strongly_agree": "Instämmer helt",
+      "agree": "Instämmer",
+      "neutral": "Neutral",
+      "disagree": "Instämmer inte",
+      "strongly_disagree": "Instämmer inte alls"
+    },
+    "alerts": {
+      "incomplete_title": "Observera",
+      "incomplete_body": "Vänligen svara på alla frågor!",
+      "success_title": "Klart",
+      "success_body": "Testresultaten har sparats!",
+      "error_title": "Fel",
+      "save_error_body": "Kunde inte spara testresultaten.",
+      "user_error_body": "Användaren hittades inte. Logga in igen."
+    }
+  },
+  "ai_wait": {
+    "title": "Din personliga analys",
+    "subtitle": "Vänta medan jag granskar din information",
+    "subtitle_with_name": "Vänta, {{name}}, jag analyserar din data.",
+    "countdown_prefix": "Återstående tid:",
+    "notification_title": "Din analys är klar",
+    "notification_body": "Tryck för att se din analys.",
+    "processing_data": "Bearbetar information..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hej, {{name}}.",
+    "positive_diagnosis": "Dina testresultat visar ett positivt mentalt tillstånd. Du mår bra!",
+    "neutral_diagnosis": "Ditt känslomässiga tillstånd är i ett neutralt intervall.",
+    "negative_diagnosis": "Resultaten tyder på att du kan gå igenom en utmanande period. Du är inte ensam.",
+    "instruction_to_chat": "Du kan starta chatten nu. Jag är redo att lyssna.",
+    "acknowledge": "Fortsätt till chatten"
+  },
+  "chat": {
+    "title": "Livesession",
+    "input_placeholder": "Skriv ditt meddelande...",
+    "end_session": "Avsluta session",
+    "offer_test": "Jag rekommenderar ett kort test nu.",
+    "send_button": "Skicka"
+  },
+  "login": {
+    "welcome": "Välkommen!",
+    "email": "E-post",
+    "password": "Lösenord",
+    "login_button": "Logga in",
+    "register_button": "Registrera dig",
+    "register_prompt": "Har du inget konto? Registrera dig nu",
+    "login_prompt": "Har du redan ett konto? Logga in",
+    "error": "Fel",
+    "empty_fields": "Vänligen fyll i alla fält.",
+    "invalid_email": "Ogiltig e-postadress eller användaren hittades inte.",
+    "wrong_password": "Felaktigt lösenord.",
+    "login_failed": "E-postadressen eller lösenordet är felaktigt.",
+    "forgot_password": "Glömt lösenordet?",
+    "reset_email_sent": "E-post för lösenordsåterställning har skickats.",
+    "reset_password_failed": "Lösenordsåterställningen misslyckades."
+  }
+}

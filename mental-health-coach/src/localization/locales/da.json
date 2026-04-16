@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Annuller",
+    "next": "Næste",
+    "submit": "Indsend",
+    "start": "Start",
+    "save": "Gem",
+    "loading": "Indlæser...",
+    "delete": "Slet",
+    "hello": "Hej"
+  },
+  "lang": {
+    "title": "Vælg dit sprog",
+    "english": "engelsk",
+    "azerbaijani": "aserbajdsjansk",
+    "russian": "russisk"
+  },
+  "menu": {
+    "greeting": "Hej",
+    "journal": "Journal",
+    "settings": "INDSTILLINGER",
+    "change_language": "Skift sprog",
+    "notifications": "Meddelelser",
+    "manage_notifications": "Administrer meddelelser",
+    "logout": "Log ud",
+    "delete_account": "Slet konto",
+    "delete_account_title": "Slet konto",
+    "delete_account_desc": "Alle dine data vil blive slettet permanent. Er du sikker?",
+    "choose_language": "Vælg sprog"
+  },
+  "notifications": {
+    "welcome_title": "Velkommen, {{name}}! 😊",
+    "welcome_body_static": "Dette er en ny begyndelse for dig! Tro på styrken i dig selv, alt skal nok gå.",
+    "welcome_body": "Vi er glade for at have dig med os. Snart vil jeg dele noget interessant med dig.",
+    "teaser_title": "Jeg har nyt til dig... ✨",
+    "final_test_title": "Din individuelle test er klar 📝",
+    "test_title_only": "Testbesked 🧪",
+    "test_body": "Vi har forberedt en særlig analyse til dig.",
+    "test_body_short": "Vi har forberedt en ny analyse til dig.",
+    "preparing_test": "AI forbereder en test til dig...",
+    "general_title": "Dagens motivation 💡",
+    "ready_body": "Tryk for at åbne testen.",
+    "empty": "Du har ingen meddelelser endnu."
+  },
+  "dynamic_test": {
+    "title": "Ugentlig overraskelsestest",
+    "error_loading": "Kunne ikke indlæse testen. Prøv venligst igen.",
+    "retry": "Prøv igen"
+  },
+  "register": {
+    "title": "Registrering",
+    "confirm_password": "Bekræft adgangskode",
+    "passwords_dont_match": "Adgangskoder stemmer ikke overens",
+    "password_min_length": "Adgangskoden skal være på mindst 6 tegn"
+  },
+  "onboarding": {
+    "title": "Velkomst",
+    "fullName": "Fuldt navn",
+    "gender": "Køn",
+    "gender_female": "Kvinde",
+    "gender_male": "Mand",
+    "gender_other": "Andet",
+    "dob": "Fødselsdato",
+    "maritalStatus": "Civilstand",
+    "marital_single": "Ugift",
+    "marital_married": "Gift",
+    "employed": "I arbejde",
+    "jobTitle": "Jobtitel",
+    "continue": "Fortsæt",
+    "isMarried": "Gift"
+  },
+  "journal": {
+    "hello": "Hej",
+    "friend": "Ven",
+    "how_are_you": "Hvordan har du det i dag?",
+    "daily_journal": "Dine daglige noter",
+    "input_placeholder": "Hvad tænker du på? (bekymringer, glæder...)",
+    "save_to_journal": "Tilføj til Journal",
+    "saved_title": "Gemt",
+    "saved_body": "Du kan diskutere dette notat med din AI-psykolog under sessionen.",
+    "session_title": "Psykolog session",
+    "evening_title": "Aftenanalyse",
+    "session_desc": "Daglig 10-minutters AI-support.",
+    "start_10min_session": "Start session",
+    "footer_info": "Alt hvad du skriver er fuldstændig fortroligt.",
+    "empty_title": "Ingen tekst indtastet",
+    "empty_body": "Skriv venligst et par ord.",
+    "save_error": "Kunne ikke gemme noten."
+  },
+  "therapy_prep": {
+    "title": "Lad os forberede dig til din terapisession",
+    "subtitle": "Dette vil hjælpe mig med at forstå dig bedre og give mere personlig support",
+    "purpose_section": {
+      "title": "Hvad bringer dig her i dag?",
+      "stress": "Stress & Angst",
+      "relationships": "Relationsproblemer",
+      "self_understanding": "Selvforståelse",
+      "decision": "Beslutningstagning",
+      "daily_life": "Problemer i hverdagen",
+      "other": "Andet"
+    },
+    "expectation_section": {
+      "title": "Hvad håber du på?",
+      "listen": "Bare at blive hørt",
+      "advice": "Få gode råd",
+      "understand": "Bedre forståelse",
+      "solution": "Find løsninger"
+    },
+    "chat_style_section": {
+      "title": "Hvordan vil du have mig til at tale med dig?",
+      "professional": "Professionel",
+      "professional_desc": "Formel og struktureret samtale",
+      "friendly": "Venlig",
+      "friendly_desc": "Uformelt og behageligt chatmiljø",
+      "supportive": "Støttende",
+      "supportive_desc": "Baseret på empati og opmuntring"
+    },
+    "tips_section": {
+      "title": "Tips til en bedre session:",
+      "tip1": "📍 Find et behageligt sted",
+      "tip2": "⏱️ Sæt 10-15 minutter af",
+      "tip3": "💭 Skriv dine tanker frit",
+      "tip4": "🔒 Denne chat er fuldstændig fortrolig"
+    },
+    "continue_button": "Start session"
+  },
+  "assessment": {
+    "title": "Hvordan har du det i dag? Hvad bragte dig til mig?",
+    "placeholder": "Beskriv dine følelser...",
+    "submit": "Indsend"
+  },
+  "test": {
+    "title": "Psykologisk test",
+    "submit": "Send svar",
+    "questions": [
+      { "id": "q1", "text": "Jeg føler mig ofte bekymret eller angst." },
+      { "id": "q2", "text": "Jeg har problemer med at koncentrere mig." },
+      { "id": "q3", "text": "Jeg føler mig trist eller modløs det meste af tiden." },
+      { "id": "q4", "text": "Jeg har svært ved at slappe af." },
+      { "id": "q5", "text": "Jeg er ofte overdrevent kritisk over for mig selv." },
+      { "id": "q6", "text": "Jeg er ikke interesseret i ting, jeg plejede at nyde." },
+      { "id": "q7", "text": "Jeg føler mig overvældet af mine daglige opgaver." },
+      { "id": "q8", "text": "Jeg har svært ved at sove." },
+      { "id": "q9", "text": "Jeg føler mig alene, selv når jeg er sammen med andre." },
+      { "id": "q10", "text": "Jeg føler, at mine problemer er for store til at løse." }
+    ],
+    "options": {
+      "strongly_agree": "Meget enig",
+      "agree": "Enig",
+      "neutral": "Neutral",
+      "disagree": "Uenig",
+      "strongly_disagree": "Meget uenig"
+    },
+    "alerts": {
+      "incomplete_title": "Opmærksomhed",
+      "incomplete_body": "Svar venligst på alle spørgsmål!",
+      "success_title": "Succes",
+      "success_body": "Testresultaterne blev gemt!",
+      "error_title": "Fejl",
+      "save_error_body": "Testresultaterne kunne ikke gemmes.",
+      "user_error_body": "Bruger ikke fundet. Log venligst ind igen."
+    }
+  },
+  "ai_wait": {
+    "title": "Din personlige analyse",
+    "subtitle": "Vent venligst, mens jeg gennemgår dine oplysninger",
+    "subtitle_with_name": "Vent venligst, jeg gennemgår dine oplysninger, {{name}}.",
+    "countdown_prefix": "Resterende tid:",
+    "notification_title": "Din analyse er klar",
+    "notification_body": "Tryk for at se din personlige introduktion.",
+    "processing_data": "Behandler dine oplysninger..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hej, {{name}}.",
+    "positive_diagnosis": "Dine testresultater viser en positiv mental tilstand. Dette indikerer, at du har det godt.",
+    "neutral_diagnosis": "Baseret på dine svar er din følelsesmæssige tilstand i et neutralt område.",
+    "negative_diagnosis": "Dine testresultater indikerer, at du kan gå igennem en udfordrende periode. Det er vigtigt at vide, at du ikke er alene.",
+    "instruction_to_chat": "Du kan starte chatten nu. Jeg er klar til at lytte og hjælpe.",
+    "acknowledge": "Fortsæt med at chatte"
+  },
+  "chat": {
+    "title": "Live session",
+    "input_placeholder": "Skriv din besked...",
+    "end_session": "Afslut session",
+    "offer_test": "Jeg anbefaler en kort test nu.",
+    "send_button": "Send"
+  },
+  "login": {
+    "welcome": "Velkommen!",
+    "email": "E-mail",
+    "password": "Adgangskode",
+    "login_button": "Log ind",
+    "register_button": "Opret profil",
+    "register_prompt": "Har du ikke en konto? Tilmeld dig nu",
+    "login_prompt": "Har du allerede en konto? Log ind",
+    "error": "Fejl",
+    "empty_fields": "Udfyld venligst alle felter.",
+    "invalid_email": "Ugyldig e-mailadresse.",
+    "wrong_password": "Forkert adgangskode.",
+    "login_failed": "Login mislykkedes.",
+    "forgot_password": "Glemt adgangskode?",
+    "reset_email_sent": "En e-mail til nulstilling af adgangskode er blevet sendt.",
+    "reset_password_failed": "Nulstilling af adgangskode mislykkedes."
+  }
+}

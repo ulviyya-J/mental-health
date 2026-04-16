@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Mégse",
+    "next": "Következő",
+    "submit": "Küldés",
+    "start": "Indítás",
+    "save": "Mentés",
+    "loading": "Betöltés...",
+    "delete": "Törlés",
+    "hello": "Szia"
+  },
+  "lang": {
+    "title": "Válassza ki a nyelvet",
+    "english": "Angol",
+    "azerbaijani": "Azerbajdzsáni",
+    "russian": "Orosz"
+  },
+  "menu": {
+    "greeting": "Szia",
+    "journal": "Napló",
+    "settings": "BEÁLLÍTÁSOK",
+    "change_language": "Nyelv módosítása",
+    "notifications": "Értesítések",
+    "manage_notifications": "Értesítések kezelése",
+    "logout": "Kijelentkezés",
+    "delete_account": "Fiók törlése",
+    "delete_account_title": "Fiók törlése",
+    "delete_account_desc": "Minden adata véglegesen törlődik. Biztos benne?",
+    "choose_language": "Nyelv kiválasztása"
+  },
+  "notifications": {
+    "welcome_title": "Üdvözöljük, {{name}}! 😊",
+    "welcome_body_static": "Ez egy új kezdet az Ön számára! Higgyen a belső erejében, minden rendben lesz.",
+    "welcome_body": "Örülünk, hogy velünk tartasz. Hamarosan megosztok veled valami érdekeset.",
+    "teaser_title": "Szeretnék mondani neked valamit... ✨",
+    "final_test_title": "Az egyéni teszted elkészült 📝",
+    "test_title_only": "Teszt értesítés 🧪",
+    "test_body": "Készítettünk egy speciális elemzést az Ön számára.",
+    "test_body_short": "Új elemzést készítettünk Önnek.",
+    "preparing_test": "Az MI tesztet készít Önnek...",
+    "general_title": "Napi motiváció 💡",
+    "ready_body": "Koppintson a teszt elindításához.",
+    "empty": "Még nincsenek értesítéseid."
+  },
+  "dynamic_test": {
+    "title": "Heti meglepetés teszt",
+    "error_loading": "Nem sikerült betölteni a tesztet. Kérjük, próbálja újra.",
+    "retry": "Próbálja újra"
+  },
+  "register": {
+    "title": "Regisztráció",
+    "confirm_password": "Jelszó megerősítése",
+    "passwords_dont_match": "A jelszavak nem egyeznek",
+    "password_min_length": "A jelszónak legalább 6 karakterből kell állnia"
+  },
+  "onboarding": {
+    "title": "Üdvözöljük",
+    "fullName": "Teljes név",
+    "gender": "Nem",
+    "gender_female": "Nő",
+    "gender_male": "Férfi",
+    "gender_other": "Egyéb",
+    "dob": "Születési idő",
+    "maritalStatus": "Családi állapot",
+    "marital_single": "Egyedülálló",
+    "marital_married": "Házas",
+    "employed": "Alkalmazásban áll",
+    "jobTitle": "Munkakör",
+    "continue": "Folytatás",
+    "isMarried": "Házas"
+  },
+  "journal": {
+    "hello": "Szia",
+    "friend": "barátom",
+    "how_are_you": "hogy vagy ma?",
+    "daily_journal": "Napi jegyzeteid",
+    "input_placeholder": "Mi jár a fejedben? (örömök, gondok...)",
+    "save_to_journal": "Hozzáadás a naplóhoz",
+    "saved_title": "Mentve",
+    "saved_body": "Ezt a jegyzetet megbeszélheti az MI-pszichológusával az ülés során.",
+    "session_title": "Pszichológus ülés",
+    "evening_title": "Esti elemzés",
+    "session_desc": "Napi 10 perces MI-támogatás.",
+    "start_10min_session": "Ülés indítása",
+    "footer_info": "Minden, amit írsz, teljesen bizalmas.",
+    "empty_title": "Nincs beírt szöveg",
+    "empty_body": "Kérjük, írjon pár szót.",
+    "save_error": "Nem sikerült menteni a jegyzetet."
+  },
+  "therapy_prep": {
+    "title": "Készüljünk fel az ülésre",
+    "subtitle": "Ez segít nekem jobban megérteni Önt, és személyre szabott támogatást nyújtani",
+    "purpose_section": {
+      "title": "Mi hozott ma ide?",
+      "stress": "Stressz és szorongás",
+      "relationships": "Kapcsolati problémák",
+      "self_understanding": "Önmegismerés",
+      "decision": "Döntéshozatal",
+      "daily_life": "Mindennapi problémák",
+      "other": "Egyéb"
+    },
+    "expectation_section": {
+      "title": "Mit vár az üléstől?",
+      "listen": "Csak hogy meghallgassanak",
+      "advice": "Tanácsot szeretnék kapni",
+      "understand": "Jobb megértést szeretnék",
+      "solution": "Megoldásokat keresek"
+    },
+    "chat_style_section": {
+      "title": "Hogyan beszéljek Önnel?",
+      "professional": "Szakmai",
+      "professional_desc": "Hivatalos és strukturált beszélgetés",
+      "friendly": "Barátságos",
+      "friendly_desc": "Őszinte és kényelmes környezet",
+      "supportive": "Támogató",
+      "supportive_desc": "Empátián és bátorításon alapuló"
+    },
+    "tips_section": {
+      "title": "Tippek a jobb üléshez:",
+      "tip1": "📍 Keressen egy nyugodt helyet",
+      "tip2": "⏱️ Szánjon rá 10-15 percet",
+      "tip3": "💭 Írja le szabadon a gondolatait",
+      "tip4": "🔒 A beszélgetés teljesen bizalmas"
+    },
+    "continue_button": "Ülés indítása"
+  },
+  "assessment": {
+    "title": "Hogy érzi magát ma?",
+    "placeholder": "Írja le az érzéseit...",
+    "submit": "Beküldés"
+  },
+  "test": {
+    "title": "Pszichológiai teszt",
+    "submit": "Válaszok beküldése",
+    "questions": [
+      { "id": "q1", "text": "Gyakran aggódom vagy szorongok." },
+      { "id": "q2", "text": "Nehezen tudok koncentrálni." },
+      { "id": "q3", "text": "Legtöbbször szomorúnak vagy reményvesztettnek érzem magam." },
+      { "id": "q4", "text": "Nehezen tudok ellazulni." },
+      { "id": "q5", "text": "Gyakran vagyok túlságosan kritikus magammal szemben." },
+      { "id": "q6", "text": "Már nem érdekelnek azok a dolgok, amiket régebben élveztem." },
+      { "id": "q7", "text": "Úgy érzem, túlterhelnek a napi feladataim." },
+      { "id": "q8", "text": "Alvási nehézségeim vannak." },
+      { "id": "q9", "text": "Akkor is egyedül érzem magam, ha másokkal vagyok." },
+      { "id": "q10", "text": "Úgy érzem, a problémáim túl nagyok a megoldáshoz." }
+    ],
+    "options": {
+      "strongly_agree": "Teljesen egyetértek",
+      "agree": "Egyetértek",
+      "neutral": "Semleges",
+      "disagree": "Nem értek egyet",
+      "strongly_disagree": "Egyáltalán nem értek egyet"
+    },
+    "alerts": {
+      "incomplete_title": "Figyelem",
+      "incomplete_body": "Kérjük, válaszoljon minden kérdésre!",
+      "success_title": "Siker",
+      "success_body": "Teszteredmények sikeresen mentve!",
+      "error_title": "Hiba",
+      "save_error_body": "Nem sikerült menteni az eredményeket.",
+      "user_error_body": "Felhasználó nem található. Jelentkezzen be újra."
+    }
+  },
+  "ai_wait": {
+    "title": "Az Ön személyre szabott elemzése",
+    "subtitle": "Kérjük, várjon, amíg átnézem az adatait",
+    "subtitle_with_name": "Kérjük várjon, {{name}}, éppen elemzem az adatait.",
+    "countdown_prefix": "Hátralévő idő:",
+    "notification_title": "Az elemzés elkészült",
+    "notification_body": "Koppintson a személyre szabott bevezető megtekintéséhez.",
+    "processing_data": "Adatok feldolgozása..."
+  },
+  "ai_intro": {
+    "title_with_name": "Szia, {{name}}.",
+    "positive_diagnosis": "A teszt pozitív mentális állapotot mutat. Jól vagy.",
+    "neutral_diagnosis": "Az érzelmi állapotod jelenleg a semleges tartományban van.",
+    "negative_diagnosis": "Az eredmények alapján úgy tűnik, nehéz időszakon mész keresztül. Nem vagy egyedül.",
+    "instruction_to_chat": "Most már elindíthatod a beszélgetést. Itt vagyok, hogy segítsek.",
+    "acknowledge": "Tovább a csevegéshez"
+  },
+  "chat": {
+    "title": "Élő ülés",
+    "input_placeholder": "Írja be üzenetét...",
+    "end_session": "Ülés vége",
+    "offer_test": "Javaslok most egy rövid tesztet.",
+    "send_button": "Küldés"
+  },
+  "login": {
+    "welcome": "Üdvözöljük!",
+    "email": "E-mail",
+    "password": "Jelszó",
+    "login_button": "Bejelentkezés",
+    "register_button": "Regisztráció",
+    "register_prompt": "Nincs még fiókja? Regisztráljon",
+    "login_prompt": "Már van fiókja? Jelentkezzen be",
+    "error": "Hiba",
+    "empty_fields": "Kérjük, töltsön ki minden mezőt.",
+    "invalid_email": "Érvénytelen e-mail vagy a felhasználó nem található.",
+    "wrong_password": "Helytelen jelszó.",
+    "login_failed": "Sikertelen bejelentkezés.",
+    "forgot_password": "Elfelejtette a jelszavát?",
+    "reset_email_sent": "A jelszóvisszaállító e-mailt elküldtük.",
+    "reset_password_failed": "A visszaállítás sikertelen."
+  }
+}

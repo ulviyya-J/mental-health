@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Anulo",
+    "next": "Tjetra",
+    "submit": "Dërgo",
+    "start": "Fillo",
+    "save": "Ruaj",
+    "loading": "Duke u ngarkuar...",
+    "delete": "Fshi",
+    "hello": "Përshëndetje"
+  },
+  "lang": {
+    "title": "Zgjidhni gjuhën tuaj",
+    "english": "Anglisht",
+    "azerbaijani": "Azerbajxhanisht",
+    "russian": "Rusisht"
+  },
+  "menu": {
+    "greeting": "Përshëndetje",
+    "journal": "Ditari",
+    "settings": "CILËSIMET",
+    "change_language": "Ndrysho gjuhën",
+    "notifications": "Njoftimet",
+    "manage_notifications": "Menaxho njoftimet",
+    "logout": "Dil",
+    "delete_account": "Fshi llogarinë",
+    "delete_account_title": "Fshirja e llogarisë",
+    "delete_account_desc": "Të gjitha të dhënat tuaja do të fshihen përgjithmonë. Jeni të sigurt?",
+    "choose_language": "Zgjidhni gjuhën"
+  },
+  "notifications": {
+    "welcome_title": "Mirë se vini, {{name}}! 😊",
+    "welcome_body_static": "Ky është fillimi juaj i ri! Besoni në forcën tuaj të brendshme, gjithçka do të shkojë mirë.",
+    "welcome_body": "Jemi të lumtur që jeni me ne. Së shpejti do të ndaj diçka interesante me ju.",
+    "teaser_title": "Dua t'ju them diçka... ✨",
+    "final_test_title": "Analiza juaj individuale është gati 📝",
+    "test_title_only": "Njoftim për analizën 🧪",
+    "test_body": "Kemi përgatitur një analizë speciale për ju.",
+    "test_body_short": "Kemi përgatitur një analizë të re për ju.",
+    "preparing_test": "Inteligjenca Artificiale po përgatit analizën...",
+    "general_title": "Motivimi ditor 💡",
+    "ready_body": "Prekni për të filluar testin.",
+    "empty": "Nuk keni njoftime për momentin."
+  },
+  "dynamic_test": {
+    "title": "Testi surprizë i javës",
+    "error_loading": "Dështoi ngarkimi i testit. Provoni përsëri.",
+    "retry": "Riprovo"
+  },
+  "register": {
+    "title": "Regjistrimi",
+    "confirm_password": "Konfirmo fjalëkalimin",
+    "passwords_dont_match": "Fjalëkalimet nuk përputhen",
+    "password_min_length": "Fjalëkalimi duhet të jetë së paku 6 karaktere"
+  },
+  "onboarding": {
+    "title": "Mirë se vini",
+    "fullName": "Emri i plotë",
+    "gender": "Gjinia",
+    "gender_female": "Femër",
+    "gender_male": "Mashkull",
+    "gender_other": "Tjetër",
+    "dob": "Data e lindjes",
+    "maritalStatus": "Gjendja martesore",
+    "marital_single": "I/e pamartuar",
+    "marital_married": "I/e martuar",
+    "employed": "I/e punësuar",
+    "jobTitle": "Pozicioni i punës",
+    "continue": "Vazhdo",
+    "isMarried": "I/e martuar"
+  },
+  "journal": {
+    "hello": "Përshëndetje",
+    "friend": "mik",
+    "how_are_you": "si jeni sot?",
+    "daily_journal": "Shënimet tuaja ditore",
+    "input_placeholder": "Çfarë keni në mendje? (shqetësimet, gëzimet...)",
+    "save_to_journal": "Shto në ditar",
+    "saved_title": "U ruajt",
+    "saved_body": "Ju mund ta diskutoni këtë shënim me psikologun tuaj AI gjatë seancës.",
+    "session_title": "Seanca me psikologun",
+    "evening_title": "Analiza e mbrëmjes",
+    "session_desc": "Mbështetje ditore 10-minutëshe nga AI.",
+    "start_10min_session": "Fillo seancën",
+    "footer_info": "Gjithçka që shkruani është plotësisht konfidenciale.",
+    "empty_title": "Nuk është futur asnjë tekst",
+    "empty_body": "Ju lutemi shkruani disa fjalë.",
+    "save_error": "Shënimi nuk mund të ruhej."
+  },
+  "therapy_prep": {
+    "title": "Le të përgatitemi për seancën",
+    "subtitle": "Kjo do të më ndihmojë t'ju kuptoj më mirë dhe t'ju ofroj mbështetje",
+    "purpose_section": {
+      "title": "Çfarë ju sjell këtu sot?",
+      "stress": "Stresi dhe Ankthi",
+      "relationships": "Problemet në marrëdhënie",
+      "self_understanding": "Vetëkuptimi",
+      "decision": "Marrja e vendimeve",
+      "daily_life": "Sfidat e përditshmërisë",
+      "other": "Të tjera"
+    },
+    "expectation_section": {
+      "title": "Çfarë shpresoni të arrini?",
+      "listen": "Thjesht të dëgjohem",
+      "advice": "Të marr këshilla",
+      "understand": "Kuptim më të mirë",
+      "solution": "Të gjej zgjidhje"
+    },
+    "chat_style_section": {
+      "title": "Si dëshironi të flas me ju?",
+      "professional": "Profesionale",
+      "professional_desc": "Bisedë formale dhe e strukturuar",
+      "friendly": "Miqësore",
+      "friendly_desc": "Ambient i sinqertë dhe i rehatshëm",
+      "supportive": "Mbështetëse",
+      "supportive_desc": "Bazuar në empati dhe inkurajim"
+    },
+    "tips_section": {
+      "title": "Këshilla për një seancë më të mirë:",
+      "tip1": "📍 Gjeni një vend të rehatshëm",
+      "tip2": "⏱️ Lini mënjanë 10-15 minuta",
+      "tip3": "💭 Shkruani mendimet tuaja lirisht",
+      "tip4": "🔒 Kjo bisedë është plotësisht konfidenciale"
+    },
+    "continue_button": "Fillo seancën"
+  },
+  "assessment": {
+    "title": "Si ndiheni sot?",
+    "placeholder": "Përshkruani ndjenjat tuaja...",
+    "submit": "Dërgo"
+  },
+  "test": {
+    "title": "Test Psikologjik",
+    "submit": "Dërgo përgjigjet",
+    "questions": [
+      { "id": "q1", "text": "Shpesh ndihem i/e shqetësuar ose në ankth." },
+      { "id": "q2", "text": "E kam të vështirë të përqendrohem." },
+      { "id": "q3", "text": "Ndihem i/e trishtuar ose pa shpresë shumicën e kohës." },
+      { "id": "q4", "text": "E kam të vështirë të qetësohem." },
+      { "id": "q5", "text": "Shpesh jam tepër kritik/e ndaj vetes." },
+      { "id": "q6", "text": "Nuk më interesojnë më gjërat që më pëlqenin më parë." },
+      { "id": "q7", "text": "Ndihem i/e mbingarkuar nga detyrat e përditshme." },
+      { "id": "q8", "text": "Kam vështirësi për të fjetur." },
+      { "id": "q9", "text": "Ndihem vetëm edhe kur jam me të tjerët." },
+      { "id": "q10", "text": "Ndjej se problemet e mia janë shumë të mëdha për t'u zgjidhur." }
+    ],
+    "options": {
+      "strongly_agree": "Plotësisht dakord",
+      "agree": "Dakord",
+      "neutral": "Neutral",
+      "disagree": "Nuk pajtohem",
+      "strongly_disagree": "Nuk pajtohem plotësisht"
+    },
+    "alerts": {
+      "incomplete_title": "Kujdes",
+      "incomplete_body": "Ju lutemi përgjigjuni të gjitha pyetjeve!",
+      "success_title": "Sukses",
+      "success_body": "Rezultatet u ruajtën me sukses!",
+      "error_title": "Gabim",
+      "save_error_body": "Rezultatet nuk mund të ruheshin.",
+      "user_error_body": "Përdoruesi nuk u gjet. Identifikohuni përsëri."
+    }
+  },
+  "ai_wait": {
+    "title": "Analiza juaj e personalizuar",
+    "subtitle": "Ju lutemi prisni sa të shqyrtoj informacionin tuaj",
+    "subtitle_with_name": "Ju lutemi prisni, {{name}}, po shqyrtoj të dhënat tuaja.",
+    "countdown_prefix": "Koha e mbetur:",
+    "notification_title": "Analiza juaj është gati",
+    "notification_body": "Prekni për të parë prezantimin tuaj.",
+    "processing_data": "Duke përpunuar informacionin..."
+  },
+  "ai_intro": {
+    "title_with_name": "Përshëndetje, {{name}}.",
+    "positive_diagnosis": "Rezultatet tregojnë një gjendje pozitive mendore. Jeni mirë!",
+    "neutral_diagnosis": "Gjendja juaj emocionale është në një nivel neutral.",
+    "negative_diagnosis": "Rezultatet tregojnë se mund të jeni duke kaluar një periudhë sfiduese. Nuk jeni vetëm.",
+    "instruction_to_chat": "Mund të filloni bisedën tani. Jam gati t'ju dëgjoj.",
+    "acknowledge": "Vazhdo te biseda"
+  },
+  "chat": {
+    "title": "Seancë e drejtpërdrejtë",
+    "input_placeholder": "Shkruani mesazhin tuaj...",
+    "end_session": "Përfundo seancën",
+    "offer_test": "Rekomandoj një test të shkurtër tani.",
+    "send_button": "Dërgo"
+  },
+  "login": {
+    "welcome": "Mirë se vini!",
+    "email": "Email",
+    "password": "Fjalëkalimi",
+    "login_button": "Identifikohu",
+    "register_button": "Regjistrohu",
+    "register_prompt": "Nuk keni llogari? Regjistrohu tani",
+    "login_prompt": "Keni llogari? Identifikohu",
+    "error": "Gabim",
+    "empty_fields": "Ju lutemi plotësoni të gjitha fushat.",
+    "invalid_email": "Email i pavlefshëm ose përdoruesi nuk u gjet.",
+    "wrong_password": "Fjalëkalim i pasaktë.",
+    "login_failed": "Email-i ose fjalëkalimi është i pasaktë.",
+    "forgot_password": "Harruat fjalëkalimin?",
+    "reset_email_sent": "Email-i për rivendosjen e fjalëkalimit u dërgua.",
+    "reset_password_failed": "Rivendosja e fjalëkalimit dështoi."
+  }
+}

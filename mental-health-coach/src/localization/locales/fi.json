@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Peruuta",
+    "next": "Seuraava",
+    "submit": "Lähetä",
+    "start": "Aloita",
+    "save": "Tallenna",
+    "loading": "Ladataan...",
+    "delete": "Poista",
+    "hello": "Hei"
+  },
+  "lang": {
+    "title": "Valitse kieli",
+    "english": "Englanti",
+    "azerbaijani": "Azerbaidžani",
+    "russian": "Venäjä"
+  },
+  "menu": {
+    "greeting": "Hei",
+    "journal": "Päiväkirja",
+    "settings": "ASETUKSET",
+    "change_language": "Vaihda kieli",
+    "notifications": "Ilmoitukset",
+    "manage_notifications": "Hallitse ilmoituksia",
+    "logout": "Kirjaudu ulos",
+    "delete_account": "Poista tili",
+    "delete_account_title": "Tilin poistaminen",
+    "delete_account_desc": "Kaikki tietosi poistetaan pysyvästi. Oletko varma?",
+    "choose_language": "Valitse kieli"
+  },
+  "notifications": {
+    "welcome_title": "Tervetuloa, {{name}}! 😊",
+    "welcome_body_static": "Tämä on uusi alku sinulle! Usko sisäiseen voimaasi, kaikki järjestyy.",
+    "welcome_body": "Hienoa, että olet mukana. Jään pian kanssasi jotain mielenkiintoista.",
+    "teaser_title": "Minulla on asiaa sinulle... ✨",
+    "final_test_title": "Yksilöllinen testisi on valmis 📝",
+    "test_title_only": "Testi-ilmoitus 🧪",
+    "test_body": "Olemme valmistelleet sinulle erityisen analyysin.",
+    "test_body_short": "Olemme valmistelleet uuden analyysin.",
+    "preparing_test": "Tekoäly valmistelee testiä...",
+    "general_title": "Päivän motivaatio 💡",
+    "ready_body": "Aloita testi napauttamalla.",
+    "empty": "Sinulla ei ole vielä ilmoituksia."
+  },
+  "dynamic_test": {
+    "title": "Viikon yllätystesti",
+    "error_loading": "Testiä ei voitu ladata. Yritä uudelleen.",
+    "retry": "Yritä uudelleen"
+  },
+  "register": {
+    "title": "Rekisteröinti",
+    "confirm_password": "Vahvista salasana",
+    "passwords_dont_match": "Salasanat eivät täsmää",
+    "password_min_length": "Salasanan on oltava vähintään 6 merkkiä"
+  },
+  "onboarding": {
+    "title": "Tervetuloa",
+    "fullName": "Koko nimi",
+    "gender": "Sukupuoli",
+    "gender_female": "Nainen",
+    "gender_male": "Mies",
+    "gender_other": "Muu",
+    "dob": "Syntymäaika",
+    "maritalStatus": "Siviilisääty",
+    "marital_single": "Naimaton",
+    "marital_married": "Naimisissa",
+    "employed": "Työssäkäyvä",
+    "jobTitle": "Ammattinimike",
+    "continue": "Jatka",
+    "isMarried": "Naimisissa"
+  },
+  "journal": {
+    "hello": "Hei",
+    "friend": "ystävä",
+    "how_are_you": "miten voit tänään?",
+    "daily_journal": "Päivittäiset muistiinpanosi",
+    "input_placeholder": "Mitä sinulla on mielessäsi? (huolet, ilot...)",
+    "save_to_journal": "Lisää päiväkirjaan",
+    "saved_title": "Tallennettu",
+    "saved_body": "Voit keskustella tästä muistiinpanosta tekoälypsykologisi kanssa istunnon aikana.",
+    "session_title": "Psykologin istunto",
+    "evening_title": "Iltatarkistus",
+    "session_desc": "Päivittäinen 10 minuutin tekoälytuki.",
+    "start_10min_session": "Aloita istunto",
+    "footer_info": "Kaikki kirjoittamasi on täysin luottamuksellista.",
+    "empty_title": "Ei tekstiä",
+    "empty_body": "Kirjoita muutama sana.",
+    "save_error": "Muistiinpanoa ei voitu tallentaa."
+  },
+  "therapy_prep": {
+    "title": "Valmistaudutaan istuntoon",
+    "subtitle": "Tämä auttaa minua ymmärtämään sinua paremmin",
+    "purpose_section": {
+      "title": "Mikä tuo sinut tänne tänään?",
+      "stress": "Stressi & Ahdistus",
+      "relationships": "Suhdeongelmat",
+      "self_understanding": "Itsetuntemus",
+      "decision": "Päätöksenteko",
+      "daily_life": "Arjen haasteet",
+      "other": "Muu"
+    },
+    "expectation_section": {
+      "title": "Mitä toivot istunnolta?",
+      "listen": "Haluan tulla kuulluksi",
+      "advice": "Haluan neuvoja",
+      "understand": "Parempi ymmärrys",
+      "solution": "Löytää ratkaisuja"
+    },
+    "chat_style_section": {
+      "title": "Miten haluaisit minun puhuvan?",
+      "professional": "Ammatillinen",
+      "professional_desc": "Muodollinen ja jäsennelty",
+      "friendly": "Ystävällinen",
+      "friendly_desc": "Vapaa ja mukava keskustelu",
+      "supportive": "Tukeva",
+      "supportive_desc": "Empaattinen ja kannustava"
+    },
+    "tips_section": {
+      "title": "Vinkkejä istuntoon:",
+      "tip1": "📍 Etsi rauhallinen paikka",
+      "tip2": "⏱️ Varaa 10-15 minuuttia",
+      "tip3": "💭 Kirjoita vapaasti",
+      "tip4": "🔒 Keskustelu on luottamuksellinen"
+    },
+    "continue_button": "Aloita istunto"
+  },
+  "assessment": {
+    "title": "Miltä sinusta tuntuu tänään?",
+    "placeholder": "Kuvaile tunteitasi...",
+    "submit": "Lähetä"
+  },
+  "test": {
+    "title": "Psykologinen testi",
+    "submit": "Lähetä vastaukset",
+    "questions": [
+      { "id": "q1", "text": "Olen usein huolissani tai ahdistunut." },
+      { "id": "q2", "text": "Minulla on keskittymisvaikeuksia." },
+      { "id": "q3", "text": "Olen surullinen tai toivoton suurimman osan ajasta." },
+      { "id": "q4", "text": "Minun on vaikea rentoutua." },
+      { "id": "q5", "text": "Olen usein liian kriittinen itseäni kohtaan." },
+      { "id": "q6", "text": "En ole enää kiinnostunut asioista, joista ennen nautin." },
+      { "id": "q7", "text": "Tunnen itseni ylikuormitetuksi päivittäisistä tehtävistä." },
+      { "id": "q8", "text": "Minulla on univaikeuksia." },
+      { "id": "q9", "text": "Tunnen itseni yksinäiseksi muidenkin seurassa." },
+      { "id": "q10", "text": "Tuntuu, että ongelmani ovat liian suuria ratkaistaviksi." }
+    ],
+    "options": {
+      "strongly_agree": "Täysin samaa mieltä",
+      "agree": "Samaa mieltä",
+      "neutral": "Neutraali",
+      "disagree": "Eri mieltä",
+      "strongly_disagree": "Täysin eri mieltä"
+    },
+    "alerts": {
+      "incomplete_title": "Huomio",
+      "incomplete_body": "Vastaa kaikkiin kysymyksiin!",
+      "success_title": "Onnistui",
+      "success_body": "Testitulokset tallennettu!",
+      "error_title": "Virhe",
+      "save_error_body": "Tuloksia ei voitu tallentaa.",
+      "user_error_body": "Käyttäjää ei löytynyt. Kirjaudu uudelleen."
+    }
+  },
+  "ai_wait": {
+    "title": "Analyysisi valmistuu",
+    "subtitle": "Odota hetki, kun käyn tietojasi läpi",
+    "subtitle_with_name": "Odota hetki, {{name}}, käyn tietojasi läpi.",
+    "countdown_prefix": "Aikaa jäljellä:",
+    "notification_title": "Analyysi on valmis",
+    "notification_body": "Napauta nähdäksesi tulokset.",
+    "processing_data": "Käsitellään tietoja..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hei, {{name}}.",
+    "positive_diagnosis": "Tuloksesi osoittavat positiivista mielentilaa. Menee hienosti.",
+    "neutral_diagnosis": "Mielentilasi on tällä hetkellä neutraalilla alueella.",
+    "negative_diagnosis": "Tulokset viittaavat haastavaan ajanjaksoon. Et ole yksin.",
+    "instruction_to_chat": "Voit aloittaa keskustelun nyt. Olen täällä sinua varten.",
+    "acknowledge": "Jatka keskusteluun"
+  },
+  "chat": {
+    "title": "Istunto",
+    "input_placeholder": "Kirjoita viestisi...",
+    "end_session": "Lopeta istunto",
+    "offer_test": "Suosittelen lyhyttä testiä nyt.",
+    "send_button": "Lähetä"
+  },
+  "login": {
+    "welcome": "Tervetuloa!",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "login_button": "Kirjaudu",
+    "register_button": "Rekisteröidy",
+    "register_prompt": "Eikö sinulla ole tiliä? Rekisteröidy",
+    "login_prompt": "Onko sinulla jo tili? Kirjaudu",
+    "error": "Virhe",
+    "empty_fields": "Täytä kaikki kentät.",
+    "invalid_email": "Virheellinen sähköposti.",
+    "wrong_password": "Väärä salasana.",
+    "login_failed": "Kirjautuminen epäonnistui.",
+    "forgot_password": "Unohditko salasanan?",
+    "reset_email_sent": "Palautusviesti on lähetetty.",
+    "reset_password_failed": "Palautus epäonnistui."
+  }
+}

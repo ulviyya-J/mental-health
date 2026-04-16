@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "Allt í lagi",
+    "cancel": "Hætta við",
+    "next": "Næst",
+    "submit": "Senda",
+    "start": "Byrja",
+    "save": "Vista",
+    "loading": "Hleður...",
+    "delete": "Eyða",
+    "hello": "Halló"
+  },
+  "lang": {
+    "title": "Veldu tungumálið þitt",
+    "english": "Enska",
+    "azerbaijani": "Aserska",
+    "russian": "Rússneska"
+  },
+  "menu": {
+    "greeting": "Halló",
+    "journal": "Dagbók",
+    "settings": "STILLINGAR",
+    "change_language": "Breyta tungumáli",
+    "notifications": "Tilkynningar",
+    "manage_notifications": "Stjórna tilkynningum",
+    "logout": "Útskráning",
+    "delete_account": "Eyða aðgangi",
+    "delete_account_title": "Eyða aðgangi",
+    "delete_account_desc": "Öllum gögnum þínum verður eytt varanlega. Ertu viss?",
+    "choose_language": "Veldu tungumál"
+  },
+  "notifications": {
+    "welcome_title": "Velkomin/n, {{name}}! 😊",
+    "welcome_body_static": "Þetta er nýtt upphaf fyrir þig! Trúðu á innri styrk þinn, allt verður í lagi.",
+    "welcome_body": "Við erum ánægð að hafa þig með okkur. Bráðum mun ég deila einhverju áhugaverðu með þér.",
+    "teaser_title": "Mig langar að segja þér nokkuð... ✨",
+    "final_test_title": "Einstaklingsprófið þitt er tilbúið 📝",
+    "test_title_only": "Tilkynning um próf 🧪",
+    "test_body": "Við höfum útbúið sérstaka greiningu fyrir þig.",
+    "test_body_short": "Við höfum útbúið nýja greiningu fyrir þig.",
+    "preparing_test": "Gervigreindin undirbýr próf fyrir þig...",
+    "general_title": "Hvatning dagsins 💡",
+    "ready_body": "Smelltu til að byrja prófið.",
+    "empty": "Þú ert ekki með neinar tilkynningar ennþá."
+  },
+  "dynamic_test": {
+    "title": "Óvænt próf vikunnar",
+    "error_loading": "Ekki tókst að hlaða prófið. Reyndu aftur.",
+    "retry": "Reyna aftur"
+  },
+  "register": {
+    "title": "Skráning",
+    "confirm_password": "Staðfestu lykilorð",
+    "passwords_dont_match": "Lykilorðin passa ekki saman",
+    "password_min_length": "Lykilorðið verður að vera að minnsta kosti 6 stafir"
+  },
+  "onboarding": {
+    "title": "Verið velkomin",
+    "fullName": "Fullt nafn",
+    "gender": "Kyn",
+    "gender_female": "Kona",
+    "gender_male": "Karl",
+    "gender_other": "Annað",
+    "dob": "Fæðingardagur",
+    "maritalStatus": "Hjúskaparstaða",
+    "marital_single": "Einhleyp/ur",
+    "marital_married": "Gift/ur",
+    "employed": "Í starfi",
+    "jobTitle": "Starfsheiti",
+    "continue": "Halda áfram",
+    "isMarried": "Gift/ur"
+  },
+  "journal": {
+    "hello": "Halló",
+    "friend": "vinur",
+    "how_are_you": "hvernig hefurðu það í dag?",
+    "daily_journal": "Daglegar glósur þínar",
+    "input_placeholder": "Hvað er þér efst í huga? (áhyggjur, gleði...)",
+    "save_to_journal": "Bæta við dagbók",
+    "saved_title": "Vistað",
+    "saved_body": "Þú getur rætt þessa glósu við gervigreindarsálfræðinginn þinn á meðan á lotunni stendur.",
+    "session_title": "Sálfræðilota",
+    "evening_title": "Kvöldgreining",
+    "session_desc": "Daglegur 10 mínútna gervigreindarstuðningur.",
+    "start_10min_session": "Byrja lotu",
+    "footer_info": "Allt sem þú skrifar er algjörlega trúnaðarmál.",
+    "empty_title": "Enginn texti skrifaður",
+    "empty_body": "Vinsamlegast skrifaðu nokkur orð.",
+    "save_error": "Ekki tókst að vista glósuna."
+  },
+  "therapy_prep": {
+    "title": "Undirbúum okkur fyrir lotuna þína",
+    "subtitle": "Þetta hjálpar mér að skilja þig betur og veita persónulegri stuðning",
+    "purpose_section": {
+      "title": "Hvað færir þig hingað í dag?",
+      "stress": "Streita og kvíði",
+      "relationships": "Sambandsmál",
+      "self_understanding": "Sjálfsskilningur",
+      "decision": "Ákvarðanataka",
+      "daily_life": "Dagleg vandamál",
+      "other": "Annað"
+    },
+    "expectation_section": {
+      "title": "Hverju vonast þú eftir?",
+      "listen": "Bara að láta hlusta á mig",
+      "advice": "Fá ráðleggingar",
+      "understand": "Betri skilning á aðstæðum",
+      "solution": "Finna lausnir"
+    },
+    "chat_style_section": {
+      "title": "Hvernig viltu að ég tali við þig?",
+      "professional": "Fagmannlegt",
+      "professional_desc": "Formlegt og skipulagt samtal",
+      "friendly": "Vinalegt",
+      "friendly_desc": "Einlægt og þægilegt spjallumhverfi",
+      "supportive": "Hvetjandi",
+      "supportive_desc": "Byggt á samkennd og stuðningi"
+    },
+    "tips_section": {
+      "title": "Ráð fyrir betri lotu:",
+      "tip1": "📍 Finndu rólegan stað",
+      "tip2": "⏱️ Taktu frá 10-15 mínútur",
+      "tip3": "💭 Skrifaðu hugsanir þínar frjálslega",
+      "tip4": "🔒 Þetta spjall er algjörlega trúnaðarmál"
+    },
+    "continue_button": "Byrja lotu"
+  },
+  "assessment": {
+    "title": "Hvernig líður þér í dag?",
+    "placeholder": "Lýstu tilfinningum þínum...",
+    "submit": "Senda"
+  },
+  "test": {
+    "title": "Sálfræðipróf",
+    "submit": "Senda svör",
+    "questions": [
+      { "id": "q1", "text": "Ég finn oft fyrir áhyggjum eða kvíða." },
+      { "id": "q2", "text": "Ég á erfitt með að einbeita mér." },
+      { "id": "q3", "text": "Mér finnst ég sorgmædd/ur eða vonlaus oftast." },
+      { "id": "q4", "text": "Mér finnst erfitt að slaka á." },
+      { "id": "q5", "text": "Ég er oft of gagnrýnin/n á sjálfa/n mig." },
+      { "id": "q6", "text": "Ég hef ekki lengur áhuga á hlutum sem ég hafði áður gaman af." },
+      { "id": "q7", "text": "Mér finnst ég ofviða af daglegum verkefnum." },
+      { "id": "q8", "text": "Ég á erfitt með svefn." },
+      { "id": "q9", "text": "Mér finnst ég einmana jafnvel þegar ég er með öðrum." },
+      { "id": "q10", "text": "Mér finnst vandamálin mín vera of stór til að leysa þau." }
+    ],
+    "options": {
+      "strongly_agree": "Mjög sammála",
+      "agree": "Sammála",
+      "neutral": "Hlutlaus",
+      "disagree": "Ósammála",
+      "strongly_disagree": "Mjög ósammála"
+    },
+    "alerts": {
+      "incomplete_title": "Athugið",
+      "incomplete_body": "Vinsamlegast svaraðu öllum spurningum!",
+      "success_title": "Árangur",
+      "success_body": "Niðurstöður prófsins hafa verið vistaðar!",
+      "error_title": "Villa",
+      "save_error_body": "Ekki tókst að vista niðurstöður.",
+      "user_error_body": "Notandi fannst ekki. Vinsamlegast skráðu þig inn aftur."
+    }
+  },
+  "ai_wait": {
+    "title": "Persónulega greiningin þín",
+    "subtitle": "Vinsamlegast bíddu á meðan ég fer yfir gögnin þín",
+    "subtitle_with_name": "Vinsamlegast bíddu, {{name}}, ég er að greina gögnin þín.",
+    "countdown_prefix": "Tími eftir:",
+    "notification_title": "Greiningin þín er tilbúin",
+    "notification_body": "Smelltu til að skoða persónulega kynningu þína.",
+    "processing_data": "Vinnur úr gögnum þínum..."
+  },
+  "ai_intro": {
+    "title_with_name": "Halló, {{name}}.",
+    "positive_diagnosis": "Niðurstöður þínar sýna jákvætt andlegt ástand. Þér líður vel.",
+    "neutral_diagnosis": "Tilfinningalegt ástand þitt er núna á hlutlausu sviði.",
+    "negative_diagnosis": "Niðurstöðurnar benda til þess að þú gætir verið að ganga í gegnum krefjandi tíma. Þú ert ekki ein/n.",
+    "instruction_to_chat": "Nú getur þú hafið spjallið. Ég er hér til að hlusta og hjálpa.",
+    "acknowledge": "Haltu áfram í spjall"
+  },
+  "chat": {
+    "title": "Bein lota",
+    "input_placeholder": "Skrifaðu skilaboð...",
+    "end_session": "Ljúka lotu",
+    "offer_test": "Ég mæli með stuttu prófi núna.",
+    "send_button": "Senda"
+  },
+  "login": {
+    "welcome": "Velkomin!",
+    "email": "Netfang",
+    "password": "Lykilorð",
+    "login_button": "Innskráning",
+    "register_button": "Skráning",
+    "register_prompt": "Ertu ekki með aðgang? Skráðu þig",
+    "login_prompt": "Ertu þegar með aðgang? Skráðu þig inn",
+    "error": "Villa",
+    "empty_fields": "Vinsamlegast fylltu út alla reiti.",
+    "invalid_email": "Ógilt netfang eða notandi fannst ekki.",
+    "wrong_password": "Rangt lykilorð.",
+    "login_failed": "Innskráning mistókst.",
+    "forgot_password": "Gleymdirðu lykilorðinu?",
+    "reset_email_sent": "Tölvupóstur til að endurstilla lykilorð hefur verið sendur.",
+    "reset_password_failed": "Endurstilling mistókst."
+  }
+}

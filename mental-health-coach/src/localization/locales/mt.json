@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Ikkanċella",
+    "next": "Li jmiss",
+    "submit": "Ibgħat",
+    "start": "Ibda",
+    "save": "Ħlief",
+    "loading": "Qed jgħabbi...",
+    "delete": "Ħassar",
+    "hello": "Hello"
+  },
+  "lang": {
+    "title": "Agħżel il-lingwa tiegħek",
+    "english": "Ingliż",
+    "azerbaijani": "Ażerbajġani",
+    "russian": "Russu"
+  },
+  "menu": {
+    "greeting": "Hello",
+    "journal": "Ġurnal",
+    "settings": "SETTINGS",
+    "change_language": "Ibdel il-Lingwa",
+    "notifications": "Notifiki",
+    "manage_notifications": "Immaniġġja n-Notifiki",
+    "logout": "Log out",
+    "delete_account": "Ħassar il-Kont",
+    "delete_account_title": "Ħassar il-Kont",
+    "delete_account_desc": "Id-dejta kollha tiegħek titħassar b'mod permanenti. Inti ċert?",
+    "choose_language": "Agħżel il-Lingwa"
+  },
+  "notifications": {
+    "welcome_title": "Merħba, {{name}}! 😊",
+    "welcome_body_static": "Dan huwa bidu ġdid għalik! Emmen fis-saħħa ta' ġewwa tiegħek, kollox se jkun sew.",
+    "welcome_body": "Għandna pjaċir li ninsabu miegħek. Dalwaqt naqsam xi ħaġa interessanti miegħek.",
+    "teaser_title": "Għandi xi ħaġa x'ngħidlek... ✨",
+    "final_test_title": "It-test individwali tiegħek huwa lest 📝",
+    "test_title_only": "Notifika tat-Test 🧪",
+    "test_body": "Ippreparajna analiżi speċjali għalik.",
+    "test_body_short": "Ippreparajna analiżi ġdida għalik.",
+    "preparing_test": "L-AI qed tipprepara test għalik...",
+    "general_title": "Motivazzjoni ta' Kuljum 💡",
+    "ready_body": "Tektek biex tibda t-test.",
+    "empty": "Għad m'hemmx notifiki."
+  },
+  "dynamic_test": {
+    "title": "Test tas-Sorpriża tal-Ġimgħa",
+    "error_loading": "Ma setax jgħabbi t-test. Jekk jogħġbok erġa' pprova.",
+    "retry": "Erġa' pprova"
+  },
+  "register": {
+    "title": "Reġistrazzjoni",
+    "confirm_password": "Ikkonferma l-Password",
+    "passwords_dont_match": "Il-passwords ma jaqblux",
+    "password_min_length": "Il-password għandu jkun ta' mill-inqas 6 karattri"
+  },
+  "onboarding": {
+    "title": "Merħba",
+    "fullName": "Isem Sħiħ",
+    "gender": "Sess",
+    "gender_female": "Mara",
+    "gender_male": "Raġel",
+    "gender_other": "Oħrajn",
+    "dob": "Data tat-Twelid",
+    "maritalStatus": "Stat Ċivili",
+    "marital_single": "Single",
+    "marital_married": "Miżżewweġ/Miżżewġa",
+    "employed": "Impjegat",
+    "jobTitle": "Titolu tax-Xogħol",
+    "continue": "Kompli",
+    "isMarried": "Miżżewweġ"
+  },
+  "journal": {
+    "hello": "Hello",
+    "friend": "ħabib",
+    "how_are_you": "kif int illum?",
+    "daily_journal": "In-noti ta' kuljum tiegħek",
+    "input_placeholder": "X'hemm fuq moħħok? (inkwiet, ferħ...)",
+    "save_to_journal": "Żid mal-Ġurnal",
+    "saved_title": "Salvat",
+    "saved_body": "Tista' tiddiskuti din in-nota mal-psikologu tal-AI tiegħek waqt is-sessjoni.",
+    "session_title": "Sessjoni tal-Psikologu",
+    "evening_title": "Analiżi ta' Filgħaxija",
+    "session_desc": "Appoġġ AI ta' 10 minuti kuljum.",
+    "start_10min_session": "Ibda Sessjoni",
+    "footer_info": "Dak kollu li tikteb huwa kompletament kunfidenzjali.",
+    "empty_title": "L-ebda test mdaħħal",
+    "empty_body": "Jekk jogħġbok ikteb ftit kliem.",
+    "save_error": "Ma setgħetx issalva n-nota."
+  },
+  "therapy_prep": {
+    "title": "Ejja nippreparaw għas-sessjoni tiegħek",
+    "subtitle": "Dan se jgħinni nifhem aħjar u nipprovdi appoġġ aktar personalizzat",
+    "purpose_section": {
+      "title": "X’jġibek hawn illum?",
+      "stress": "Stress u Ansjetà",
+      "relationships": "Kwistjonijiet ta' Relazzjoni",
+      "self_understanding": "Awto-Fehim",
+      "decision": "Teħid ta' Deċiżjoni",
+      "daily_life": "Problemi tal-Ħajja ta' Kuljum",
+      "other": "Oħrajn"
+    },
+    "expectation_section": {
+      "title": "X'qed tittama?",
+      "listen": "Biss biex ninstema'",
+      "advice": "Ikseb parir",
+      "understand": "Fehim aħjar",
+      "solution": "Sib soluzzjonijiet"
+    },
+    "chat_style_section": {
+      "title": "Kif tixtieq li nitkellem miegħek?",
+      "professional": "Professjonali",
+      "professional_desc": "Konverżazzjoni formali u strutturata",
+      "friendly": "Ħbiberija",
+      "friendly_desc": "Ambjent ta' chat sinċier u komdu",
+      "supportive": "Appoġġ",
+      "supportive_desc": "Ibbażat fuq l-empatija u l-inkoraġġiment"
+    },
+    "tips_section": {
+      "title": "Suġġerimenti għal sessjoni aħjar:",
+      "tip1": "📍 Sib post komdu",
+      "tip2": "⏱️ Imwarrab 10-15-il minuta",
+      "tip3": "💭 Ikteb ħsibijietek liberament",
+      "tip4": "🔒 Dan iċ-chat huwa kompletament kunfidenzjali"
+    },
+    "continue_button": "Ibda Sessjoni"
+  },
+  "assessment": {
+    "title": "Kif tħossok illum?",
+    "placeholder": "Iddeskrivi s-sentimenti tiegħek...",
+    "submit": "Ibgħat"
+  },
+  "test": {
+    "title": "Test Psikoloġiku",
+    "submit": "Ibgħat it-Tweġibiet",
+    "questions": [
+      { "id": "q1", "text": "Ħafna drabi nħossni inkwetat jew anzjuż." },
+      { "id": "q2", "text": "Għandi problemi biex nikkonċentra." },
+      { "id": "q3", "text": "Inħossni imdejjaq jew bla tama ħafna mill-ħin." },
+      { "id": "q4", "text": "Għandi diffiċli biex nillaxka." },
+      { "id": "q5", "text": "Spiss inkun kritika żżejjed miegħi nnifsi." },
+      { "id": "q6", "text": "M'iniex interessat f'affarijiet li kont nieħu gost." },
+      { "id": "q7", "text": "Inħossni megħlub mill-kompiti tiegħi ta’ kuljum." },
+      { "id": "q8", "text": "Għandi diffikultà biex norqod." },
+      { "id": "q9", "text": "Inħossni waħdi anke meta nkun ma’ ħaddieħor." },
+      { "id": "q10", "text": "Inħoss li l-problemi tiegħi huma kbar wisq biex insolvu." }
+    ],
+    "options": {
+      "strongly_agree": "Naqbel bis-sħiħ",
+      "agree": "Naqbel",
+      "neutral": "Newtrali",
+      "disagree": "Ma naqbilx",
+      "strongly_disagree": "Ma naqbilx bis-sħiħ"
+    },
+    "alerts": {
+      "incomplete_title": "Attenzjoni",
+      "incomplete_body": "Jekk jogħġbok wieġeb il-mistoqsijiet kollha!",
+      "success_title": "Suċċess",
+      "success_body": "Ir-riżultati tat-test ġew salvati b'suċċess!",
+      "error_title": "Żball",
+      "save_error_body": "Ma setgħetx issalva r-riżultati tat-test.",
+      "user_error_body": "Utent ma nstabx. Jekk jogħġbok idħol mill-ġdid."
+    }
+  },
+  "ai_wait": {
+    "title": "L-analiżi personalizzata tiegħek",
+    "subtitle": "Jekk jogħġbok stenna waqt li nirrevedi l-informazzjoni tiegħek",
+    "subtitle_with_name": "Jekk jogħġbok stenna, {{name}}, qed nirrevedi l-informazzjoni tiegħek.",
+    "countdown_prefix": "Ħin li fadal:",
+    "notification_title": "L-analiżi tiegħek hija lesta",
+    "notification_body": "Tektek biex tara l-introduzzjoni personalizzata tiegħek.",
+    "processing_data": "Qed nipproċessaw l-informazzjoni tiegħek..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hello, {{name}}.",
+    "positive_diagnosis": "Ir-riżultati tat-test tiegħek juru stat mentali pożittiv. Sejjer tajjeb.",
+    "neutral_diagnosis": "L-istat emozzjonali tiegħek huwa f'firxa newtrali.",
+    "negative_diagnosis": "Ir-riżultati jindikaw li inti tista 'tkun għaddej minn perjodu ta' sfida. M'intix waħdek.",
+    "instruction_to_chat": "Tista' tibda ċ-chat issa. Jien lest li nisma'.",
+    "acknowledge": "Kompli tiċċettja"
+  },
+  "chat": {
+    "title": "Sessjoni Live",
+    "input_placeholder": "Ikteb il-messaġġ tiegħek...",
+    "end_session": "Tmiem is-Sessjoni",
+    "offer_test": "Nirrakkomanda test qasir issa.",
+    "send_button": "Ibgħat"
+  },
+  "login": {
+    "welcome": "Merħba!",
+    "email": "Email",
+    "password": "Password",
+    "login_button": "Idħol",
+    "register_button": "Irreġistra",
+    "register_prompt": "M'għandekx kont? Irreġistra",
+    "login_prompt": "Diġà għandek kont? Idħol",
+    "error": "Żball",
+    "empty_fields": "Jekk jogħġbok imla l-oqsma kollha.",
+    "invalid_email": "Indirizz elettroniku invalidu jew utent ma nstabx.",
+    "wrong_password": "Password mhux korretta.",
+    "login_failed": "L-access falla.",
+    "forgot_password": "Insejt il-password?",
+    "reset_email_sent": "Intbagħtet email biex tirrisettja l-password.",
+    "reset_password_failed": "Ir-reset falla."
+  }
+}

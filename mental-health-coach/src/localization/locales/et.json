@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Tühista",
+    "next": "Edasi",
+    "submit": "Saada",
+    "start": "Alusta",
+    "save": "Salvesta",
+    "loading": "Laadimine...",
+    "delete": "Kustuta",
+    "hello": "Tere"
+  },
+  "lang": {
+    "title": "Valige oma keel",
+    "english": "Inglise",
+    "azerbaijani": "Aserbaidžaani",
+    "russian": "Vene"
+  },
+  "menu": {
+    "greeting": "Tere",
+    "journal": "Päevik",
+    "settings": "SEADED",
+    "change_language": "Muuda keelt",
+    "notifications": "Teavitused",
+    "manage_notifications": "Halda teavitusi",
+    "logout": "Logi välja",
+    "delete_account": "Kustuta konto",
+    "delete_account_title": "Konto kustutamine",
+    "delete_account_desc": "Kõik teie andmed kustutatakse jäädavalt. Kas olete kindel?",
+    "choose_language": "Vali keel"
+  },
+  "notifications": {
+    "welcome_title": "Tere tulemast, {{name}}! 😊",
+    "welcome_body_static": "See on teie jaoks uus algus! Usu oma sisemisse jõusse, kõik saab korda.",
+    "welcome_body": "Rõõm on teid meiega koos näha. Peagi jagan teiega midagi huvitavat.",
+    "teaser_title": "Mul on teile uudiseid... ✨",
+    "final_test_title": "Teie individuaalne test on valmis 📝",
+    "test_title_only": "Testi teavitus 🧪",
+    "test_body": "Oleme teile ette valmistanud erianalüüsi.",
+    "test_body_short": "Oleme teile ette valmistanud uue analüüsi.",
+    "preparing_test": "AI valmistab teile testi ette...",
+    "general_title": "Päeva motivatsioon 💡",
+    "ready_body": "Puudutage testi alustamiseks.",
+    "empty": "Teil pole veel teavitusi."
+  },
+  "dynamic_test": {
+    "title": "Nädala üllatustest",
+    "error_loading": "Testi laadimine ebaõnnestus. Palun proovi uuesti.",
+    "retry": "Proovi uuesti"
+  },
+  "register": {
+    "title": "Registreerimine",
+    "confirm_password": "Kinnitage parool",
+    "passwords_dont_match": "Paroolid ei ühti",
+    "password_min_length": "Parool peab olema vähemalt 6 tähemärki pikk"
+  },
+  "onboarding": {
+    "title": "Tere tulemast",
+    "fullName": "Täisnimi",
+    "gender": "Sugu",
+    "gender_female": "Naine",
+    "gender_male": "Mees",
+    "gender_other": "Muu",
+    "dob": "Sünnikuupäev",
+    "maritalStatus": "Perekonnaseis",
+    "marital_single": "Vallaline",
+    "marital_married": "Abielus",
+    "employed": "Töötav",
+    "jobTitle": "Ametinimetus",
+    "continue": "Jätka",
+    "isMarried": "Abielus"
+  },
+  "journal": {
+    "hello": "Tere",
+    "friend": "sõber",
+    "how_are_you": "kuidas sul täna läheb?",
+    "daily_journal": "Teie igapäevased märkmed",
+    "input_placeholder": "Mis sul meeles on? (mured, rõõmud...)",
+    "save_to_journal": "Lisa päevikusse",
+    "saved_title": "Salvestatud",
+    "saved_body": "Saate seda märkust seansi ajal oma AI-psühholoogiga arutada.",
+    "session_title": "Psühholoogi seanss",
+    "evening_title": "Õhtune analüüs",
+    "session_desc": "Igapäevane 10-minutiline AI tugi.",
+    "start_10min_session": "Alusta seanssi",
+    "footer_info": "Kõik, mida kirjutate, on täiesti konfidentsiaalne.",
+    "empty_title": "Teksti pole sisestatud",
+    "empty_body": "Palun kirjuta paar sõna.",
+    "save_error": "Märkust ei saanud salvestada."
+  },
+  "therapy_prep": {
+    "title": "Valmistume teie seansiks",
+    "subtitle": "See aitab mul teid paremini mõista ja pakkuda personaalsemat tuge",
+    "purpose_section": {
+      "title": "Mis sind täna siia toob?",
+      "stress": "Stress ja ärevus",
+      "relationships": "Suhteprobleemid",
+      "self_understanding": "Enesemõistmine",
+      "decision": "Otsuste tegemine",
+      "daily_life": "Igapäevaelu mured",
+      "other": "Muu"
+    },
+    "expectation_section": {
+      "title": "Mida sa loodad?",
+      "listen": "Lihtsalt ärakuulamist",
+      "advice": "Nõuandeid saada",
+      "understand": "Paremalt mõista",
+      "solution": "Lahendusi leida"
+    },
+    "chat_style_section": {
+      "title": "Kuidas sa tahaksid, et ma sinuga räägiksin?",
+      "professional": "Professionaalne",
+      "professional_desc": "Ametlik ja struktureeritud vestlus",
+      "friendly": "Sõbralik",
+      "friendly_desc": "Siiras ja vaba vestluskeskkond",
+      "supportive": "Toetav",
+      "supportive_desc": "Empaatia ja julgustuse põhine"
+    },
+    "tips_section": {
+      "title": "Näpunäiteid paremaks seansiks:",
+      "tip1": "📍 Leia mugav koht",
+      "tip2": "⏱️ Pane kõrvale 10-15 minutit",
+      "tip3": "💭 Kirjuta oma mõtted vabalt",
+      "tip4": "🔒 See vestlus on täiesti konfidentsiaalne"
+    },
+    "continue_button": "Alusta seanssi"
+  },
+  "assessment": {
+    "title": "Kuidas sa end täna tunned? Mis sind minu juurde tõi?",
+    "placeholder": "Kirjelda oma tundeid...",
+    "submit": "Esita"
+  },
+  "test": {
+    "title": "Psühholoogiline test",
+    "submit": "Esita vastused",
+    "questions": [
+      { "id": "q1", "text": "Tunnen sageli muret või ärevust." },
+      { "id": "q2", "text": "Mul on raskusi keskendumisega." },
+      { "id": "q3", "text": "Tunnen end enamasti kurvana või lootusetuna." },
+      { "id": "q4", "text": "Mul on raske lõõgastuda." },
+      { "id": "q5", "text": "Olen sageli enda suhtes liiga kriitiline." },
+      { "id": "q6", "text": "Mind ei huvita enam asjad, mis mulle varem meeldisid." },
+      { "id": "q7", "text": "Tunnen end oma igapäevaste ülesannete tõttu kurnatuna." },
+      { "id": "q8", "text": "Mul on raskusi uinumisega." },
+      { "id": "q9", "text": "Tunnen end üksikuna isegi teistega koos olles." },
+      { "id": "q10", "text": "Tunnen, et mu probleemid on lahendamiseks liiga suured." }
+    ],
+    "options": {
+      "strongly_agree": "Täiesti nõus",
+      "agree": "Nõus",
+      "neutral": "Neutraalne",
+      "disagree": "Ei nõustu",
+      "strongly_disagree": "Üldse ei nõustu"
+    },
+    "alerts": {
+      "incomplete_title": "Tähelepanu",
+      "incomplete_body": "Palun vastake kõikidele küsimustele!",
+      "success_title": "Edu",
+      "success_body": "Tulemused salvestati edukalt!",
+      "error_title": "Viga",
+      "save_error_body": "Tulemusi ei saanud salvestada.",
+      "user_error_body": "Kasutajat ei leitud. Logi uuesti sisse."
+    }
+  },
+  "ai_wait": {
+    "title": "Teie isikupärastatud analüüs",
+    "subtitle": "Palun oodake, kuni vaatan teie teabe üle",
+    "subtitle_with_name": "Palun oodake, {{name}}, analüüsin teie andmeid.",
+    "countdown_prefix": "Järelejäänud aeg:",
+    "notification_title": "Teie analüüs on valmis",
+    "notification_body": "Puudutage oma tutvustuse vaatamiseks.",
+    "processing_data": "Teabe töötlemine..."
+  },
+  "ai_intro": {
+    "title_with_name": "Tere, {{name}}.",
+    "positive_diagnosis": "Teie tulemused näitavad positiivset vaimset seisundit. Teil läheb hästi.",
+    "neutral_diagnosis": "Teie emotsionaalne seisund on neutraalses vahemikus.",
+    "negative_diagnosis": "Tulemused näitavad, et teil võib olla raske periood. Te ei ole üksi.",
+    "instruction_to_chat": "Võite vestlust alustada. Olen valmis kuulama ja aitama.",
+    "acknowledge": "Jätka vestlust"
+  },
+  "chat": {
+    "title": "Live-seanss",
+    "input_placeholder": "Sisestage oma sõnum...",
+    "end_session": "Lõpeta seanss",
+    "offer_test": "Soovitan nüüd teha lühikese testi.",
+    "send_button": "Saada"
+  },
+  "login": {
+    "welcome": "Tere tulemast!",
+    "email": "E-post",
+    "password": "Parool",
+    "login_button": "Logi sisse",
+    "register_button": "Registreeru",
+    "register_prompt": "Pole veel kontot? Registreeru kohe",
+    "login_prompt": "On juba konto? Logi sisse",
+    "error": "Viga",
+    "empty_fields": "Palun täitke kõik väljad.",
+    "invalid_email": "Vigane e-post või kasutajat ei leitud.",
+    "wrong_password": "Vale parool.",
+    "login_failed": "Sisselogimine ebaõnnestus.",
+    "forgot_password": "Unustasid parooli?",
+    "reset_email_sent": "Parooli lähtestamise e-kiri on saadetud.",
+    "reset_password_failed": "Lähtestamine ebaõnnestus."
+  }
+}

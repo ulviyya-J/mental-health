@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "Gerai",
+    "cancel": "Atšaukti",
+    "next": "Toliau",
+    "submit": "Pateikti",
+    "start": "Pradėti",
+    "save": "Išsaugoti",
+    "loading": "Kraunama...",
+    "delete": "Ištrinti",
+    "hello": "Sveiki"
+  },
+  "lang": {
+    "title": "Pasirinkite savo kalbą",
+    "english": "Anglų",
+    "azerbaijani": "Azerbaidžaniečių",
+    "russian": "Rusų"
+  },
+  "menu": {
+    "greeting": "Sveiki",
+    "journal": "Žurnalas",
+    "settings": "NUSTATYMAI",
+    "change_language": "Keisti kalbą",
+    "notifications": "Pranešimai",
+    "manage_notifications": "Valdyti pranešimus",
+    "logout": "Atsijungti",
+    "delete_account": "Ištrinti paskyrą",
+    "delete_account_title": "Ištrinti paskyrą",
+    "delete_account_desc": "Visi jūsų duomenys bus ištrinti visam laikui. Ar esate tikri?",
+    "choose_language": "Pasirinkite kalbą"
+  },
+  "notifications": {
+    "welcome_title": "Sveiki atvykę, {{name}}! 😊",
+    "welcome_body_static": "Tai nauja pradžia jums! Tikėkite savo vidine jėga, viskas bus gerai.",
+    "welcome_body": "Džiaugiamės, kad esate su mumis. Netrukus pasidalinsiu su jumis kažkuo įdomiu.",
+    "teaser_title": "Noriu jums kažką pasakyti... ✨",
+    "final_test_title": "Jūsų individualus testas paruoštas 📝",
+    "test_title_only": "Pranešimas apie testą 🧪",
+    "test_body": "Parengėme jums specialią analizę.",
+    "test_body_short": "Parengėme jums naują analizę.",
+    "preparing_test": "DI ruošia jums testą...",
+    "general_title": "Dienos motyvacija 💡",
+    "ready_body": "Bakstelėkite, kad pradėtumėte testą.",
+    "empty": "Pranešimų dar nėra."
+  },
+  "dynamic_test": {
+    "title": "Savaitės netikėtas testas",
+    "error_loading": "Nepavyko užkrauti testo. Bandykite dar kartą.",
+    "retry": "Bandyti dar kartą"
+  },
+  "register": {
+    "title": "Registracija",
+    "confirm_password": "Patvirtinkite slaptažodį",
+    "passwords_dont_match": "Slaptažodžiai nesutampa",
+    "password_min_length": "Slaptažodį turi sudaryti bent 6 simboliai"
+  },
+  "onboarding": {
+    "title": "Sveiki atvykę",
+    "fullName": "Vardas ir pavardė",
+    "gender": "Lytis",
+    "gender_female": "Moteris",
+    "gender_male": "Vyras",
+    "gender_other": "Kita",
+    "dob": "Gimimo data",
+    "maritalStatus": "Šeiminė padėtis",
+    "marital_single": "Vienišas(-a)",
+    "marital_married": "Susituokęs(-usi)",
+    "employed": "Dirbantis(-i)",
+    "jobTitle": "Pareigos",
+    "continue": "Tęsti",
+    "isMarried": "Susituokęs(-usi)"
+  },
+  "journal": {
+    "hello": "Sveiki",
+    "friend": "drauge",
+    "how_are_you": "kaip jautiesi šiandien?",
+    "daily_journal": "Jūsų kasdieniai užrašai",
+    "input_placeholder": "Apie ką galvojate? (rūpesčiai, džiaugsmai...)",
+    "save_to_journal": "Pridėti prie žurnalo",
+    "saved_title": "Išsaugota",
+    "saved_body": "Sesijos metu galite aptarti šį užrašą su savo DI psichologu.",
+    "session_title": "Psichologo sesija",
+    "evening_title": "Vakaro analizė",
+    "session_desc": "Kasdienis 10 minučių DI palaikymas.",
+    "start_10min_session": "Pradėti sesiją",
+    "footer_info": "Viskas, ką rašote, yra visiškai konfidencialu.",
+    "empty_title": "Tekstas neįvestas",
+    "empty_body": "Prašome parašyti bent keletą žodžių.",
+    "save_error": "Nepavyko išsaugoti užrašo."
+  },
+  "therapy_prep": {
+    "title": "Pasiruoškime jūsų seansui",
+    "subtitle": "Tai padės man geriau jus suprasti ir suteikti asmeniškesnį palaikymą",
+    "purpose_section": {
+      "title": "Kas jus čia atveda šiandien?",
+      "stress": "Stresas ir nerimas",
+      "relationships": "Santykių problemos",
+      "self_understanding": "Savęs supratimas",
+      "decision": "Sprendimų priėmimas",
+      "daily_life": "Kasdienio gyvenimo problemos",
+      "other": "Kita"
+    },
+    "expectation_section": {
+      "title": "Ko tikitės?",
+      "listen": "Tiesiog būti išklausytam",
+      "advice": "Gauti patarimą",
+      "understand": "Geresnio supratimo",
+      "solution": "Rasti sprendimus"
+    },
+    "chat_style_section": {
+      "title": "Kaip norėtumėte, kad su jumis kalbėčiau?",
+      "professional": "Profesionaliai",
+      "professional_desc": "Oficialus ir struktūruotas pokalbis",
+      "friendly": "Draugiškai",
+      "friendly_desc": "Nuoširdi ir patogi pokalbių aplinka",
+      "supportive": "Palaikančiai",
+      "supportive_desc": "Grįsta empatija ir padrąsinimu"
+    },
+    "tips_section": {
+      "title": "Patarimai geresniam seansui:",
+      "tip1": "📍 Raskite patogią vietą",
+      "tip2": "⏱️ Skirkite 10-15 minučių",
+      "tip3": "💭 Laisvai rašykite savo mintis",
+      "tip4": "🔒 Šis pokalbis yra visiškai konfidencialus"
+    },
+    "continue_button": "Pradėti sesiją"
+  },
+  "assessment": {
+    "title": "Kaip šiandien jaučiatės?",
+    "placeholder": "Apibūdinkite savo jausmus...",
+    "submit": "Pateikti"
+  },
+  "test": {
+    "title": "Psichologinis testas",
+    "submit": "Pateikti atsakymus",
+    "questions": [
+      { "id": "q1", "text": "Dažnai jaučiu nerimą ar įtampą." },
+      { "id": "q2", "text": "Man sunku susikaupti." },
+      { "id": "q3", "text": "Didžiąją laiko dalį jaučiuosi liūdnas(-a) arba praradęs(-usi) viltį." },
+      { "id": "q4", "text": "Man sunku atsipalaiduoti." },
+      { "id": "q5", "text": "Dažnai esu pernelyg kritiškas(-a) sau." },
+      { "id": "q6", "text": "Nebedomina dalykai, kurie anksčiau teikė malonumą." },
+      { "id": "q7", "text": "Jaučiuosi priblokštas(-a) savo kasdienių užduočių." },
+      { "id": "q8", "text": "Man sunku užmigti." },
+      { "id": "q9", "text": "Jaučiuosi vienišas(-a) net būdamas(-a) su kitais." },
+      { "id": "q10", "text": "Jaučiu, kad mano problemos per didelės, kad jas išspręsčiau." }
+    ],
+    "options": {
+      "strongly_agree": "Visiškai sutinku",
+      "agree": "Sutinku",
+      "neutral": "Neutralu",
+      "disagree": "Nesutinku",
+      "strongly_disagree": "Visiškai nesutinku"
+    },
+    "alerts": {
+      "incomplete_title": "Dėmesio",
+      "incomplete_body": "Prašome atsakyti į visus klausimus!",
+      "success_title": "Sėkmė",
+      "success_body": "Testo rezultatai sėkmingai išsaugoti!",
+      "error_title": "Klaida",
+      "save_error_body": "Nepavyko išsaugoti testo rezultatų.",
+      "user_error_body": "Vartotojas nerastas. Prisijunkite dar kartą."
+    }
+  },
+  "ai_wait": {
+    "title": "Jūsų individualizuota analizė",
+    "subtitle": "Palaukite, kol peržiūrėsiu jūsų informaciją",
+    "subtitle_with_name": "Palaukite, {{name}}, peržiūriu jūsų informaciją.",
+    "countdown_prefix": "Liko laiko:",
+    "notification_title": "Analizė paruošta",
+    "notification_body": "Bakstelėkite, kad peržiūrėtumėte savo asmeninę įžvalgą.",
+    "processing_data": "Apdorojama informacija..."
+  },
+  "ai_intro": {
+    "title_with_name": "Sveiki, {{name}}.",
+    "positive_diagnosis": "Jūsų rezultatai rodo teigiamą psichinę būseną. Jums sekasi gerai.",
+    "neutral_diagnosis": "Jūsų emocinė būsena šiuo metu yra neutralioje srityje.",
+    "negative_diagnosis": "Rezultatai rodo, kad galite išgyventi sudėtingą laikotarpį. Jūs ne vienas(-a).",
+    "instruction_to_chat": "Galite pradėti pokalbį dabar. Esu pasiruošęs išklausyti.",
+    "acknowledge": "Tęsti į pokalbį"
+  },
+  "chat": {
+    "title": "Tiesioginė sesija",
+    "input_placeholder": "Įveskite žinutę...",
+    "end_session": "Baigti sesiją",
+    "offer_test": "Rekomenduoju dabar atlikti trumpą testą.",
+    "send_button": "Siųsti"
+  },
+  "login": {
+    "welcome": "Sveiki atvykę!",
+    "email": "El. paštas",
+    "password": "Slaptažodis",
+    "login_button": "Prisijungti",
+    "register_button": "Registruotis",
+    "register_prompt": "Neturite paskyros? Registruokitės",
+    "login_prompt": "Jau turite paskyrą? Prisijungti",
+    "error": "Klaida",
+    "empty_fields": "Prašome užpildyti visus laukus.",
+    "invalid_email": "Netinkamas el. pašto adresas arba vartotojas nerastas.",
+    "wrong_password": "Neteisingas slaptažodis.",
+    "login_failed": "Prisijungti nepavyko.",
+    "forgot_password": "Pamiršote slaptažodį?",
+    "reset_email_sent": "Slaptažodžio nustatymo laiškas išsiųstas.",
+    "reset_password_failed": "Nustatyti iš naujo nepavyko."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "next": "Next",
+    "submit": "Submit",
+    "start": "Start",
+    "save": "Save",
+    "loading": "Loading...",
+    "delete": "Delete",
+    "hello": "Hello"
+  },
+  "lang": {
+    "title": "Select your language",
+    "english": "English",
+    "azerbaijani": "Azerbaijani",
+    "russian": "Russian"
+  },
+  "menu": {
+    "greeting": "Hello",
+    "journal": "Journal",
+    "settings": "SETTINGS",
+    "change_language": "Change Language",
+    "notifications": "Notifications",
+    "manage_notifications": "Manage Notifications",
+    "logout": "Logout",
+    "delete_account": "Delete Account",
+    "delete_account_title": "Delete Account",
+    "delete_account_desc": "All your data will be permanently deleted. Are you sure?",
+    "choose_language": "Choose Language"
+  },
+  "notifications": {
+    "welcome_title": "Welcome, {{name}}! 😊",
+    "welcome_body_static": "This is a new beginning for you! Believe in your inner strength, everything will be fine.",
+    "welcome_body": "It's great to have you with us. I'll share something interesting with you shortly.",
+    "teaser_title": "I have something to tell you... ✨",
+    "final_test_title": "Your individual test is ready 📝",
+    "test_title_only": "Test Notification 🧪",
+    "test_body": "We've prepared a special analysis for you.",
+    "test_body_short": "We've prepared a new analysis for you.",
+    "preparing_test": "AI is preparing a test for you...",
+    "general_title": "Daily Motivation 💡",
+    "ready_body": "Tap to start the test.",
+    "empty": "You don't have any notifications yet."
+  },
+  "dynamic_test": {
+    "title": "Surprise Weekly Test",
+    "error_loading": "Could not load the test. Please try again.",
+    "retry": "Retry"
+  },
+  "register": {
+    "title": "Registration",
+    "confirm_password": "Confirm Password",
+    "passwords_dont_match": "Passwords do not match",
+    "password_min_length": "Password must be at least 6 characters"
+  },
+  "onboarding": {
+    "title": "Welcome",
+    "fullName": "Full Name",
+    "gender": "Gender",
+    "gender_female": "Female",
+    "gender_male": "Male",
+    "gender_other": "Other",
+    "dob": "Date of Birth",
+    "maritalStatus": "Marital Status",
+    "marital_single": "Single",
+    "marital_married": "Married",
+    "employed": "Employed",
+    "jobTitle": "Job Title",
+    "continue": "Continue",
+    "isMarried": "Married"
+  },
+  "journal": {
+    "hello": "Hello",
+    "friend": "friend",
+    "how_are_you": "how are you today?",
+    "daily_journal": "Your daily notes",
+    "input_placeholder": "What's on your mind? (worries, joys...)",
+    "save_to_journal": "Add to Journal",
+    "saved_title": "Saved",
+    "saved_body": "You can discuss this note with your AI psychologist during the session.",
+    "session_title": "Psychologist Session",
+    "evening_title": "Evening Analysis",
+    "session_desc": "Daily 10-minute AI support.",
+    "start_10min_session": "Start Session",
+    "footer_info": "Everything you write is completely confidential.",
+    "empty_title": "No text entered",
+    "empty_body": "Please write a few words.",
+    "save_error": "Could not save the note."
+  },
+  "therapy_prep": {
+    "title": "Let's prepare for your session",
+    "subtitle": "This will help me understand you better and provide more personalized support",
+    "purpose_section": {
+      "title": "What brings you here today?",
+      "stress": "Stress & Anxiety",
+      "relationships": "Relationship Issues",
+      "self_understanding": "Self-Understanding",
+      "decision": "Decision Making",
+      "daily_life": "Daily Life Problems",
+      "other": "Other"
+    },
+    "expectation_section": {
+      "title": "What are you hoping for?",
+      "listen": "Just to be heard",
+      "advice": "Get advice",
+      "understand": "Better understanding",
+      "solution": "Find solutions"
+    },
+    "chat_style_section": {
+      "title": "How would you like me to talk with you?",
+      "professional": "Professional",
+      "professional_desc": "Formal and structured conversation",
+      "friendly": "Friendly",
+      "friendly_desc": "Sincere and comfortable chat environment",
+      "supportive": "Supportive",
+      "supportive_desc": "Empathy and encouragement based"
+    },
+    "tips_section": {
+      "title": "Tips for a better session:",
+      "tip1": "📍 Find a comfortable place",
+      "tip2": "⏱️ Set aside 10-15 minutes",
+      "tip3": "💭 Write your thoughts freely",
+      "tip4": "🔒 This chat is completely confidential"
+    },
+    "continue_button": "Start Session"
+  },
+  "assessment": {
+    "title": "How do you feel today? What brought you to me?",
+    "placeholder": "Describe your feelings...",
+    "submit": "Submit"
+  },
+  "test": {
+    "title": "Psychological Test",
+    "submit": "Submit Answers",
+    "questions": [
+      { "id": "q1", "text": "I often feel worried or anxious." },
+      { "id": "q2", "text": "I have trouble concentrating." },
+      { "id": "q3", "text": "I feel sad or hopeless most of the time." },
+      { "id": "q4", "text": "I have a hard time relaxing." },
+      { "id": "q5", "text": "I am often overly critical of myself." },
+      { "id": "q6", "text": "I am not interested in things I used to enjoy." },
+      { "id": "q7", "text": "I feel overwhelmed by my daily tasks." },
+      { "id": "q8", "text": "I have difficulty sleeping." },
+      { "id": "q9", "text": "I feel alone even when I am with others." },
+      { "id": "q10", "text": "I feel my problems are too big to solve." }
+    ],
+    "options": {
+      "strongly_agree": "Strongly Agree",
+      "agree": "Agree",
+      "neutral": "Neutral",
+      "disagree": "Disagree",
+      "strongly_disagree": "Strongly Disagree"
+    },
+    "alerts": {
+      "incomplete_title": "Attention",
+      "incomplete_body": "Please answer all questions!",
+      "success_title": "Success",
+      "success_body": "Test results saved successfully!",
+      "error_title": "Error",
+      "save_error_body": "Could not save test results.",
+      "user_error_body": "User not found. Please log in again."
+    }
+  },
+  "ai_wait": {
+    "title": "Your personalized analysis",
+    "subtitle": "Please wait while I review your information",
+    "subtitle_with_name": "Please wait, I'm reviewing your information, {{name}}.",
+    "countdown_prefix": "Time remaining:",
+    "notification_title": "Your analysis is ready",
+    "notification_body": "Tap to view your personalized introduction.",
+    "processing_data": "Processing your information..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hello, {{name}}.",
+    "positive_diagnosis": "Your test results show a positive mental state. You're doing well.",
+    "neutral_diagnosis": "Based on your answers, your emotional state is in a neutral range.",
+    "negative_diagnosis": "Your test results indicate that you may be going through a challenging period. You are not alone.",
+    "instruction_to_chat": "You can start the chat now. I am ready to listen and help.",
+    "acknowledge": "Continue to chat"
+  },
+  "chat": {
+    "title": "Live Session",
+    "input_placeholder": "Type your message...",
+    "end_session": "End Session",
+    "offer_test": "I recommend a short test now.",
+    "send_button": "Send"
+  },
+  "login": {
+    "welcome": "Welcome!",
+    "email": "Email",
+    "password": "Password",
+    "login_button": "Login",
+    "register_button": "Register",
+    "register_prompt": "Don't have an account? Register now",
+    "login_prompt": "Already have an account? Login",
+    "error": "Error",
+    "empty_fields": "Please fill in all fields.",
+    "invalid_email": "Invalid email address or user not found.",
+    "wrong_password": "Incorrect password.",
+    "login_failed": "The email or password you entered is incorrect.",
+    "forgot_password": "Forgot password?",
+    "reset_email_sent": "A password reset email has been sent.",
+    "reset_password_failed": "Password reset failed."
+  }
+}

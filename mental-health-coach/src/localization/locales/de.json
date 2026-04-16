@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "start": "Start",
+    "save": "Speichern",
+    "loading": "Wird geladen...",
+    "delete": "Löschen",
+    "hello": "Hallo"
+  },
+  "lang": {
+    "title": "Sprache wählen",
+    "english": "Englisch",
+    "azerbaijani": "Aserbaidschanisch",
+    "russian": "Russisch"
+  },
+  "menu": {
+    "greeting": "Hallo",
+    "journal": "Journal",
+    "settings": "EINSTELLUNGEN",
+    "change_language": "Sprache ändern",
+    "notifications": "Benachrichtigungen",
+    "manage_notifications": "Benachrichtigungen verwalten",
+    "logout": "Abmelden",
+    "delete_account": "Konto löschen",
+    "delete_account_title": "Konto löschen",
+    "delete_account_desc": "Alle Ihre Daten werden dauerhaft gelöscht. Sind Sie sicher?",
+    "choose_language": "Sprache wählen"
+  },
+  "notifications": {
+    "welcome_title": "Willkommen, {{name}}! 😊",
+    "welcome_body_static": "Dies ist ein Neuanfang für dich! Glaube an die Kraft in dir, alles wird gut.",
+    "welcome_body": "Wir freuen uns, dich bei uns zu haben. Bald werde ich etwas Interessantes mit dir teilen.",
+    "teaser_title": "Ich habe Neuigkeiten für dich... ✨",
+    "final_test_title": "Dein individueller Test ist bereit 📝",
+    "test_title_only": "Test-Benachrichtigung 🧪",
+    "test_body": "Wir haben eine spezielle Analyse für dich vorbereitet.",
+    "test_body_short": "Wir haben eine neue Analyse für dich vorbereitet.",
+    "preparing_test": "KI bereitet einen Test für dich vor...",
+    "general_title": "Motivation des Tages 💡",
+    "ready_body": "Tippen Sie hier, um den Test zu öffnen.",
+    "empty": "Du hast noch keine Benachrichtigungen."
+  },
+  "dynamic_test": {
+    "title": "Wöchentlicher Überraschungstest",
+    "error_loading": "Test konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "retry": "Erneut versuchen"
+  },
+  "register": {
+    "title": "Registrierung",
+    "confirm_password": "Passwort bestätigen",
+    "passwords_dont_match": "Passwörter stimmen nicht überein",
+    "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
+  },
+  "onboarding": {
+    "title": "Willkommen",
+    "fullName": "Vollständiger Name",
+    "gender": "Geschlecht",
+    "gender_female": "Weiblich",
+    "gender_male": "Männlich",
+    "gender_other": "Andere",
+    "dob": "Geburtsdatum",
+    "maritalStatus": "Familienstand",
+    "marital_single": "Ledig",
+    "marital_married": "Verheiratet",
+    "employed": "Berufstätig",
+    "jobTitle": "Berufsbezeichnung",
+    "continue": "Weiter",
+    "isMarried": "Verheiratet"
+  },
+  "journal": {
+    "hello": "Hallo",
+    "friend": "Freund",
+    "how_are_you": "Wie geht es dir heute?",
+    "daily_journal": "Deine täglichen Notizen",
+    "input_placeholder": "Was hast du im Kopf? (Sorgen, Freuden...)",
+    "save_to_journal": "Zum Journal hinzufügen",
+    "saved_title": "Gespeichert",
+    "saved_body": "Du kannst diese Notiz während der Sitzung mit deinem KI-Psychologen besprechen.",
+    "session_title": "Psychologensitzung",
+    "evening_title": "Abend-Analyse",
+    "session_desc": "Tägliche 10-minütige KI-Unterstützung.",
+    "start_10min_session": "Sitzung starten",
+    "footer_info": "Alles, was du schreibst, ist absolut vertraulich.",
+    "empty_title": "Kein Text eingegeben",
+    "empty_body": "Bitte schreibe ein paar Worte.",
+    "save_error": "Die Notiz konnte nicht gespeichert werden."
+  },
+  "therapy_prep": {
+    "title": "Bereiten wir uns auf deine Therapiesitzung vor",
+    "subtitle": "Dies wird mir helfen, dich besser zu verstehen und eine persönlichere Unterstützung zu bieten",
+    "purpose_section": {
+      "title": "Was führt dich heute hierher?",
+      "stress": "Stress & Angst",
+      "relationships": "Beziehungsprobleme",
+      "self_understanding": "Selbstverständnis",
+      "decision": "Entscheidungsfindung",
+      "daily_life": "Probleme des täglichen Lebens",
+      "other": "Andere"
+    },
+    "expectation_section": {
+      "title": "Was erhoffst du dir?",
+      "listen": "Nur um gehört zu werden",
+      "advice": "Ratschläge erhalten",
+      "understand": "Besseres Verständnis",
+      "solution": "Lösungen finden"
+    },
+    "chat_style_section": {
+      "title": "Wie soll ich mit dir sprechen?",
+      "professional": "Professionell",
+      "professional_desc": "Formelles und strukturiertes Gespräch",
+      "friendly": "Freundlich",
+      "friendly_desc": "Herzliche und angenehme Chat-Umgebung",
+      "supportive": "Unterstützend",
+      "supportive_desc": "Basierend auf Empathie und Ermutigung"
+    },
+    "tips_section": {
+      "title": "Tipps für eine bessere Sitzung:",
+      "tip1": "📍 Suche dir einen bequemen Ort",
+      "tip2": "⏱️ Nimm dir 10–15 Minuten Zeit",
+      "tip3": "💭 Schreibe deine Gedanken frei auf",
+      "tip4": "🔒 Dieser Chat ist absolut vertraulich"
+    },
+    "continue_button": "Sitzung starten"
+  },
+  "assessment": {
+    "title": "Wie fühlst du dich heute? Was hat dich zu mir geführt?",
+    "placeholder": "Beschreibe deine Gefühle...",
+    "submit": "Absenden"
+  },
+  "test": {
+    "title": "Psychologischer Test",
+    "submit": "Antworten senden",
+    "questions": [
+      { "id": "q1", "text": "Ich fühle mich oft besorgt oder ängstlich." },
+      { "id": "q2", "text": "Ich habe Schwierigkeiten, mich zu konzentrieren." },
+      { "id": "q3", "text": "Ich bin die meiste Zeit traurig oder hoffnungslos." },
+      { "id": "q4", "text": "Es fällt mir schwer, mich zu entspannen." },
+      { "id": "q5", "text": "Ich bin oft übermäßig kritisch mit mir selbst." },
+      { "id": "q6", "text": "Ich interessiere mich nicht mehr für Dinge, die mir früher Spaß gemacht haben." },
+      { "id": "q7", "text": "Ich fühle mich von meinen täglichen Aufgaben überfordert." },
+      { "id": "q8", "text": "Ich habe Schlafstörungen." },
+      { "id": "q9", "text": "Ich fühle mich allein, auch wenn ich mit anderen zusammen bin." },
+      { "id": "q10", "text": "Ich habe das Gefühl, dass meine Probleme zu groß sind, um sie zu lösen." }
+    ],
+    "options": {
+      "strongly_agree": "Stimme voll zu",
+      "agree": "Stimme zu",
+      "neutral": "Neutral",
+      "disagree": "Stimme nicht zu",
+      "strongly_disagree": "Stimme überhaupt nicht zu"
+    },
+    "alerts": {
+      "incomplete_title": "Achtung",
+      "incomplete_body": "Bitte beantworte alle Fragen!",
+      "success_title": "Erfolg",
+      "success_body": "Testergebnisse erfolgreich gespeichert!",
+      "error_title": "Fehler",
+      "save_error_body": "Testergebnisse konnten nicht gespeichert werden.",
+      "user_error_body": "Benutzer nicht gefunden. Bitte melde dich erneut an."
+    }
+  },
+  "ai_wait": {
+    "title": "Deine Analyse",
+    "subtitle": "Bitte warte, während ich deine Informationen überprüfe",
+    "subtitle_with_name": "Bitte warte {{name}}, ich überprüfe deine Informationen.",
+    "countdown_prefix": "Verbleibende Zeit:",
+    "notification_title": "Deine Analyse ist fertig",
+    "notification_body": "Tippe hier, um deine Einführung zu sehen.",
+    "processing_data": "Deine Daten werden verarbeitet..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hallo, {{name}}.",
+    "positive_diagnosis": "Deine Testergebnisse zeigen einen positiven Geisteszustand. Es geht dir gut.",
+    "neutral_diagnosis": "Dein emotionaler Zustand liegt in einem neutralen Bereich.",
+    "negative_diagnosis": "Deine Ergebnisse deuten darauf hin, dass du eine herausfordernde Zeit durchmachst. Du bist nicht allein.",
+    "instruction_to_chat": "Du kannst den Chat jetzt starten. Ich bin bereit zuzuhören.",
+    "acknowledge": "Chat fortsetzen"
+  },
+  "chat": {
+    "title": "Live-Sitzung",
+    "input_placeholder": "Nachricht eingeben...",
+    "end_session": "Sitzung beenden",
+    "offer_test": "Ich empfehle jetzt einen kurzen Test.",
+    "send_button": "Senden"
+  },
+  "login": {
+    "welcome": "Willkommen!",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "login_button": "Anmelden",
+    "register_button": "Registrieren",
+    "register_prompt": "Noch kein Konto? Jetzt registrieren",
+    "login_prompt": "Schon ein Konto? Anmelden",
+    "error": "Fehler",
+    "empty_fields": "Bitte alle Felder ausfüllen.",
+    "invalid_email": "Ungültige E-Mail-Adresse.",
+    "wrong_password": "Falsches Passwort.",
+    "login_failed": "Login fehlgeschlagen.",
+    "forgot_password": "Passwort vergessen?",
+    "reset_email_sent": "E-Mail zum Zurücksetzen wurde gesendet.",
+    "reset_password_failed": "Zurücksetzen fehlgeschlagen."
+  }
+}

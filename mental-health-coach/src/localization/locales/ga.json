@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "Ceart go leor",
+    "cancel": "Cealaigh",
+    "next": "Ar aghaidh",
+    "submit": "Seol",
+    "start": "Tosaigh",
+    "save": "Sábháil",
+    "loading": "Ag lódáil...",
+    "delete": "Scrios",
+    "hello": "Dia duit"
+  },
+  "lang": {
+    "title": "Roghnaigh do theanga",
+    "english": "Béarla",
+    "azerbaijani": "Asarbaiseáinis",
+    "russian": "Rúisis"
+  },
+  "menu": {
+    "greeting": "Dia duit",
+    "journal": "Iris",
+    "settings": "SOCRUITHE",
+    "change_language": "Athraigh teanga",
+    "notifications": "Fógraí",
+    "manage_notifications": "Bainistigh fógraí",
+    "logout": "Logáil amach",
+    "delete_account": "Scrios cuntas",
+    "delete_account_title": "Cuntas a scriosadh",
+    "delete_account_desc": "Scriosfar do chuid sonraí go léir go buan. An bhfuil tú cinnte?",
+    "choose_language": "Roghnaigh teanga"
+  },
+  "notifications": {
+    "welcome_title": "Fáilte, {{name}}! 😊",
+    "welcome_body_static": "Is tús nua é seo duit! Creid i do neart istigh, beidh gach rud ceart go leor.",
+    "welcome_body": "Is deas tú a bheith linn. Beidh mé ag roinnt rud éigin suimiúil leat go luath.",
+    "teaser_title": "Tá rud éigin le rá agam leat... ✨",
+    "final_test_title": "Tá do thástáil aonair réidh 📝",
+    "test_title_only": "Fógra tástála 🧪",
+    "test_body": "D'ullmhaigh muid anailís speisialta duit.",
+    "test_body_short": "D'ullmhaigh muid anailís nua duit.",
+    "preparing_test": "Tá AI ag ullmhú tástála duit...",
+    "general_title": "Spreagadh an lae 💡",
+    "ready_body": "Tapáil chun an tástáil a thosú.",
+    "empty": "Níl aon fhógraí agat fós."
+  },
+  "dynamic_test": {
+    "title": "Tástáil iontas na seachtaine",
+    "error_loading": "Theip ar lódáil na tástála. Bain triail eile as.",
+    "retry": "Bain triail eile as"
+  },
+  "register": {
+    "title": "Clárú",
+    "confirm_password": "Deimhnigh Pasfhocal",
+    "passwords_dont_match": "Ní hionann na pasfhocail",
+    "password_min_length": "Caithfidh 6 charachtar ar a laghad a bheith sa phasfhocal"
+  },
+  "onboarding": {
+    "title": "Fáilte",
+    "fullName": "Ainm Iomlán",
+    "gender": "Inscne",
+    "gender_female": "Baineann",
+    "gender_male": "Fireann",
+    "gender_other": "Eile",
+    "dob": "Dáta Breithe",
+    "maritalStatus": "Stádas Pósta",
+    "marital_single": "Singil",
+    "marital_married": "Pósta",
+    "employed": "Fostaithe",
+    "jobTitle": "Teideal Poist",
+    "continue": "Lean ort",
+    "isMarried": "Pósta"
+  },
+  "journal": {
+    "hello": "Dia duit",
+    "friend": "a chara",
+    "how_are_you": "conas atá tú inniu?",
+    "daily_journal": "Do nótaí laethúla",
+    "input_placeholder": "Cad atá ar d'intinn? (imní, áthas...)",
+    "save_to_journal": "Cuir leis an iris",
+    "saved_title": "Sábháilte",
+    "saved_body": "Is féidir leat an nóta seo a phlé le do shíceolaí AI le linn an tseisiúin.",
+    "session_title": "Seisiún Síceolaí",
+    "evening_title": "Anailís an tráthnóna",
+    "session_desc": "Tacaíocht AI laethúil 10 nóiméad.",
+    "start_10min_session": "Tosaigh seisiún",
+    "footer_info": "Tá gach rud a scríobhann tú go hiomlán faoi rún.",
+    "empty_title": "Níor cuireadh téacs isteach",
+    "empty_body": "Scríobh cúpla focal le do thoil.",
+    "save_error": "Níorbh fhéidir an nóta a shábháil."
+  },
+  "therapy_prep": {
+    "title": "Ullmhaímid do do sheisiún",
+    "subtitle": "Cabhróidh sé seo liom tú a thuiscint níos fearr agus tacaíocht phearsanta a thabhairt duit",
+    "purpose_section": {
+      "title": "Cad a thugann anseo thú inniu?",
+      "stress": "Strus & Imní",
+      "relationships": "Saincheisteanna Caidrimh",
+      "self_understanding": "Féinthuiscint",
+      "decision": "Cinnteoireacht",
+      "daily_life": "Fadhbanna an tsaoil laethúil",
+      "other": "Eile"
+    },
+    "expectation_section": {
+      "title": "Cad a bhfuil tú ag súil leis?",
+      "listen": "Díreach le bheith éisteach liom",
+      "advice": "Comhairle a fháil",
+      "understand": "Tuiscint níos fearr",
+      "solution": "Réitigh a fháil"
+    },
+    "chat_style_section": {
+      "title": "Conas ba mhaith leat go mbeadh an comhrá?",
+      "professional": "Gairmiúil",
+      "professional_desc": "Comhrá foirmiúil agus struchtúrtha",
+      "friendly": "Cairdiúil",
+      "friendly_desc": "Timpeallacht chompordach agus chroíúil",
+      "supportive": "Tacúil",
+      "supportive_desc": "Bunaithe ar ionbhá agus spreagadh"
+    },
+    "tips_section": {
+      "title": "Leideanna le haghaidh seisiún níos fearr:",
+      "tip1": "📍 Aimsigh áit chompordach",
+      "tip2": "⏱️ Cuir 10-15 nóiméad ar leataobh",
+      "tip3": "💭 Scríobh do chuid smaointe go saor",
+      "tip4": "🔒 Tá an comhrá seo go hiomlán faoi rún"
+    },
+    "continue_button": "Tosaigh seisiún"
+  },
+  "assessment": {
+    "title": "Conas a mhothaíonn tú inniu? Cad a thug chugam thú?",
+    "placeholder": "Déan cur síos ar do mhothúcháin...",
+    "submit": "Seol"
+  },
+  "test": {
+    "title": "Tástáil Síceolaíochta",
+    "submit": "Seol na Freagraí",
+    "questions": [
+      { "id": "q1", "text": "Is minic a mhothaím buartha nó imníoch." },
+      { "id": "q2", "text": "Bíonn deacracht agam díriú." },
+      { "id": "q3", "text": "Braithim brónach nó gan dóchas an chuid is mó den am." },
+      { "id": "q4", "text": "Bíonn sé deacair orm scíth a ligean." },
+      { "id": "q5", "text": "Is minic a bhíonn mé ró-chriticiúil díom féin." },
+      { "id": "q6", "text": "Níl suim agam a thuilleadh sna rudaí a thaitin liom roimhe seo." },
+      { "id": "q7", "text": "Mothaím faoi léigear ag mo thascanna laethúla." },
+      { "id": "q8", "text": "Bíonn deacracht agam codladh." },
+      { "id": "q9", "text": "Braithim i m'aonar fiú nuair a bhím le daoine eile." },
+      { "id": "q10", "text": "Is dóigh liom go bhfuil mo chuid fadhbanna ró-mhór le réiteach." }
+    ],
+    "options": {
+      "strongly_agree": "Aontaím go láidir",
+      "agree": "Aontaím",
+      "neutral": "Neodrach",
+      "disagree": "Ní aontaím",
+      "strongly_disagree": "Easaontaím go láidir"
+    },
+    "alerts": {
+      "incomplete_title": "Aird",
+      "incomplete_body": "Freagair gach ceist le do thoil!",
+      "success_title": "Rath",
+      "success_body": "Sábháladh na torthaí go rathúil!",
+      "error_title": "Earráid",
+      "save_error_body": "Níorbh fhéidir na torthaí a shábháil.",
+      "user_error_body": "Úsáideoir gan aimsiú. Logáil isteach arís le do thoil."
+    }
+  },
+  "ai_wait": {
+    "title": "D'anailís phearsantaithe",
+    "subtitle": "Fan le do thoil agus mé ag athbhreithniú do chuid faisnéise",
+    "subtitle_with_name": "Fan go fóill, {{name}}, tá d'fhaisnéis á hathbhreithniú agam.",
+    "countdown_prefix": "Am fágtha:",
+    "notification_title": "Tá d'anailís réidh",
+    "notification_body": "Tapáil chun do réamhrá pearsanta a fheiceáil.",
+    "processing_data": "Do chuid faisnéise á próiseáil..."
+  },
+  "ai_intro": {
+    "title_with_name": "Dia duit, {{name}}.",
+    "positive_diagnosis": "Léiríonn do thorthaí staid mheabhrach dhearfach. Tá ag éirí go maith leat.",
+    "neutral_diagnosis": "Tá do staid mhothúchánach i raon neodrach faoi láthair.",
+    "negative_diagnosis": "Tugann na torthaí le fios go bhféadfadh go bhfuil tú ag dul trí thréimhse dhúshlánach. Níl tú i d'aonar.",
+    "instruction_to_chat": "Is féidir leat an comhrá a thosú anois. Táim anseo chun cabhrú.",
+    "acknowledge": "Lean ort go dtí an comhrá"
+  },
+  "chat": {
+    "title": "Seisiún Beo",
+    "input_placeholder": "Scríobh do theachtaireacht...",
+    "end_session": "Deireadh seisiúin",
+    "offer_test": "Molaim tástáil ghearr anois.",
+    "send_button": "Seol"
+  },
+  "login": {
+    "welcome": "Fáilte!",
+    "email": "Ríomhphost",
+    "password": "Pasfhocal",
+    "login_button": "Logáil isteach",
+    "register_button": "Cláraigh",
+    "register_prompt": "Nach bhfuil cuntas agat? Cláraigh anois",
+    "login_prompt": "An bhfuil cuntas agat cheana? Logáil isteach",
+    "error": "Earráid",
+    "empty_fields": "Líon isteach gach réimse le do thoil.",
+    "invalid_email": "Ríomhphost neamhbhailí nó úsáideoir gan aimsiú.",
+    "wrong_password": "Pasfhocal mícheart.",
+    "login_failed": "Theip ar logáil isteach.",
+    "forgot_password": "Pasfhocal dearmadta?",
+    "reset_email_sent": "Seoladh ríomhphost athshocraithe.",
+    "reset_password_failed": "Theip ar athshocrú an phasfhocail."
+  }
+}

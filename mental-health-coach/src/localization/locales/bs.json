@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Otkaži",
+    "next": "Dalje",
+    "submit": "Pošalji",
+    "start": "Počni",
+    "save": "Sačuvaj",
+    "loading": "Učitavanje...",
+    "delete": "Obriši",
+    "hello": "Zdravo"
+  },
+  "lang": {
+    "title": "Odaberite svoj jezik",
+    "english": "engleski",
+    "azerbaijani": "Azerbejdžanski",
+    "russian": "ruski"
+  },
+  "menu": {
+    "greeting": "Zdravo",
+    "journal": "Dnevnik",
+    "settings": "POSTAVKE",
+    "change_language": "Promijeni jezik",
+    "notifications": "Obavještenja",
+    "manage_notifications": "Upravljanje obavještenjima",
+    "logout": "Odjavi se",
+    "delete_account": "Obriši račun",
+    "delete_account_title": "Brisanje računa",
+    "delete_account_desc": "Svi vaši podaci će biti obrisani. Jeste li sigurni?",
+    "choose_language": "Odaberite jezik"
+  },
+  "notifications": {
+    "welcome_title": "Dobrodošli, {{name}}! 😊",
+    "welcome_body_static": "Ovo je novi početak za vas! Vjerujte u snagu u sebi, sve će biti u redu.",
+    "welcome_body": "Drago nam je što ste sa nama. Uskoro ću podijeliti nešto zanimljivo sa vama.",
+    "teaser_title": "Imam vijesti za vas... ✨",
+    "final_test_title": "Vaš individualni test je spreman 📝",
+    "test_title_only": "Testna poruka 🧪",
+    "test_body": "Pripremili smo posebnu analizu za vas.",
+    "test_body_short": "Pripremili smo novu analizu za vas.",
+    "preparing_test": "AI priprema test za vas...",
+    "general_title": "Motivacija dana 💡",
+    "ready_body": "Dodirnite da otvorite test.",
+    "empty": "Još uvijek nemate obavještenja."
+  },
+  "dynamic_test": {
+    "title": "Iznenađenje sedmični test",
+    "error_loading": "Nije moguće učitati test. Pokušajte ponovo.",
+    "retry": "Pokušaj ponovo"
+  },
+  "register": {
+    "title": "Registracija",
+    "confirm_password": "Potvrdite lozinku",
+    "passwords_dont_match": "Lozinke se ne podudaraju",
+    "password_min_length": "Lozinka mora imati najmanje 6 znakova"
+  },
+  "onboarding": {
+    "title": "Dobrodošli",
+    "fullName": "Puno ime",
+    "gender": "Rod",
+    "gender_female": "Žensko",
+    "gender_male": "Muško",
+    "gender_other": "Ostalo",
+    "dob": "Datum rođenja",
+    "maritalStatus": "Bračno stanje",
+    "marital_single": "Single",
+    "marital_married": "Oženjen",
+    "employed": "Zaposlen",
+    "jobTitle": "Naziv posla",
+    "continue": "Nastavi",
+    "isMarried": "Oženjen"
+  },
+  "journal": {
+    "hello": "Zdravo",
+    "friend": "Prijatelju",
+    "how_are_you": "kako si danas?",
+    "daily_journal": "Vaše dnevne bilješke",
+    "input_placeholder": "Šta ti je na umu? (brige, radosti...)",
+    "save_to_journal": "Dodaj u časopis",
+    "saved_title": "Sačuvano",
+    "saved_body": "O ovoj napomeni možete razgovarati sa svojim AI psihologom tokom sesije.",
+    "session_title": "Psihološka sesija",
+    "evening_title": "Večernja analiza",
+    "session_desc": "Dnevna 10-minutna AI podrška.",
+    "start_10min_session": "Započni sesiju",
+    "footer_info": "Sve što pišete je potpuno povjerljivo.",
+    "empty_title": "Nije unesen tekst",
+    "empty_body": "Molimo napišite nekoliko riječi.",
+    "save_error": "Nije moguće sačuvati bilješku."
+  },
+  "therapy_prep": {
+    "title": "Hajde da se pripremimo za Vašu terapijsku sesiju",
+    "subtitle": "Ovo će mi pomoći da vas bolje razumijem i pružim personaliziraniju podršku",
+    "purpose_section": {
+      "title": "Šta te danas dovodi ovamo?",
+      "stress": "Stres i anksioznost",
+      "relationships": "Problemi u vezi",
+      "self_understanding": "Samorazumijevanje",
+      "decision": "Donošenje odluka",
+      "daily_life": "Svakodnevni životni problemi",
+      "other": "Ostalo"
+    },
+    "expectation_section": {
+      "title": "čemu se nadate?",
+      "clue": "Samo da se čuje",
+      "advice": "Dobijte savjet",
+      "understand": "Bolje razumijevanje",
+      "solution": "Pronađite rješenja"
+    },
+    "chat_style_section": {
+      "title": "Kako biste željeli da razgovaram s vama?",
+      "professional": "Profesionalno",
+      "professional_desc": "Formalni i strukturirani razgovor",
+      "friendly": "Prijateljski",
+      "friendly_desc": "Iskreno i ugodno okruženje za ćaskanje",
+      "supportive": "Podrška",
+      "supportive_desc": "Na osnovu empatije i ohrabrenja"
+    },
+    "tips_section": {
+      "title": "Savjeti za bolju sesiju:",
+      "tip1": "📍 Pronađite udobno mjesto",
+      "tip2": "⏱️ Odvojite 10-15 minuta",
+      "tip3": "💭 Slobodno pišite svoja razmišljanja",
+      "tip4": "🔒 Ovaj chat je potpuno povjerljiv"
+    },
+    "continue_button": "Započni sesiju"
+  },
+  "assessment": {
+    "title": "Kako se osjećaš danas? Šta te je dovelo do mene?",
+    "placeholder": "Opišite svoja osećanja...",
+    "submit": "Pošalji"
+  },
+  "test": {
+    "title": "Psihološki test",
+    "submit": "Pošaljite odgovore",
+    "questions": [
+      { "id": "q1", "text": "Često se osjećam zabrinuto ili anksiozno." },
+      { "id": "q2", "text": "Imam problema sa koncentracijom." },
+      { "id": "q3", "text": "Većinu vremena osjećam se tužno ili bez nade." },
+      { "id": "q4", "text": "Teško se opuštam." },
+      { "id": "q5", "text": "Često sam previše kritičan prema sebi." },
+      { "id": "q6", "text": "Ne zanimaju me stvari u kojima sam nekada uživao." },
+      { "id": "q7", "text": "Osjećam se preopterećeno svakodnevnim zadacima." },
+      { "id": "q8", "text": "Imam poteškoća sa spavanjem." },
+      { "id": "q9", "text": "Osjećam se sam čak i kada sam sa drugima." },
+      { "id": "q10", "text": "Osjećam da su moji problemi preveliki za rješavanje." }
+    ],
+    "options": {
+      "strongly_agree": "Potpuno se slažem",
+      "agree": "Slažem se",
+      "neutral": "Neutralno",
+      "disagree": "Ne slažem se",
+      "strongly_disagree": "Potpuno se ne slažem"
+    },
+    "alerts": {
+      "incomplete_title": "Pažnja",
+      "incomplete_body": "Odgovorite na sva pitanja!",
+      "success_title": "Uspjeh",
+      "success_body": "Rezultati testa su uspješno sačuvani!",
+      "error_title": "Greška",
+      "save_error_body": "Nije moguće sačuvati rezultate testa.",
+      "user_error_body": "Korisnik nije pronađen. Molimo prijavite se ponovo."
+    }
+  },
+  "ai_wait": {
+    "title": "Vaša personalizirana analiza",
+    "subtitle": "Pričekajte dok pregledam vaše podatke",
+    "subtitle_with_name": "Molimo pričekajte, pregledavam vaše informacije, {{name}}.",
+    "countdown_prefix": "Preostalo vrijeme:",
+    "notification_title": "Vaša analiza je spremna",
+    "notification_body": "Dodirnite da vidite svoj personalizovani uvod.",
+    "processing_data": "Obrada vaših informacija..."
+  },
+  "ai_intro": {
+    "title_with_name": "Zdravo, {{name}}.",
+    "positive_diagnosis": "Vaši rezultati testa pokazuju pozitivno mentalno stanje. To ukazuje da ste dobro.",
+    "neutral_diagnosis": "Na osnovu vaših odgovora, vaše emocionalno stanje je u neutralnom rasponu.",
+    "negative_diagnosis": "Rezultati vaših testova ukazuju na to da možda prolazite kroz izazovan period. Važno je znati da niste sami.",
+    "instruction_to_chat": "Možete započeti razgovor sada. Spreman sam da saslušam i pomognem.",
+    "acknowledge": "Nastavite razgovarati"
+  },
+  "chat": {
+    "title": "Sesija uživo",
+    "input_placeholder": "Upišite svoju poruku...",
+    "end_session": "Završi sesiju",
+    "offer_test": "Preporučujem sada kratak test.",
+    "send_button": "Pošalji"
+  },
+  "login": {
+    "welcome": "Dobrodošli nazad!",
+    "email": "Email",
+    "password": "Lozinka",
+    "login_button": "Prijava",
+    "register_button": "Registrujte se",
+    "register_prompt": "Nemate račun? Registrujte se sada",
+    "login_prompt": "Već imate račun? Prijava",
+    "error": "Greška",
+    "empty_fields": "Molimo popunite sva polja.",
+    "invalid_email": "Nevažeća adresa e-pošte.",
+    "wrong_password": "Neispravna lozinka.",
+    "login_failed": "Prijava nije uspjela.",
+    "forgot_password": "Zaboravili ste lozinku?",
+    "reset_email_sent": "E-mail za poništavanje lozinke je poslan.",
+    "reset_password_failed": "Poništavanje lozinke nije uspjelo."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "686867171752",
+    "project_id": "mental-health-coach-19f5b",
+    "storage_bucket": "mental-health-coach-19f5b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686867171752:android:95536eab8c4142e3dab59d",
+        "android_client_info": {
+          "package_name": "com.lavia.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54C_ETFkynObS4EC5YTqVYw_OJ71GWUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686867171752:android:1ffe48c1f41bf3bfdab59d",
+        "android_client_info": {
+          "package_name": "com.mentalhealthcoach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54C_ETFkynObS4EC5YTqVYw_OJ71GWUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

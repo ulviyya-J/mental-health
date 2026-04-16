@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "next": "Próximo",
+    "submit": "Enviar",
+    "start": "Iniciar",
+    "save": "Salvar",
+    "loading": "Carregando...",
+    "delete": "Excluir",
+    "hello": "Olá"
+  },
+  "lang": {
+    "title": "Selecione seu idioma",
+    "english": "Inglês",
+    "azerbaijani": "Azerbaijano",
+    "russian": "Russo"
+  },
+  "menu": {
+    "greeting": "Olá",
+    "journal": "Diário",
+    "settings": "CONFIGURAÇÕES",
+    "change_language": "Alterar idioma",
+    "notifications": "Notificações",
+    "manage_notifications": "Gerenciar notificações",
+    "logout": "Sair",
+    "delete_account": "Excluir conta",
+    "delete_account_title": "Excluir conta",
+    "delete_account_desc": "Todos os seus dados serão excluídos permanentemente. Tem certeza?",
+    "choose_language": "Escolha um idioma"
+  },
+  "notifications": {
+    "welcome_title": "Bem-vindo(a), {{name}}! 😊",
+    "welcome_body_static": "Este é um novo começo para você! Acredite na sua força interior, tudo ficará bem.",
+    "welcome_body": "Estamos felizes em ter você conosco. Em breve compartilharei algo interessante com você.",
+    "teaser_title": "Quero te contar uma coisa... ✨",
+    "final_test_title": "Seu teste individual está pronto 📝",
+    "test_title_only": "Notificação de teste 🧪",
+    "test_body": "Preparamos uma análise especial para você.",
+    "test_body_short": "Preparamos uma nova análise para você.",
+    "preparing_test": "A IA está preparando um teste para você...",
+    "general_title": "Motivação diária 💡",
+    "ready_body": "Toque para iniciar o teste.",
+    "empty": "Você ainda não tem notificações."
+  },
+  "dynamic_test": {
+    "title": "Teste surpresa da semana",
+    "error_loading": "Não foi possível carregar o teste. Tente novamente.",
+    "retry": "Tentar novamente"
+  },
+  "register": {
+    "title": "Cadastro",
+    "confirm_password": "Confirme a senha",
+    "passwords_dont_match": "As senhas não coincidem",
+    "password_min_length": "A senha deve ter pelo menos 6 caracteres"
+  },
+  "onboarding": {
+    "title": "Bem-vindo",
+    "fullName": "Nome completo",
+    "gender": "Gênero",
+    "gender_female": "Feminino",
+    "gender_male": "Masculino",
+    "gender_other": "Outro",
+    "dob": "Data de nascimento",
+    "maritalStatus": "Estado civil",
+    "marital_single": "Solteiro(a)",
+    "marital_married": "Casado(a)",
+    "employed": "Empregado(a)",
+    "jobTitle": "Cargo",
+    "continue": "Continuar",
+    "isMarried": "Casado(a)"
+  },
+  "journal": {
+    "hello": "Olá",
+    "friend": "amigo(a)",
+    "how_are_you": "como você está hoje?",
+    "daily_journal": "Suas notas diárias",
+    "input_placeholder": "O que está em sua mente? (preocupações, alegrias...)",
+    "save_to_journal": "Adicionar ao diário",
+    "saved_title": "Salvo",
+    "saved_body": "Você pode discutir esta nota com seu psicólogo de IA durante a sessão.",
+    "session_title": "Sessão com Psicólogo",
+    "evening_title": "Análise noturna",
+    "session_desc": "Suporte diário de IA de 10 minutos.",
+    "start_10min_session": "Iniciar sessão",
+    "footer_info": "Tudo o que você escreve é totalmente confidencial.",
+    "empty_title": "Nenhum texto inserido",
+    "empty_body": "Por favor, escreva algumas palavras.",
+    "save_error": "Não foi possível salvar a nota."
+  },
+  "therapy_prep": {
+    "title": "Vamos preparar sua sessão",
+    "subtitle": "Isso me ajudará a te entender melhor e fornecer suporte personalizado",
+    "purpose_section": {
+      "title": "O que traz você aqui hoje?",
+      "stress": "Estresse e Ansiedade",
+      "relationships": "Problemas de Relacionamento",
+      "self_understanding": "Autocompreensão",
+      "decision": "Tomada de Decisão",
+      "daily_life": "Problemas do Dia a Dia",
+      "other": "Outro"
+    },
+    "expectation_section": {
+      "title": "O que você espera?",
+      "listen": "Apenas ser ouvido(a)",
+      "advice": "Receber conselhos",
+      "understand": "Melhor compreensão",
+      "solution": "Encontrar soluções"
+    },
+    "chat_style_section": {
+      "title": "Como você quer que eu fale com você?",
+      "professional": "Profissional",
+      "professional_desc": "Conversa formal e estruturada",
+      "friendly": "Amigável",
+      "friendly_desc": "Ambiente sincero e confortável",
+      "supportive": "Apoio",
+      "supportive_desc": "Baseado em empatia e incentivo"
+    },
+    "tips_section": {
+      "title": "Dicas para uma sessão melhor:",
+      "tip1": "📍 Encontre um lugar confortável",
+      "tip2": "⏱️ Reserve 10-15 minutos",
+      "tip3": "💭 Escreva seus pensamentos livremente",
+      "tip4": "🔒 Esta conversa é totalmente confidencial"
+    },
+    "continue_button": "Iniciar sessão"
+  },
+  "assessment": {
+    "title": "Como você se sente hoje?",
+    "placeholder": "Descreva seus sentimentos...",
+    "submit": "Enviar"
+  },
+  "test": {
+    "title": "Teste Psicológico",
+    "submit": "Enviar respostas",
+    "questions": [
+      { "id": "q1", "text": "Sinto-me frequentemente preocupado(a) ou ansioso(a)." },
+      { "id": "q2", "text": "Tenho dificuldade em me concentrar." },
+      { "id": "q3", "text": "Sinto-me triste ou sem esperança na maior parte do tempo." },
+      { "id": "q4", "text": "Tenho dificuldade em relaxar." },
+      { "id": "q5", "text": "Muitas vezes sou excessivamente crítico(a) comigo mesmo(a)." },
+      { "id": "q6", "text": "Perdi o interesse por coisas que costumava gostar." },
+      { "id": "q7", "text": "Sinto-me sobrecarregado(a) com minhas tarefas diárias." },
+      { "id": "q8", "text": "Tenho problemas para dormir." },
+      { "id": "q9", "text": "Sinto-me sozinho(a) mesmo quando estou com outras pessoas." },
+      { "id": "q10", "text": "Sinto que meus problemas são grandes demais para serem resolvidos." }
+    ],
+    "options": {
+      "strongly_agree": "Concordo plenamente",
+      "agree": "Concordo",
+      "neutral": "Neutro",
+      "disagree": "Discordo",
+      "strongly_disagree": "Discordo totalmente"
+    },
+    "alerts": {
+      "incomplete_title": "Atenção",
+      "incomplete_body": "Por favor, responda a todas as perguntas!",
+      "success_title": "Sucesso",
+      "success_body": "Resultados salvos com sucesso!",
+      "error_title": "Erro",
+      "save_error_body": "Não foi possível salvar os resultados.",
+      "user_error_body": "Usuário não encontrado. Faça login novamente."
+    }
+  },
+  "ai_wait": {
+    "title": "Sua análise personalizada",
+    "subtitle": "Aguarde enquanto analiso seus dados",
+    "subtitle_with_name": "Aguarde, {{name}}, estou revisando seus dados.",
+    "countdown_prefix": "Tempo restante:",
+    "notification_title": "Sua análise está pronta",
+    "notification_body": "Toque para ver sua introdução personalizada.",
+    "processing_data": "Processando seus dados..."
+  },
+  "ai_intro": {
+    "title_with_name": "Olá, {{name}}.",
+    "positive_diagnosis": "Seus resultados mostram um estado mental positivo. Você está indo bem.",
+    "neutral_diagnosis": "Seu estado emocional está em uma faixa neutra.",
+    "negative_diagnosis": "Os resultados indicam que você pode estar passando por um período difícil. Você não está sozinho(a).",
+    "instruction_to_chat": "Você pode iniciar o chat agora. Estou pronto para ouvir.",
+    "acknowledge": "Continuar para o chat"
+  },
+  "chat": {
+    "title": "Sessão ao vivo",
+    "input_placeholder": "Digite sua mensagem...",
+    "end_session": "Encerrar sessão",
+    "offer_test": "Recomendo um teste curto agora.",
+    "send_button": "Enviar"
+  },
+  "login": {
+    "welcome": "Bem-vindo(a)!",
+    "email": "E-mail",
+    "password": "Senha",
+    "login_button": "Entrar",
+    "register_button": "Cadastrar-se",
+    "register_prompt": "Não tem uma conta? Cadastre-se",
+    "login_prompt": "Já tem uma conta? Entrar",
+    "error": "Erro",
+    "empty_fields": "Por favor, preencha todos os campos.",
+    "invalid_email": "E-mail inválido ou usuário não encontrado.",
+    "wrong_password": "Senha incorreta.",
+    "login_failed": "Falha no login.",
+    "forgot_password": "Esqueceu a senha?",
+    "reset_email_sent": "E-mail de redefinição enviado.",
+    "reset_password_failed": "Falha ao redefinir a senha."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Zrušit",
+    "next": "Další",
+    "submit": "Poslat",
+    "start": "Start",
+    "save": "Uložit",
+    "loading": "Načítání...",
+    "delete": "Smazat",
+    "hello": "Ahoj"
+  },
+  "lang": {
+    "title": "Vyberte svůj jazyk",
+    "english": "angličtina",
+    "azerbaijani": "ázerbájdžánský",
+    "russian": "ruština"
+  },
+  "menu": {
+    "greeting": "Ahoj",
+    "journal": "Deník",
+    "settings": "NASTAVENÍ",
+    "change_language": "Změnit jazyk",
+    "notifications": "Oznámení",
+    "manage_notifications": "Správa oznámení",
+    "logout": "Odhlásit se",
+    "delete_account": "Smazat účet",
+    "delete_account_title": "Smazání účtu",
+    "delete_account_desc": "Všechna vaše data budou smazána. Jste si jisti?",
+    "choose_language": "Vyberte jazyk"
+  },
+  "notifications": {
+    "welcome_title": "Vítejte, {{name}}! 😊",
+    "welcome_body_static": "Toto je pro vás nový začátek! Věřte v sílu v sobě, všechno bude v pořádku.",
+    "welcome_body": "Jsme rádi, že jste s námi. Brzy s vámi nasdílím něco zajímavého.",
+    "teaser_title": "Mám pro vás novinku... ✨",
+    "final_test_title": "Váš individuální test je připraven 📝",
+    "test_title_only": "Testovací zpráva 🧪",
+    "test_body": "Připravili jsme pro vás speciální analýzu.",
+    "test_body_short": "Připravili jsme pro vás novou analýzu.",
+    "preparing_test": "AI pro vás připravuje test...",
+    "general_title": "Motivace dne 💡",
+    "ready_body": "Klepnutím otevřete test.",
+    "empty": "Zatím nemáte žádná oznámení."
+  },
+  "dynamic_test": {
+    "title": "Překvapivý týdenní test",
+    "error_loading": "Test se nepodařilo načíst. Zkuste to prosím znovu.",
+    "retry": "Zkusit znovu"
+  },
+  "register": {
+    "title": "Registrace",
+    "confirm_password": "Potvrďte heslo",
+    "passwords_dont_match": "Hesla se neshodují",
+    "password_min_length": "Heslo musí mít alespoň 6 znaků"
+  },
+  "onboarding": {
+    "title": "Vítejte",
+    "fullName": "Celé jméno",
+    "gender": "Pohlaví",
+    "gender_female": "Žena",
+    "gender_male": "Muž",
+    "gender_other": "Ostatní",
+    "dob": "Datum narození",
+    "maritalStatus": "Rodinný stav",
+    "marital_single": "Svobodný/á",
+    "marital_married": "Ženatý/Vdaná",
+    "employed": "Zaměstnaný/á",
+    "jobTitle": "Pracovní pozice",
+    "continue": "Pokračovat",
+    "isMarried": "Ženatý/Vdaná"
+  },
+  "journal": {
+    "hello": "Ahoj",
+    "friend": "příteli",
+    "how_are_you": "jak se dnes máš?",
+    "daily_journal": "Vaše denní poznámky",
+    "input_placeholder": "co máš na srdci? (strasti, radosti...)",
+    "save_to_journal": "Přidat do deníku",
+    "saved_title": "Uloženo",
+    "saved_body": "Tuto poznámku můžete během sezení probrat se svým psychologem AI.",
+    "session_title": "Sezení psychologa",
+    "evening_title": "Večerní analýza",
+    "session_desc": "Denní 10minutová podpora AI.",
+    "start_10min_session": "Zahájit relaci",
+    "footer_info": "Vše, co píšete, je zcela důvěrné.",
+    "empty_title": "Nebyl zadán žádný text",
+    "empty_body": "Napište prosím pár slov.",
+    "save_error": "Poznámku se nepodařilo uložit."
+  },
+  "therapy_prep": {
+    "title": "Pojďme se připravit na vaše terapeutické sezení",
+    "subtitle": "Pomůže mi to lépe vám porozumět a poskytnout vám personalizovanější podporu",
+    "purpose_section": {
+      "title": "Co tě sem dnes přivádí?",
+      "stress": "Stres a úzkost",
+      "relationships": "Vztahové problémy",
+      "self_understanding": "Sebeporozumění",
+      "decision": "Rozhodování",
+      "daily_life": "Problémy každodenního života",
+      "other": "Ostatní"
+    },
+    "expectation_section": {
+      "title": "v co doufáš?",
+      "listen": "Jen aby bylo slyšet",
+      "advice": "Nechte si poradit",
+      "understand": "Lepší pochopení",
+      "solution": "Najděte řešení"
+    },
+    "chat_style_section": {
+      "title": "Jak chceš, abych s tebou mluvil?",
+      "professional": "Profesionální",
+      "professional_desc": "Formální a strukturovaný rozhovor",
+      "friendly": "Přátelský",
+      "friendly_desc": "Upřímné a pohodlné prostředí chatu",
+      "supportive": "Podpůrný",
+      "supportive_desc": "Na základě empatie a povzbuzení"
+    },
+    "tips_section": {
+      "title": "Tipy pro lepší sezení:",
+      "tip1": "📍 Najděte si pohodlné místo",
+      "tip2": "⏱️ Vyhraďte si 10-15 minut",
+      "tip3": "💭 Volně pište své myšlenky",
+      "tip4": "🔒 Tento chat je zcela důvěrný"
+    },
+    "continue_button": "Zahájit relaci"
+  },
+  "assessment": {
+    "title": "jak se dnes cítíte? Co tě ke mně přivedlo?",
+    "placeholder": "Popište své pocity...",
+    "submit": "Odeslat"
+  },
+  "test": {
+    "title": "Psychologický test",
+    "submit": "Odeslat odpovědi",
+    "questions": [
+      { "id": "q1", "text": "Často pociťuji obavy nebo úzkost." },
+      { "id": "q2", "text": "Mám problém se soustředit." },
+      { "id": "q3", "text": "Většinu času cítím smutek nebo beznaděj." },
+      { "id": "q4", "text": "Těžko se uvolňuji." },
+      { "id": "q5", "text": "Často jsem k sobě přehnaně kritický." },
+      { "id": "q6", "text": "Nezajímají mě věci, které mě dříve bavily." },
+      { "id": "q7", "text": "Cítím se zahlcen svými každodenními úkoly." },
+      { "id": "q8", "text": "Mám potíže se spaním." },
+      { "id": "q9", "text": "Cítím se sám, i když jsem s ostatními." },
+      { "id": "q10", "text": "Mám pocit, že mé problémy jsou příliš velké na to, abych je řešil." }
+    ],
+    "options": {
+      "strongly_agree": "Důrazně souhlasím",
+      "agree": "Souhlasím",
+      "neutral": "Neutrální",
+      "disagree": "Nesouhlasím",
+      "strongly_disagree": "Silně nesouhlasím"
+    },
+    "alerts": {
+      "incomplete_title": "Pozor",
+      "incomplete_body": "Odpovězte prosím na všechny otázky!",
+      "success_title": "Úspěch",
+      "success_body": "Výsledky testu byly úspěšně uloženy!",
+      "error_title": "Chyba",
+      "save_error_body": "Výsledky testu se nepodařilo uložit.",
+      "user_error_body": "Uživatel nenalezen. Přihlaste se prosím znovu."
+    }
+  },
+  "ai_wait": {
+    "title": "Vaše personalizovaná analýza",
+    "subtitle": "Počkejte prosím, než zkontroluji vaše informace",
+    "subtitle_with_name": "Čekejte prosím, kontroluji vaše informace, {{name}}.",
+    "countdown_prefix": "Zbývající čas:",
+    "notification_title": "Vaše analýza je připravena",
+    "notification_body": "Klepnutím zobrazíte svůj přizpůsobený úvod.",
+    "processing_data": "Zpracovávání vašich informací..."
+  },
+  "ai_intro": {
+    "title_with_name": "Dobrý den, {{name}}.",
+    "positive_diagnosis": "Vaše výsledky testů ukazují pozitivní duševní stav. To naznačuje, že se vám daří dobře.",
+    "neutral_diagnosis": "Na základě vašich odpovědí je váš emoční stav v neutrálním rozsahu.",
+    "negative_diagnosis": "Výsledky vašich testů naznačují, že možná procházíte náročným obdobím. Je důležité vědět, že v tom nejste sami.",
+    "instruction_to_chat": "Nyní můžete zahájit chat. Jsem připraven vyslechnout a pomoci.",
+    "acknowledge": "Pokračujte v chatu"
+  },
+  "chat": {
+    "title": "Živá relace",
+    "input_placeholder": "Napište svou zprávu...",
+    "end_session": "Ukončit relaci",
+    "offer_test": "Nyní doporučuji krátký test.",
+    "send_button": "Poslat"
+  },
+  "login": {
+    "welcome": "Vítejte!",
+    "email": "E-mail",
+    "password": "Heslo",
+    "login_button": "Přihlášení",
+    "register_button": "Zaregistrovat se",
+    "register_prompt": "Nemáte účet? Zaregistrujte se nyní",
+    "login_prompt": "Už máte účet? Přihlášení",
+    "error": "Chyba",
+    "empty_fields": "Vyplňte prosím všechna pole.",
+    "invalid_email": "Neplatná e-mailová adresa.",
+    "wrong_password": "Nesprávné heslo.",
+    "login_failed": "Přihlášení se nezdařilo.",
+    "forgot_password": "Zapomněli jste heslo?",
+    "reset_email_sent": "E-mail pro obnovení hesla byl odeslán.",
+    "reset_password_failed": "Obnovení hesla se nezdařilo."
+  }
+}

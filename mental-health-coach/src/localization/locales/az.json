@@ -1,0 +1,212 @@
+{
+  "common": {
+    "ok": "Oldu",
+    "cancel": "Ləğv et",
+    "next": "Növbəti",
+    "submit": "Göndər",
+    "start": "Başla",
+    "save": "Yadda saxla",
+    "loading": "Yüklənir...",
+    "delete": "Sil",
+    "hello": "Salam"
+  },
+  "lang": {
+    "title": "Dilinizi seçin",
+    "english": "İngilis dili",
+    "azerbaijani": "Azərbaycan dili",
+    "russian": "Rus dili"
+  },
+  "menu": {
+    "greeting": "Salam",
+    "journal": "Gündəlik",
+    "settings": "AYARLAR",
+    "change_language": "Dili dəyiş",
+    "notifications": "Bildirişlər",
+    "manage_notifications": "Bildirişləri idarə et",
+    "logout": "Çıxış et",
+    "delete_account": "Hesabı sil",
+    "delete_account_title": "Hesabı sil",
+    "delete_account_desc": "Bütün məlumatlarınız silinəcək. Əminsiniz?",
+    "choose_language": "Dili Seçin"
+  },
+  "notifications": {
+    "welcome_title": "Xoş gəldin, {{name}}! 😊",
+    "welcome_body_static": "Sənin üçün yeni bir başlanğıcdır! Daxilindəki gücə inan, hər şey yaxşı olacaq.",
+    "teaser_title": "Sənə bir xəbərim var... ✨",
+    "teaser_body": "5 dəqiqəyə sənin üçün xüsusi bir test hazırlayacağam.",
+    "initial_test_title": "İndividual testiniz hazırdır 📝",
+    "initial_test_body": "Sizin üçün xüsusi bir analiz hazırladıq. Testi keçmək üçün toxunun.",
+    "morning_motivation_title": "Sabahınız xeyir! ☀️",
+    "evening_motivation_title": "Axşamınız xeyir! 🌙",
+    "daily_test_title": "Günün testi",
+    "daily_test_body": "Bu gün üçün test hazırdır. Özünüzü kəşf edin.",
+    "test_title_only": "Test Mesajı 🧪",
+    "test_body": "Sizin üçün xüsusi bir analiz hazırladıq.",
+    "test_body_short": "Sizin üçün yeni bir analiz hazırladıq.",
+    "preparing_test": "AI sizin üçün test hazırlayır...",
+    "general_title": "Günün Motivasiyası 💡",
+    "ready_body": "Testi açmaq üçün toxunun.",
+    "empty": "Hələ ki bildirişiniz yoxdur."
+  },
+  "dynamic_test": {
+    "title": "Sürpriz Həftəlik Test",
+    "error_loading": "Testi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "retry": "Yenidən cəhd et"
+  },
+  "register": {
+    "title": "Qeydiyyat",
+    "confirm_password": "Şifrəni təsdiqləyin",
+    "passwords_dont_match": "Şifrələr uyğun gəlmir",
+    "password_min_length": "Şifrə ən azı 6 simvoldan ibarət olmalıdır"
+  },
+  "onboarding": {
+    "title": "Xoş gəlmisiniz",
+    "fullName": "Ad Soyad",
+    "gender": "Cinsiyyət",
+    "gender_female": "Qadın",
+    "gender_male": "Kişi",
+    "gender_other": "Digər",
+    "dob": "Doğum tarixi",
+    "maritalStatus": "Ailə vəziyyəti",
+    "marital_single": "Subay",
+    "marital_married": "Evli",
+    "employed": "İşləyir",
+    "jobTitle": "Vəzifə",
+    "continue": "Davam et",
+    "isMarried": "Evli"
+  },
+  "journal": {
+    "hello": "Salam",
+    "friend": "Dost",
+    "how_are_you": "Bu gün necəsən?",
+    "daily_journal": "Gündəlik qeydlərin",
+    "input_placeholder": "Ağlında nə var? (narahatlıqlar, sevinclər...)",
+    "save_to_journal": "Gündəliyə əlavə et",
+    "saved_title": "Yadda saxlanıldı",
+    "saved_body": "Sessiya zamanı bu qeydi süni intellekt psixoloqunuzla müzakirə edə bilərsiniz.",
+    "session_title": "Psixoloq Sessiyası",
+    "session_ready": "Seans üçün hər şey hazırdır",
+    "evening_title": "Axşam Analizi",
+    "session_desc": "Gündəlik 10 dəqiqəlik AI dəstəyi.",
+    "start_10min_session": "Sessiyaya başla",
+    "footer_info": "Yazdığınız hər şey tamamilə məxfidir.",
+    "empty_title": "Mətn daxil edilməyib",
+    "empty_body": "Zəhmət olmasa bir neçə söz yazın.",
+    "save_error": "Qeydi yadda saxlamaq mümkün olmadı."
+  },
+  "therapy_prep": {
+    "title": "Terapiya sessiyasına hazırlaşaq",
+    "subtitle": "Bu, sizi daha yaxşı anlamağıma və fərdi dəstək göstərməyimə kömək edəcək",
+    "purpose_section": {
+      "title": "Sizi bura gətirən nədir?",
+      "stress": "Stress və Həyəcan",
+      "relationships": "Münasibət problemləri",
+      "self_understanding": "Özünü dərk etmə",
+      "decision": "Qərar vermə",
+      "daily_life": "Gündəlik həyat problemləri",
+      "other": "Digər"
+    },
+    "expectation_section": {
+      "title": "Nə gözləyirsiniz?",
+      "listen": "Sadəcə dinlənilmək",
+      "advice": "Məsləhət almaq",
+      "understand": "Daha yaxşı anlamaq",
+      "solution": "Həll yolları tapmaq"
+    },
+    "chat_style_section": {
+      "title": "Sizinlə necə danışmağımı istərdiniz?",
+      "professional": "Peşəkar",
+      "professional_desc": "Rəsmi və strukturlaşdırılmış söhbət",
+      "friendly": "Səmimi",
+      "friendly_desc": "Səmimi və rahat söhbət mühiti",
+      "supportive": "Dəstəkləyici",
+      "supportive_desc": "Empatiya və motivasiya əsaslı"
+    },
+    "tips_section": {
+      "title": "Daha yaxşı sessiya üçün məsləhətlər:",
+      "tip1": "📍 Rahat bir yer tapın",
+      "tip2": "⏱️ 10-15 dəqiqə vaxt ayırın",
+      "tip3": "💭 Fikirlərinizi sərbəst yazın",
+      "tip4": "🔒 Bu söhbət tamamilə məxfidir"
+    },
+    "continue_button": "Sessiyaya başla"
+  },
+  "assessment": {
+    "title": "Bu gün necə hiss edirsiniz? Sizi mənə gətirən nədir?",
+    "placeholder": "Hisslərinizi təsvir edin...",
+    "submit": "Göndər"
+  },
+  "test": {
+    "title": "Psixoloji Test",
+    "submit": "Cavabları göndər",
+    "questions": [
+      { "id": "q1", "text": "Tez-tez narahat və ya həyəcanlı hiss edirəm." },
+      { "id": "q2", "text": "Diqqətimi toplamaqda çətinlik çəkirəm." },
+      { "id": "q3", "text": "Çox vaxt kədərli və ya ümidsiz hiss edirəm." },
+      { "id": "q4", "text": "Rahatlaşmaqda çətinlik çəkirəm." },
+      { "id": "q5", "text": "Tez-tez özümə qarşı həddindən artıq tənqidi oluram." },
+      { "id": "q6", "text": "Əvvəllər zövq aldığım şeylər artıq maraqlı gəlmir." },
+      { "id": "q7", "text": "Gündəlik işlərim mənə çox ağır gəlir." },
+      { "id": "q8", "text": "Yuxu problemim var." },
+      { "id": "q9", "text": "İnsanların arasında olsam belə, özümü yalnız hiss edirəm." },
+      { "id": "q10", "text": "Problemlərimin həll edilə bilməyəcək qədər böyük olduğunu hiss edirəm." }
+    ],
+    "options": {
+      "strongly_agree": "Tamamilə razıyam",
+      "agree": "Razıyam",
+      "neutral": "Neytral",
+      "disagree": "Razı deyiləm",
+      "strongly_disagree": "Heç razı deyiləm"
+    },
+    "alerts": {
+      "incomplete_title": "Diqqət",
+      "incomplete_body": "Zəhmət olmasa bütün suallara cavab verin!",
+      "success_title": "Uğurlu",
+      "success_body": "Test nəticələri uğurla yadda saxlanıldı!",
+      "error_title": "Xəta",
+      "save_error_body": "Test nəticələrini yadda saxlamaq mümkün olmadı.",
+      "user_error_body": "İstifadəçi tapılmadı. Yenidən daxil olun."
+    }
+  },
+  "ai_wait": {
+    "title": "Fərdi analiziniz",
+    "subtitle": "Məlumatlarınızı nəzərdən keçirərkən zəhmət olmasa gözləyin",
+    "subtitle_with_name": "Məlumatlarınızı nəzərdən keçirirəm, gözləyin zəhmət olmasa, {{name}}.",
+    "countdown_prefix": "Qalan vaxt:",
+    "notification_title": "Analiziniz hazırdır",
+    "notification_body": "Fərdi girişinizi görmək üçün toxunun.",
+    "processing_data": "Məlumatlarınız işlənilir..."
+  },
+  "ai_intro": {
+    "title_with_name": "Salam, {{name}}.",
+    "positive_diagnosis": "Test nəticələriniz müsbət psixi vəziyyət göstərir. Bu, yaxşı olduğunuzu göstərir.",
+    "neutral_diagnosis": "Cavablarınıza əsasən, emosional vəziyyətiniz neytral diapazondadır.",
+    "negative_diagnosis": "Test nəticələriniz çətin bir dövrdən keçdiyinizi göstərir.",
+    "instruction_to_chat": "İndi söhbətə başlaya bilərsiniz. Dinləməyə və kömək etməyə hazıram.",
+    "acknowledge": "Söhbətə davam et"
+  },
+  "chat": {
+    "title": "Canlı Sessiya",
+    "input_placeholder": "Mesajınızı yazın...",
+    "end_session": "Sessiyanı bitir",
+    "offer_test": "İndi qısa bir test etməyi tövsiyə edirəm.",
+    "send_button": "Göndər"
+  },
+  "login": {
+    "welcome": "Xoş gəldiniz!",
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "login_button": "Daxil ol",
+    "register_button": "Qeydiyyat",
+    "register_prompt": "Hesabınız yoxdur? İndi qeydiyyatdan keçin",
+    "login_prompt": "Artıq hesabınız var? Daxil olun",
+    "error": "Xəta",
+    "empty_fields": "Zəhmət olmasa bütün sahələri doldurun.",
+    "invalid_email": "Yanlış e-poçt ünvanı.",
+    "wrong_password": "Yanlış şifrə.",
+    "login_failed": "Giriş uğursuz oldu.",
+    "forgot_password": "Şifrəni unutmusunuz?",
+    "reset_email_sent": "Sıfırlama e-poçtu göndərildi.",
+    "reset_password_failed": "Sıfırlama uğursuz oldu."
+  }
+}

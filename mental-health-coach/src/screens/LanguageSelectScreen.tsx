@@ -1,42 +1,156 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { useTranslation } from 'react-i18next';
-import i18n from '../localization/i18n';
-import { setStoredLanguage, getStoredLanguage } from '../localization/i18n';
-import type { SupportedLanguage } from '../localization/resources';
+import React, { useRef } from "react";
+import { View, StyleSheet, FlatList, TouchableOpacity, Text, SafeAreaView } from "react-native";
+import { useTranslation } from "react-i18next";
+import i18n, { setStoredLanguage, resources } from "../localization/i18n";
+import type { SupportedLanguage } from "../localization/i18n";
+// ✅ Bildiriş import-u saxlanılır, amma setupIPBasedNotifications çağırılmır
+// import ExpoNotificationService from "../services/ExpoNotificationService";
 
 interface Props {
-	onDone: () => void;
+  onDone: () => void;
 }
 
+const languageNames: Record<string, string> = {
+  en: "English",
+  az: "Azərbaycan",
+  ru: "Русский",
+  tr: "Türkçe",
+  fr: "Français",
+  de: "Deutsch",
+  es: "Español",
+  it: "Italiano",
+  da: "Dansk",
+  nl: "Nederlands",
+  no: "Norsk",
+  pt: "Português",
+  sv: "Svenska",
+  fi: "Suomi",
+  pl: "Polski",
+  cs: "Čeština",
+  sk: "Slovenčina",
+  hu: "Magyar",
+  ro: "Română",
+  bg: "Български",
+  el: "Ελληνικά",
+  sq: "Shqip",
+  bs: "Bosanski",
+  hr: "Hrvatski",
+  sr: "Српски",
+  sl: "Slovenščina",
+  et: "Eesti",
+  lv: "Latviešu",
+  lt: "Lietuvių",
+  mt: "Malti",
+  is: "Íslenska",
+  ga: "Gaeilge",
+  cy: "Cymraeg",
+  be: "Беларуская",
+  uk: "Українська",
+  mk: "Македонски",
+  me: "Crnogorski",
+  ka: "ქართული",
+  hy: "Հայերեն"
+};
+
 export default function LanguageSelectScreen({ onDone }: Props) {
-	const { t } = useTranslation();
+  const { t } = useTranslation();
+  const isProcessing = useRef(false);
 
-	const selectLanguage = async (lang: SupportedLanguage) => {
-		await i18n.changeLanguage(lang);
-		await setStoredLanguage(lang);
-		onDone();
-	};
+  const availableLanguages = Object.keys(resources) as SupportedLanguage[];
 
-	return (
-		<View style={styles.container}>
-			<Text style={styles.title}>{t('lang.title')}</Text>
-			<TouchableOpacity style={styles.button} onPress={() => selectLanguage('en')}>
-				<Text style={styles.buttonText}>{t('lang.english')}</Text>
-			</TouchableOpacity>
-			<TouchableOpacity style={styles.button} onPress={() => selectLanguage('az')}>
-				<Text style={styles.buttonText}>{t('lang.azerbaijani')}</Text>
-			</TouchableOpacity>
-			<TouchableOpacity style={styles.button} onPress={() => selectLanguage('ru')}>
-				<Text style={styles.buttonText}>{t('lang.russian')}</Text>
-			</TouchableOpacity>
-		</View>
-	);
+  const selectLanguage = async (lang: SupportedLanguage) => {
+    if (isProcessing.current) return;
+    isProcessing.current = true;
+
+    try {
+      await i18n.changeLanguage(lang);
+      await setStoredLanguage(lang);
+      
+      // ✅ Köhnə setupIPBasedNotifications çağırışı SİLİNDİ
+      // Bildirişlər artıq LoginScreen-də planlaşdırılır
+      
+      onDone();
+    } catch (error) {
+      console.error("Language selection error:", error);
+      onDone();
+    } finally {
+      setTimeout(() => { isProcessing.current = false; }, 2000);
+    }
+  };
+
+  const renderItem = ({ item }: { item: SupportedLanguage }) => (
+    <TouchableOpacity 
+      style={styles.langItem} 
+      onPress={() => selectLanguage(item)}
+      activeOpacity={0.7}
+    >
+      <Text style={styles.langText}>{languageNames[item] || item.toUpperCase()}</Text>
+      <Text style={styles.langCode}>{item.toUpperCase()}</Text>
+    </TouchableOpacity>
+  );
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Language</Text>
+        <View style={styles.line} />
+      </View>
+
+      <FlatList
+        data={availableLanguages}
+        keyExtractor={(item) => item}
+        renderItem={renderItem}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.listContent}
+      />
+    </SafeAreaView>
+  );
 }
 
 const styles = StyleSheet.create({
-	container: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 24 },
-	title: { fontSize: 24, marginBottom: 24, textAlign: 'center' },
-	button: { backgroundColor: '#4F46E5', paddingVertical: 12, paddingHorizontal: 24, borderRadius: 8, marginVertical: 8, width: '80%' },
-	buttonText: { color: 'white', textAlign: 'center', fontSize: 16 }
+  container: {
+    flex: 1,
+    backgroundColor: "#F9F9F9",
+  },
+  header: {
+    paddingHorizontal: 30,
+    marginTop: 60,
+    marginBottom: 40,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "300",
+    color: "#1A1A1A",
+    letterSpacing: 1,
+    textTransform: "uppercase",
+  },
+  line: {
+    height: 1,
+    width: 40,
+    backgroundColor: "#1A1A1A",
+    marginTop: 10,
+  },
+  listContent: {
+    paddingHorizontal: 30,
+    paddingBottom: 40,
+  },
+  langItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingVertical: 20,
+    borderBottomWidth: 0.5,
+    borderBottomColor: "#E0E0E0",
+  },
+  langText: {
+    fontSize: 18,
+    fontWeight: "400",
+    color: "#333",
+  },
+  langCode: {
+    fontSize: 12,
+    fontWeight: "600",
+    color: "#999",
+    letterSpacing: 1,
+  },
 });

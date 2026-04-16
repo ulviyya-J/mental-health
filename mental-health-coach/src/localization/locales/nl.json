@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Annuleren",
+    "next": "Volgende",
+    "submit": "Versturen",
+    "start": "Start",
+    "save": "Opslaan",
+    "loading": "Laden...",
+    "delete": "Verwijderen",
+    "hello": "Hallo"
+  },
+  "lang": {
+    "title": "Selecteer uw taal",
+    "english": "Engels",
+    "azerbaijani": "Azerbeidzjaans",
+    "russian": "Russisch"
+  },
+  "menu": {
+    "greeting": "Hallo",
+    "journal": "Dagboek",
+    "settings": "INSTELLINGEN",
+    "change_language": "Taal wijzigen",
+    "notifications": "Meldingen",
+    "manage_notifications": "Meldingen beheren",
+    "logout": "Uitloggen",
+    "delete_account": "Account verwijderen",
+    "delete_account_title": "Account verwijderen",
+    "delete_account_desc": "Al uw gegevens worden definitief verwijderd. Weet u het zeker?",
+    "choose_language": "Kies een taal"
+  },
+  "notifications": {
+    "welcome_title": "Welkom, {{name}}! 😊",
+    "welcome_body_static": "Dit is een nieuw begin voor jou! Geloof in je innerlijke kracht, alles komt goed.",
+    "welcome_body": "Fijn dat je bij ons bent. Binnenkort deel ik iets interessants met je.",
+    "teaser_title": "Ik wil je iets vertellen... ✨",
+    "final_test_title": "Je individuele test is klaar 📝",
+    "test_title_only": "Testmelding 🧪",
+    "test_body": "We hebben een speciale analyse voor je voorbereid.",
+    "test_body_short": "We hebben een nieuwe analyse voor je voorbereid.",
+    "preparing_test": "AI bereidt een test voor...",
+    "general_title": "Dagelijkse motivatie 💡",
+    "ready_body": "Tik om de test te starten.",
+    "empty": "Je hebt nog geen meldingen."
+  },
+  "dynamic_test": {
+    "title": "Wekelijkse verrassingstest",
+    "error_loading": "Kan de test niet laden. Probeer het opnieuw.",
+    "retry": "Opnieuw proberen"
+  },
+  "register": {
+    "title": "Registratie",
+    "confirm_password": "Bevestig wachtwoord",
+    "passwords_dont_match": "Wachtwoorden komen niet overeen",
+    "password_min_length": "Wachtwoord moet minimaal 6 tekens lang zijn"
+  },
+  "onboarding": {
+    "title": "Welkom",
+    "fullName": "Volledige naam",
+    "gender": "Geslacht",
+    "gender_female": "Vrouw",
+    "gender_male": "Man",
+    "gender_other": "Anders",
+    "dob": "Geboortedatum",
+    "maritalStatus": "Burgerlijke staat",
+    "marital_single": "Alleenstaand",
+    "marital_married": "Getrouwd",
+    "employed": "Werkzaam",
+    "jobTitle": "Functietitel",
+    "continue": "Doorgaan",
+    "isMarried": "Getrouwd"
+  },
+  "journal": {
+    "hello": "Hallo",
+    "friend": "vriend",
+    "how_are_you": "hoe gaat het vandaag met je?",
+    "daily_journal": "Je dagelijkse notities",
+    "input_placeholder": "Waar denk je aan? (zorgen, vreugde...)",
+    "save_to_journal": "Toevoegen aan dagboek",
+    "saved_title": "Opgeslagen",
+    "saved_body": "Je kunt deze notitie tijdens de sessie bespreken met je AI-psycholoog.",
+    "session_title": "Sessie met psycholoog",
+    "evening_title": "Avondanalyse",
+    "session_desc": "Dagelijkse AI-ondersteuning van 10 minuten.",
+    "start_10min_session": "Sessie starten",
+    "footer_info": "Alles wat je schrijft is volledig vertrouwelijk.",
+    "empty_title": "Geen tekst ingevoerd",
+    "empty_body": "Schrijf alstublieft een paar woorden.",
+    "save_error": "Kan de notitie niet opslaan."
+  },
+  "therapy_prep": {
+    "title": "Laten we je sessie voorbereiden",
+    "subtitle": "Dit helpt mij om je beter te begrijpen en persoonlijke ondersteuning te bieden",
+    "purpose_section": {
+      "title": "Wat brengt je hier vandaag?",
+      "stress": "Stress & Angst",
+      "relationships": "Relatieproblemen",
+      "self_understanding": "Zelfinzicht",
+      "decision": "Besluitvorming",
+      "daily_life": "Dagelijkse problemen",
+      "other": "Anders"
+    },
+    "expectation_section": {
+      "title": "Waar hoop je op?",
+      "listen": "Gewoon gehoord worden",
+      "advice": "Advies krijgen",
+      "understand": "Beter begrip",
+      "solution": "Oplossingen vinden"
+    },
+    "chat_style_section": {
+      "title": "Hoe wil je dat ik met je praat?",
+      "professional": "Professioneel",
+      "professional_desc": "Formeel en gestructureerd gesprek",
+      "friendly": "Vriendelijk",
+      "friendly_desc": "Oprechte en comfortabele sfeer",
+      "supportive": "Ondersteunend",
+      "supportive_desc": "Gebaseerd op empathie en aanmoediging"
+    },
+    "tips_section": {
+      "title": "Tips voor een betere sessie:",
+      "tip1": "📍 Zoek een comfortabele plek",
+      "tip2": "⏱️ Reserveer 10-15 minuten",
+      "tip3": "💭 Schrijf vrijuit wat je denkt",
+      "tip4": "🔒 Dit gesprek is volledig vertrouwelijk"
+    },
+    "continue_button": "Sessie starten"
+  },
+  "assessment": {
+    "title": "Hoe voel je je vandaag?",
+    "placeholder": "Beschrijf je gevoelens...",
+    "submit": "Versturen"
+  },
+  "test": {
+    "title": "Psychologische test",
+    "submit": "Antwoorden indienen",
+    "questions": [
+      { "id": "q1", "text": "Ik voel me vaak bezorgd of angstig." },
+      { "id": "q2", "text": "Ik heb moeite om me te concentreren." },
+      { "id": "q3", "text": "Ik voel me meestal verdrietig of moedeloos." },
+      { "id": "q4", "text": "Ik vind het moeilijk om te ontspannen." },
+      { "id": "q5", "text": "Ik ben vaak overdreven kritisch op mezelf." },
+      { "id": "q6", "text": "Ik heb geen interesse meer in dingen waar ik vroeger van genoot." },
+      { "id": "q7", "text": "Ik voel me overweldigd door mijn dagelijkse taken." },
+      { "id": "q8", "text": "Ik heb moeite met slapen." },
+      { "id": "q9", "text": "Ik voel me alleen, zelfs als ik bij anderen ben." },
+      { "id": "q10", "text": "Ik heb het gevoel dat mijn problemen te groot zijn om op te lossen." }
+    ],
+    "options": {
+      "strongly_agree": "Helemaal mee eens",
+      "agree": "Mee eens",
+      "neutral": "Neutraal",
+      "disagree": "Mee oneens",
+      "strongly_disagree": "Helemaal mee oneens"
+    },
+    "alerts": {
+      "incomplete_title": "Aandacht",
+      "incomplete_body": "Beantwoord alstublieft alle vragen!",
+      "success_title": "Succes",
+      "success_body": "Testresultaten succesvol opgeslagen!",
+      "error_title": "Fout",
+      "save_error_body": "Kan testresultaten niet opslaan.",
+      "user_error_body": "Gebruiker niet gevonden. Log opnieuw in."
+    }
+  },
+  "ai_wait": {
+    "title": "Je persoonlijke analyse",
+    "subtitle": "Even geduld terwijl ik je gegevens bekijk",
+    "subtitle_with_name": "Even geduld, {{name}}, ik bekijk je gegevens.",
+    "countdown_prefix": "Resterende tijd:",
+    "notification_title": "Je analyse is klaar",
+    "notification_body": "Tik om je persoonlijke introductie te bekijken.",
+    "processing_data": "Je gegevens worden verwerkt..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hallo, {{name}}.",
+    "positive_diagnosis": "Je testresultaten laten een positieve mentale toestand zien. Je doet het goed.",
+    "neutral_diagnosis": "Op basis van je antwoorden is je emotionele toestand neutraal.",
+    "negative_diagnosis": "Je resultaten geven aan dat je mogelijk een moeilijke periode doormaakt. Je staat er niet alleen voor.",
+    "instruction_to_chat": "Je kunt de chat nu starten. Ik ben klaar om te luisteren.",
+    "acknowledge": "Ga verder naar de chat"
+  },
+  "chat": {
+    "title": "Live sessie",
+    "input_placeholder": "Typ een bericht...",
+    "end_session": "Sessie beëindigen",
+    "offer_test": "Ik raad je aan om nu een korte test te doen.",
+    "send_button": "Versturen"
+  },
+  "login": {
+    "welcome": "Welkom!",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "login_button": "Inloggen",
+    "register_button": "Registreren",
+    "register_prompt": "Nog geen account? Registreer nu",
+    "login_prompt": "Heb je al een account? Log in",
+    "error": "Fout",
+    "empty_fields": "Vul alstublieft alle velden in.",
+    "invalid_email": "Ongeldig e-mailadres of gebruiker niet gevonden.",
+    "wrong_password": "Onjuist wachtwoord.",
+    "login_failed": "Inloggen mislukt.",
+    "forgot_password": "Wachtwoord vergeten?",
+    "reset_email_sent": "E-mail voor wachtwoordherstel verzonden.",
+    "reset_password_failed": "Wachtwoordherstel mislukt."
+  }
+}

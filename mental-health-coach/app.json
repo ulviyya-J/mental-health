@@ -1,29 +1,83 @@
 {
   "expo": {
-    "name": "mental-health-coach",
+    "name": "Lavia",
     "slug": "mental-health-coach",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1",
+            "useFrameworks": "static",
+            "flipper": false
+          },
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ],
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Lavia profil şəklinizi seçmək üçün qalereyaya giriş icazəsi istəyir.",
+          "cameraPermission": "Lavia şəkil çəkmək üçün kameraya giriş icazəsi istəyir."
+        }
+      ],
+      "@react-native-firebase/app"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lavia.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Lavia profil şəklinizi dəyişmək üçün qalereyaya giriş tələb edir.",
+        "NSCameraUsageDescription": "Lavia şəkil çəkmək üçün kameraya giriş tələb edir.",
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.lavia.app",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "WAKE_LOCK",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c97eaab-9551-46dd-8f75-cfcf5b22bca2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.dev/0c97eaab-9551-46dd-8f75-cfcf5b22bca2"
     }
   }
 }

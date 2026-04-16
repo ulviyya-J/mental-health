@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Avbryt",
+    "next": "Neste",
+    "submit": "Send inn",
+    "start": "Start",
+    "save": "Lagre",
+    "loading": "Laster inn...",
+    "delete": "Slett",
+    "hello": "Hallo"
+  },
+  "lang": {
+    "title": "Velg ditt språk",
+    "english": "Engelsk",
+    "azerbaijani": "Aserbajdsjansk",
+    "russian": "Russisk"
+  },
+  "menu": {
+    "greeting": "Hallo",
+    "journal": "Journal",
+    "settings": "INNSTILLINGER",
+    "change_language": "Endre språk",
+    "notifications": "Varslinger",
+    "manage_notifications": "Administrer varslinger",
+    "logout": "Logg ut",
+    "delete_account": "Slett konto",
+    "delete_account_title": "Slett konto",
+    "delete_account_desc": "Alle dataene dine vil bli slettet permanent. Er du sikker?",
+    "choose_language": "Velg et språk"
+  },
+  "notifications": {
+    "welcome_title": "Velkommen, {{name}}! 😊",
+    "welcome_body_static": "Dette er en ny begynnelse for deg! Tro på din indre styrke, alt vil bli bra.",
+    "welcome_body": "Vi er glade for å ha deg med oss. Snart vil jeg dele noe interessant med deg.",
+    "teaser_title": "Jeg vil fortelle deg noe... ✨",
+    "final_test_title": "Din individuelle test er klar 📝",
+    "test_title_only": "Testvarsel 🧪",
+    "test_body": "Vi har forberedt en spesiell analyse for deg.",
+    "test_body_short": "Vi har forberedt en ny analyse for deg.",
+    "preparing_test": "AI forbereder en test for deg...",
+    "general_title": "Daglig motivasjon 💡",
+    "ready_body": "Trykk for å starte testen.",
+    "empty": "Du har ingen varslinger ennå."
+  },
+  "dynamic_test": {
+    "title": "Ukens overraskelsestest",
+    "error_loading": "Kunne ikke laste inn testen. Vennligst prøv igjen.",
+    "retry": "Prøv igjen"
+  },
+  "register": {
+    "title": "Registrering",
+    "confirm_password": "Bekreft passord",
+    "passwords_dont_match": "Passordene samsvarer ikke",
+    "password_min_length": "Passordet må være på minst 6 tegn"
+  },
+  "onboarding": {
+    "title": "Velkommen",
+    "fullName": "Fullt navn",
+    "gender": "Kjønn",
+    "gender_female": "Kvinne",
+    "gender_male": "Mann",
+    "gender_other": "Annet",
+    "dob": "Fødselsdato",
+    "maritalStatus": "Sivilstatus",
+    "marital_single": "Ugift",
+    "marital_married": "Gift",
+    "employed": "I arbeid",
+    "jobTitle": "Stillingstittel",
+    "continue": "Fortsett",
+    "isMarried": "Gift"
+  },
+  "journal": {
+    "hello": "Hallo",
+    "friend": "venn",
+    "how_are_you": "hvordan har du det i dag?",
+    "daily_journal": "Dine daglige notater",
+    "input_placeholder": "Hva tenker du på? (bekymringer, gleder...)",
+    "save_to_journal": "Legg til i journal",
+    "saved_title": "Lagret",
+    "saved_body": "Du kan diskutere dette notatet med din AI-psykolog under økten.",
+    "session_title": "Psykologøkt",
+    "evening_title": "Kveldsanalyse",
+    "session_desc": "Daglig 10-minutters AI-støtte.",
+    "start_10min_session": "Start økten",
+    "footer_info": "Alt du skriver er fullstendig konfidensielt.",
+    "empty_title": "Ingen tekst skrevet inn",
+    "empty_body": "Vennligst skriv noen ord.",
+    "save_error": "Kunne ikke lagre notatet."
+  },
+  "therapy_prep": {
+    "title": "La oss forberede deg til økten",
+    "subtitle": "Dette vil hjelpe meg å forstå deg bedre og gi mer personlig støtte",
+    "purpose_section": {
+      "title": "Hva bringer deg hit i dag?",
+      "stress": "Stress og angst",
+      "relationships": "Forholdsproblemer",
+      "self_understanding": "Selvforståelse",
+      "decision": "Beslutningstaking",
+      "daily_life": "Hverdagsutfordringer",
+      "other": "Annet"
+    },
+    "expectation_section": {
+      "title": "Hva håper du på?",
+      "listen": "Bare å bli hørt",
+      "advice": "Få råd",
+      "understand": "Bedre forståelse",
+      "solution": "Finne løsninger"
+    },
+    "chat_style_section": {
+      "title": "Hvordan vil du at jeg skal snakke med deg?",
+      "professional": "Profesjonell",
+      "professional_desc": "Formell og strukturert samtale",
+      "friendly": "Vennlig",
+      "friendly_desc": "Uformell og behagelig atmosfære",
+      "supportive": "Støttende",
+      "supportive_desc": "Basert på empati og oppmuntring"
+    },
+    "tips_section": {
+      "title": "Tips for en bedre økt:",
+      "tip1": "📍 Finn et rolig sted",
+      "tip2": "⏱️ Sett av 10-15 minutter",
+      "tip3": "💭 Skriv tankene dine fritt",
+      "tip4": "🔒 Samtalen er fullstendig konfidensiell"
+    },
+    "continue_button": "Start økten"
+  },
+  "assessment": {
+    "title": "Hvordan føler du deg i dag?",
+    "placeholder": "Beskriv følelsene dine...",
+    "submit": "Send inn"
+  },
+  "test": {
+    "title": "Psykologisk test",
+    "submit": "Send inn svar",
+    "questions": [
+      { "id": "q1", "text": "Jeg føler meg ofte bekymret eller engstelig." },
+      { "id": "q2", "text": "Jeg har problemer med å konsentrere meg." },
+      { "id": "q3", "text": "Jeg føler meg trist eller motløs mesteparten av tiden." },
+      { "id": "q4", "text": "Jeg har vanskelig for å slappe av." },
+      { "id": "q5", "text": "Jeg er ofte for kritisk til meg selv." },
+      { "id": "q6", "text": "Jeg har mistet interessen for ting jeg pleide å like." },
+      { "id": "q7", "text": "Jeg føler meg overveldet av daglige gjøremål." },
+      { "id": "q8", "text": "Jeg har problemer med å sove." },
+      { "id": "q9", "text": "Jeg føler meg alene selv når jeg er sammen med andre." },
+      { "id": "q10", "text": "Jeg føler at problemene mine er for store til å løses." }
+    ],
+    "options": {
+      "strongly_agree": "Helt enig",
+      "agree": "Enig",
+      "neutral": "Nøytral",
+      "disagree": "Uenig",
+      "strongly_disagree": "Helt uenig"
+    },
+    "alerts": {
+      "incomplete_title": "Oppmerksomhet",
+      "incomplete_body": "Vennligst svar på alle spørsmål!",
+      "success_title": "Suksess",
+      "success_body": "Testresultatene er lagret!",
+      "error_title": "Feil",
+      "save_error_body": "Kunne ikke lagre testresultatene.",
+      "user_error_body": "Bruker ikke funnet. Vennligst logg inn på nytt."
+    }
+  },
+  "ai_wait": {
+    "title": "Din personlige analyse",
+    "subtitle": "Vennligst vent mens jeg går gjennom informasjonen din",
+    "subtitle_with_name": "Vennligst vent, {{name}}, jeg vurderer informasjonen din.",
+    "countdown_prefix": "Gjenstående tid:",
+    "notification_title": "Analysen din er klar",
+    "notification_body": "Trykk for å se din personlige introduksjon.",
+    "processing_data": "Behandler informasjonen din..."
+  },
+  "ai_intro": {
+    "title_with_name": "Hei, {{name}}.",
+    "positive_diagnosis": "Testresultatene dine viser en positiv mental tilstand. Du har det bra.",
+    "neutral_diagnosis": "Basert på svarene dine, er din følelsesmessige tilstand i et nøytralt område.",
+    "negative_diagnosis": "Resultatene indikerer at du kan gå gjennom en utfordrende periode. Du er ikke alene.",
+    "instruction_to_chat": "Du kan starte chatten nå. Jeg er klar til å lytte.",
+    "acknowledge": "Fortsett til chatten"
+  },
+  "chat": {
+    "title": "Live-økt",
+    "input_placeholder": "Skriv en melding...",
+    "end_session": "Avslutt økten",
+    "offer_test": "Jeg anbefaler en kort test nå.",
+    "send_button": "Send"
+  },
+  "login": {
+    "welcome": "Velkommen!",
+    "email": "E-post",
+    "password": "Passord",
+    "login_button": "Logg inn",
+    "register_button": "Registrer deg",
+    "register_prompt": "Har du ingen konto? Registrer deg nå",
+    "login_prompt": "Har du allerede en konto? Logg inn",
+    "error": "Feil",
+    "empty_fields": "Vennligst fyll ut alle feltene.",
+    "invalid_email": "Ugyldig e-postadresse eller bruker ikke funnet.",
+    "wrong_password": "Feil passord.",
+    "login_failed": "Innlogging mislyktes.",
+    "forgot_password": "Glemt passord?",
+    "reset_email_sent": "E-post for tilbakestilling av passord er sendt.",
+    "reset_password_failed": "Tilbakestilling av passord mislyktes."
+  }
+}

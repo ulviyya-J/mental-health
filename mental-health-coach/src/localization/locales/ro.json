@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Anulează",
+    "next": "Următorul",
+    "submit": "Trimite",
+    "start": "Începe",
+    "save": "Salvează",
+    "loading": "Se încarcă...",
+    "delete": "Șterge",
+    "hello": "Bună"
+  },
+  "lang": {
+    "title": "Selectează limba",
+    "english": "Engleză",
+    "azerbaijani": "Azerbaidjană",
+    "russian": "Rusă"
+  },
+  "menu": {
+    "greeting": "Bună",
+    "journal": "Jurnal",
+    "settings": "SETĂRI",
+    "change_language": "Schimbă limba",
+    "notifications": "Notificări",
+    "manage_notifications": "Gestionare notificări",
+    "logout": "Deconectare",
+    "delete_account": "Șterge contul",
+    "delete_account_title": "Șterge contul",
+    "delete_account_desc": "Toate datele tale vor fi șterse definitiv. Ești sigur?",
+    "choose_language": "Alege o limbă"
+  },
+  "notifications": {
+    "welcome_title": "Bun venit, {{name}}! 😊",
+    "welcome_body_static": "Acesta este un nou început pentru tine! Crede în forța ta interioară.",
+    "welcome_body": "Ne bucurăm să te avem alături. În curând voi împărtăși ceva interesant cu tine.",
+    "teaser_title": "Vreau să-ți spun ceva... ✨",
+    "final_test_title": "Testul tău individual este gata 📝",
+    "test_title_only": "Notificare test 🧪",
+    "test_body": "Am pregătit o analiză specială pentru tine.",
+    "test_body_short": "Am pregătit o nouă analiză pentru tine.",
+    "preparing_test": "AI pregătește un test pentru tine...",
+    "general_title": "Motivație zilnică 💡",
+    "ready_body": "Apasă pentru a începe testul.",
+    "empty": "Nu ai nicio notificare momentan."
+  },
+  "dynamic_test": {
+    "title": "Testul surpriză al săptămânii",
+    "error_loading": "Nu s-a putut încărca testul. Încearcă din nou.",
+    "retry": "Reîncearcă"
+  },
+  "register": {
+    "title": "Înregistrare",
+    "confirm_password": "Confirmă parola",
+    "passwords_dont_match": "Parolele nu se potrivesc",
+    "password_min_length": "Parola trebuie să aibă cel puțin 6 caractere"
+  },
+  "onboarding": {
+    "title": "Bun venit",
+    "fullName": "Nume complet",
+    "gender": "Gen",
+    "gender_female": "Feminin",
+    "gender_male": "Masculin",
+    "gender_other": "Altul",
+    "dob": "Data nașterii",
+    "maritalStatus": "Stare civilă",
+    "marital_single": "Necăsătorit(ă)",
+    "marital_married": "Căsătorit(ă)",
+    "employed": "Angajat(ă)",
+    "jobTitle": "Funcție",
+    "continue": "Continuă",
+    "isMarried": "Căsătorit(ă)"
+  },
+  "journal": {
+    "hello": "Bună ziua",
+    "friend": "prietene",
+    "how_are_you": "cum te simți astăzi?",
+    "daily_journal": "Notițele tale zilnice",
+    "input_placeholder": "Ce ai pe suflet? (îngrijorări, bucurii...)",
+    "save_to_journal": "Adaugă în Jurnal",
+    "saved_title": "Salvat",
+    "saved_body": "Poți discuta această notă cu psihologul tău AI în timpul sesiunii.",
+    "session_title": "Sesiune Psiholog",
+    "evening_title": "Analiză de seară",
+    "session_desc": "Suport AI zilnic de 10 minute.",
+    "start_10min_session": "Începe sesiunea",
+    "footer_info": "Tot ce scrii este complet confidențial.",
+    "empty_title": "Niciun text introdus",
+    "empty_body": "Te rog să scrii câteva cuvinte.",
+    "save_error": "Nu s-a putut salva nota."
+  },
+  "therapy_prep": {
+    "title": "Să ne pregătim pentru sesiune",
+    "subtitle": "Acest lucru mă va ajuta să te înțeleg mai bine",
+    "purpose_section": {
+      "title": "Ce te aduce astăzi aici?",
+      "stress": "Stres și anxietate",
+      "relationships": "Probleme de relație",
+      "self_understanding": "Înțelegerea de sine",
+      "decision": "Luarea deciziilor",
+      "daily_life": "Probleme cotidiene",
+      "other": "Altele"
+    },
+    "expectation_section": {
+      "title": "Ce speri să obții?",
+      "listen": "Doar să fiu ascultat(ă)",
+      "advice": "Să primesc sfaturi",
+      "understand": "O mai bună înțelegere",
+      "solution": "Găsirea de soluții"
+    },
+    "chat_style_section": {
+      "title": "Cum vrei să vorbesc cu tine?",
+      "professional": "Profesional",
+      "professional_desc": "Conversație formală și structurată",
+      "friendly": "Prietenos",
+      "friendly_desc": "Atmosferă caldă și relaxată",
+      "supportive": "Empatic",
+      "supportive_desc": "Bazat pe înțelegere și încurajare"
+    },
+    "tips_section": {
+      "title": "Sfaturi pentru o sesiune mai bună:",
+      "tip1": "📍 Găsește un loc confortabil",
+      "tip2": "⏱️ Rezervă-ți 10-15 minute",
+      "tip3": "💭 Scrie-ți gândurile liber",
+      "tip4": "🔒 Acest chat este complet confidențial"
+    },
+    "continue_button": "Începe sesiunea"
+  },
+  "assessment": {
+    "title": "Cum te simți astăzi?",
+    "placeholder": "Descrie trăirile tale...",
+    "submit": "Trimite"
+  },
+  "test": {
+    "title": "Test psihologic",
+    "submit": "Trimite răspunsurile",
+    "questions": [
+      { "id": "q1", "text": "Mă simt adesea îngrijorat sau anxios." },
+      { "id": "q2", "text": "Am probleme de concentrare." },
+      { "id": "q3", "text": "Mă simt trist sau fără speranță în cea mai mare parte a timpului." },
+      { "id": "q4", "text": "Îmi este greu să mă relaxez." },
+      { "id": "q5", "text": "Sunt adesea exagerat de critic cu mine însumi." },
+      { "id": "q6", "text": "Nu mai sunt interesat de lucrurile care îmi plăceau înainte." },
+      { "id": "q7", "text": "Mă simt copleșit de sarcinile zilnice." },
+      { "id": "q8", "text": "Am dificultăți de somn." },
+      { "id": "q9", "text": "Mă simt singur chiar și când sunt cu alții." },
+      { "id": "q10", "text": "Simt că problemele mele sunt prea mari pentru a fi rezolvate." }
+    ],
+    "options": {
+      "strongly_agree": "Total de acord",
+      "agree": "De acord",
+      "neutral": "Neutru",
+      "disagree": "Dezacord",
+      "strongly_disagree": "Total dezacord"
+    },
+    "alerts": {
+      "incomplete_title": "Atenție",
+      "incomplete_body": "Vă rugăm să răspundeți la toate întrebările!",
+      "success_title": "Succes",
+      "success_body": "Rezultatele au fost salvate!",
+      "error_title": "Eroare",
+      "save_error_body": "Nu s-au putut salva rezultatele.",
+      "user_error_body": "Utilizatorul nu a fost găsit. Reconectează-te."
+    }
+  },
+  "ai_wait": {
+    "title": "Analiza ta personalizată",
+    "subtitle": "Te rog așteaptă cât timp analizez informațiile",
+    "subtitle_with_name": "Așteaptă puțin, {{name}}, analizez datele tale.",
+    "countdown_prefix": "Timp rămas:",
+    "notification_title": "Analiza ta este gata",
+    "notification_body": "Apasă pentru a vedea prezentarea.",
+    "processing_data": "Se procesează datele..."
+  },
+  "ai_intro": {
+    "title_with_name": "Bună ziua, {{name}}.",
+    "positive_diagnosis": "Rezultatele indică o stare mentală pozitivă. Te descurci bine!",
+    "neutral_diagnosis": "Starea ta emoțională este într-un interval neutru.",
+    "negative_diagnosis": "Rezultatele indică faptul că treci printr-o perioadă dificilă. Nu ești singur(ă).",
+    "instruction_to_chat": "Poți începe conversația. Sunt gata să te ascult.",
+    "acknowledge": "Continuă conversația"
+  },
+  "chat": {
+    "title": "Sesiune Live",
+    "input_placeholder": "Scrie un mesaj...",
+    "end_session": "Încheie sesiunea",
+    "offer_test": "Îți recomand un scurt test acum.",
+    "send_button": "Trimite"
+  },
+  "login": {
+    "welcome": "Bine ai venit!",
+    "email": "E-mail",
+    "password": "Parolă",
+    "login_button": "Autentificare",
+    "register_button": "Înregistrare",
+    "register_prompt": "Nu ai cont? Înregistrează-te",
+    "login_prompt": "Ai deja cont? Autentifică-te",
+    "error": "Eroare",
+    "empty_fields": "Te rugăm să completezi toate câmpurile.",
+    "invalid_email": "E-mail nevalid sau utilizator negăsit.",
+    "wrong_password": "Parolă incorectă.",
+    "login_failed": "E-mailul sau parola sunt greșite.",
+    "forgot_password": "Ai uitat parola?",
+    "reset_email_sent": "E-mailul de resetare a fost trimis.",
+    "reset_password_failed": "Resetarea parolei a eșuat."
+  }
+}

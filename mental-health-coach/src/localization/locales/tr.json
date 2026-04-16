@@ -1,0 +1,206 @@
+{
+  "common": {
+    "ok": "TAMAM",
+    "cancel": "İptal",
+    "next": "Sonraki",
+    "submit": "Gönder",
+    "start": "Başla",
+    "save": "Kaydet",
+    "loading": "Yükleniyor...",
+    "delete": "Sil",
+    "hello": "Merhaba"
+  },
+  "lang": {
+    "title": "Dilinizi seçin",
+    "english": "İngilizce",
+    "azerbaijani": "Azerbaycan Türkçesi",
+    "russian": "Rusça"
+  },
+  "menu": {
+    "greeting": "Merhaba",
+    "journal": "Günlük",
+    "settings": "AYARLAR",
+    "change_language": "Dili Değiştir",
+    "notifications": "Bildirimler",
+    "manage_notifications": "Bildirimleri Yönet",
+    "logout": "Çıkış Yap",
+    "delete_account": "Hesabı Sil",
+    "delete_account_title": "Hesabı Sil",
+    "delete_account_desc": "Tüm verileriniz kalıcı olarak silinecektir. Emin misiniz?",
+    "choose_language": "Dil Seçin"
+  },
+  "notifications": {
+    "welcome_title": "Hoş geldin, {{name}}! 😊",
+    "welcome_body_static": "Bu senin yeni başlangıcın! İçindeki güce inan, her şey yoluna girecek.",
+    "welcome_body": "Aramızda olduğun için mutluyuz. Yakında seninle ilginç bir şeyler paylaşacağım.",
+    "teaser_title": "Sana bir şey söylemek istiyorum... ✨",
+    "final_test_title": "Kişisel analizin hazır 📝",
+    "test_title_only": "Analiz Bildirimi 🧪",
+    "test_body": "Senin için özel bir analiz hazırladık.",
+    "test_body_short": "Senin için yeni bir analiz hazırladık.",
+    "preparing_test": "Yapay zeka analizi hazırlıyor...",
+    "general_title": "Günlük Motivasyon 💡",
+    "ready_body": "Teste başlamak için dokun.",
+    "empty": "Şu an için bir bildiriminiz yok."
+  },
+  "dynamic_test": {
+    "title": "Haftanın Sürpriz Testi",
+    "error_loading": "Test yüklenemedi. Lütfen tekrar deneyin.",
+    "retry": "Tekrar Dene"
+  },
+  "register": {
+    "title": "Kayıt Ol",
+    "confirm_password": "Şifreyi Onayla",
+    "passwords_dont_match": "Şifreler eşleşmiyor",
+    "password_min_length": "Şifre en az 6 karakter olmalıdır"
+  },
+  "onboarding": {
+    "title": "Hoş Geldin",
+    "fullName": "Ad Soyad",
+    "gender": "Cinsiyet",
+    "gender_female": "Kadın",
+    "gender_male": "Erkek",
+    "gender_other": "Diğer",
+    "dob": "Doğum Tarihi",
+    "maritalStatus": "Medeni Durum",
+    "marital_single": "Bekar",
+    "marital_married": "Evli",
+    "employed": "Çalışan",
+    "jobTitle": "Meslek / Unvan",
+    "continue": "Devam Et",
+    "isMarried": "Evli"
+  },
+  "journal": {
+    "hello": "Merhaba",
+    "friend": "arkadaşım",
+    "how_are_you": "bugün nasılsın?",
+    "daily_journal": "Günlük Notların",
+    "input_placeholder": "Aklından ne geçiyor? (kaygılar, sevinçler...)",
+    "save_to_journal": "Günlüğe Ekle",
+    "saved_title": "Kaydedildi",
+    "saved_body": "Bu notu seans sırasında yapay zeka psikoloğunla konuşabilirsin.",
+    "session_title": "Psikolog Oturumu",
+    "evening_title": "Akşam Analizi",
+    "session_desc": "Günlük 10 dakikalık yapay zeka desteği.",
+    "start_10min_session": "Oturumu Başlat",
+    "footer_info": "Yazdığın her şey tamamen gizlidir.",
+    "empty_title": "Metin girilmedi",
+    "empty_body": "Lütfen birkaç kelime yazın.",
+    "save_error": "Not kaydedilemedi."
+  },
+  "therapy_prep": {
+    "title": "Seansa hazırlanalım",
+    "subtitle": "Bu, seni daha iyi anlamama ve sana özel destek sunmama yardımcı olacak",
+    "purpose_section": {
+      "title": "Bugün seni buraya getiren ne?",
+      "stress": "Stres ve Kaygı",
+      "relationships": "İlişki Sorunları",
+      "self_understanding": "Kendini Anlama",
+      "decision": "Karar Verme",
+      "daily_life": "Günlük Yaşam Sorunları",
+      "other": "Diğer"
+    },
+    "expectation_section": {
+      "title": "Ne umuyorsun?",
+      "listen": "Sadece dinlenilmek",
+      "advice": "Tavsiye almak",
+      "understand": "Daha iyi bir anlayış",
+      "solution": "Çözüm bulmak"
+    },
+    "chat_style_section": {
+      "title": "Seninle nasıl konuşmamı istersin?",
+      "professional": "Profesyonel",
+      "professional_desc": "Resmi ve yapılandırılmış konuşma",
+      "friendly": "Arkadaşça",
+      "friendly_desc": "Samimi ve rahat bir sohbet ortamı",
+      "supportive": "Destekleyici",
+      "supportive_desc": "Empati ve teşvike dayalı"
+    },
+    "tips_section": {
+      "title": "Daha iyi bir oturum için ipuçları:",
+      "tip1": "📍 Rahat bir yer bulun",
+      "tip2": "⏱️ 10-15 dakika ayırın",
+      "tip3": "💭 Düşüncelerinizi özgürce yazın",
+      "tip4": "🔒 Bu sohbet tamamen gizlidir"
+    },
+    "continue_button": "Oturumu Başlat"
+  },
+  "assessment": {
+    "title": "Bugün nasıl hissediyorsun?",
+    "placeholder": "Duygularını anlat...",
+    "submit": "Gönder"
+  },
+  "test": {
+    "title": "Psikolojik Test",
+    "submit": "Yanıtları Gönder",
+    "questions": [
+      { "id": "q1", "text": "Sık sık kendimi endişeli veya kaygılı hissederim." },
+      { "id": "q2", "text": "Konsantre olmakta güçlük çekiyorum." },
+      { "id": "q3", "text": "Çoğu zaman üzgün veya umutsuz hissediyorum." },
+      { "id": "q4", "text": "Rahatlamakta zorlanıyorum." },
+      { "id": "q5", "text": "Sık sık kendimi aşırı eleştiririm." },
+      { "id": "q6", "text": "Eskiden keyif aldığım şeylere artık ilgi duymuyorum." },
+      { "id": "q7", "text": "Günlük işlerimin altında ezilmiş hissediyorum." },
+      { "id": "q8", "text": "Uyku sorunları yaşıyorum." },
+      { "id": "q9", "text": "Başkalarıyla birlikteyken bile kendimi yalnız hissediyorum." },
+      { "id": "q10", "text": "Sorunlarımın çözülemeyecek kadar büyük olduğunu düşünüyorum." }
+    ],
+    "options": {
+      "strongly_agree": "Kesinlikle Katılıyorum",
+      "agree": "Katılıyorum",
+      "neutral": "Kararsızım",
+      "disagree": "Katılmıyorum",
+      "strongly_disagree": "Kesinlikle Katılmıyorum"
+    },
+    "alerts": {
+      "incomplete_title": "Dikkat",
+      "incomplete_body": "Lütfen tüm soruları cevaplayın!",
+      "success_title": "Başarılı",
+      "success_body": "Test sonuçları başarıyla kaydedildi!",
+      "error_title": "Hata",
+      "save_error_body": "Test sonuçları kaydedilemedi.",
+      "user_error_body": "Kullanıcı bulunamadı. Lütfen tekrar giriş yapın."
+    }
+  },
+  "ai_wait": {
+    "title": "Kişiselleştirilmiş Analiziniz",
+    "subtitle": "Bilgileriniz incelenirken lütfen bekleyin",
+    "subtitle_with_name": "Lütfen bekle {{name}}, bilgilerini gözden geçiriyorum.",
+    "countdown_prefix": "Kalan süre:",
+    "notification_title": "Analiziniz hazır",
+    "notification_body": "Kişisel tanıtımınızı görmek için dokunun.",
+    "processing_data": "Verileriniz işleniyor..."
+  },
+  "ai_intro": {
+    "title_with_name": "Merhaba {{name}}.",
+    "positive_diagnosis": "Test sonuçların olumlu bir zihinsel durum gösteriyor. İyi durumdasın!",
+    "neutral_diagnosis": "Duygusal durumun nötr bir aralıkta görünüyor.",
+    "negative_diagnosis": "Sonuçlar zorlu bir dönemden geçiyor olabileceğini gösteriyor. Yalnız değilsin.",
+    "instruction_to_chat": "Şimdi sohbete başlayabilirsin. Seni dinlemeye hazırım.",
+    "acknowledge": "Sohbete devam et"
+  },
+  "chat": {
+    "title": "Canlı Oturum",
+    "input_placeholder": "Mesajınızı yazın...",
+    "end_session": "Oturumu Sonlandır",
+    "offer_test": "Şu an kısa bir test yapmanı öneririm.",
+    "send_button": "Gönder"
+  },
+  "login": {
+    "welcome": "Hoş geldiniz!",
+    "email": "E-posta",
+    "password": "Şifre",
+    "login_button": "Giriş Yap",
+    "register_button": "Kayıt Ol",
+    "register_prompt": "Hesabın yok mu? Hemen kaydol",
+    "login_prompt": "Zaten hesabın var mı? Giriş yap",
+    "error": "Hata",
+    "empty_fields": "Lütfen tüm alanları doldurun.",
+    "invalid_email": "Geçersiz e-posta adresi veya kullanıcı bulunamadı.",
+    "wrong_password": "Hatalı şifre.",
+    "login_failed": "Girdiğiniz e-posta veya şifre yanlış.",
+    "forgot_password": "Şifrenizi mi unuttunuz?",
+    "reset_email_sent": "Şifre sıfırlama e-postası gönderildi.",
+    "reset_password_failed": "Şifre sıfırlama başarısız oldu."
+  }
+}
