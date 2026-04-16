@@ -17,6 +17,8 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+android/
+ios/
 
 # Metro
 .metro-health-check*
@@ -36,3 +38,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 mental-health-coach-19f5b-firebase-adminsdk-fbsvc-980c9de1b2.json
+
+# EAS / Prebuild (Windows-specific)
+*.stackdump
