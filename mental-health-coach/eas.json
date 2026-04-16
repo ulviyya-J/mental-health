@@ -12,7 +12,7 @@
         "buildConfiguration": "Debug",
         "image": "latest"
       },
-      "node": "20.0.0",
+      "node": "22.0.0",
       "env": {
         "EAS_SKIP_AUTO_FINGERPRINT": "1",
         "npm_config_legacy_peer_deps": "true"
@@ -24,7 +24,7 @@
       "ios": {
         "image": "latest"
       },
-      "node": "20.0.0",
+      "node": "22.0.0",
       "env": {
         "npm_config_legacy_peer_deps": "true"
       }
@@ -35,7 +35,7 @@
       "ios": {
         "image": "latest"
       },
-      "node": "20.0.0",
+      "node": "22.0.0",
       "env": {
         "npm_config_legacy_peer_deps": "true"
       }
