@@ -38,6 +38,7 @@
       "@react-native-firebase/app"
     ],
     "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
       "bundleIdentifier": "com.lavia.app",
       "infoPlist": {
