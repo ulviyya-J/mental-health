@@ -14,6 +14,11 @@ target 'Lavia' do
   use_react_native!(:path => config["reactNativePath"])
 
   pod 'Firebase/Core'
+  
+  # GRPC-ni xüsusi versiyaya bağla
+  pod 'gRPC-Core', '1.49.1'
+  pod 'gRPC-C++', '1.49.1'
+  pod 'BoringSSL-GRPC', '0.9.1'
 end
 
 post_install do |installer|
@@ -21,11 +26,17 @@ post_install do |installer|
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
       
-      # BoringSSL-GRPC üçün xüsusi düzəliş (Xcode 26 uyğunluğu)
+      # BoringSSL-GRPC üçün xüsusi düzəliş
       if target.name == 'BoringSSL-GRPC'
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
-        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'GPRC_DISABLE_CFSTREAM=1'
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'GRPC_DISABLE_CFSTREAM=1'
         config.build_settings['OTHER_CFLAGS'] = '$(inherited) -Wno-error=unused-command-line-argument'
+      end
+      
+      # gRPC-Core üçün
+      if target.name == 'gRPC-Core'
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'GRPC_DISABLE_CFSTREAM=1'
       end
     end
   end
