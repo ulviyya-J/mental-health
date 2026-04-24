@@ -8,8 +8,7 @@ import {
 } from "react-native";
 import { useTranslation } from "react-i18next";
 import { Button } from "react-native-paper";
-import { getAuth } from "firebase/auth";
-import { getUserData } from "../services/firebaseService";
+import { auth, getUserData } from "../services/firebaseService"; // ✅ Auth-u bizim servisdən götürürük
 import { getAIResponse } from "../services/api";
 import dayjs from "dayjs";
 
@@ -50,8 +49,7 @@ export default function AIIntroductionScreen({ onNavigateToChat, journalEntry, u
   useEffect(() => {
     const fetchInitialData = async () => {
       try {
-        const auth = getAuth();
-        const user = auth.currentUser;
+        const user = auth().currentUser; // ✅ Native SDK sintaksisi
         if (!user) return;
 
         const userData = initialUserData || await getUserData(user.uid);
@@ -63,16 +61,7 @@ export default function AIIntroductionScreen({ onNavigateToChat, journalEntry, u
         const maritalStatus = userData.isMarried ? "Evli" : "Subay";
         const employmentStatus = userData.isEmployed ? `İşləyir (${userData.jobTitle})` : "İşləmir";
         
-        // --- ƏSAS PROBLEMİ BURADA ÇƏKİRİK ---
         const userProblem = userData.assessmentText || "İstifadəçi hələ konkret dərd qeyd etməyib.";
-
-        const allTests = userData.psychologicalTests || [];
-        const latestTest = allTests.length > 0 ? allTests[allTests.length - 1] : null;
-
-        let testAnalysisSection = "Hələ test edilməyib.";
-        if (latestTest) {
-          testAnalysisSection = `Test növü: ${latestTest.type || "Standart"}. Cavablar: ${latestTest.answers?.map((a: any) => a.answer).join(", ")}`;
-        }
 
         const prompt = `
 Sən dahi və empatiya qabiliyyəti yüksək olan bir psixoterapevtsən.
@@ -114,7 +103,7 @@ TƏLİMATLAR:
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#6200ee" />
+        <ActivityIndicator size="large" color="#B7A6E6" />
         <Text style={styles.loadingText}>Ruh halın analiz edilir...</Text>
       </View>
     );
@@ -131,7 +120,7 @@ TƏLİMATLAR:
         </View>
       </ScrollView>
       <View style={styles.footer}>
-        <Button mode="contained" onPress={handleContinue} style={styles.button} contentStyle={{ height: 50 }}>
+        <Button mode="contained" onPress={handleContinue} style={styles.button} contentStyle={{ height: 50 }} buttonColor="#B7A6E6">
           {t("ai_intro.acknowledge")}
         </Button>
       </View>

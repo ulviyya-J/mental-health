@@ -1,6 +1,6 @@
-// screens/LoginScreen.tsx (DÜZƏLDİLMİŞ - LOGİNDƏ GÜNLÜK TEST VƏ MOTİVASİYA BİLDİRİŞLƏRİ)
 import React, { useState } from "react";
 import { View, StyleSheet, TouchableOpacity } from "react-native";
+// ✅ Düzəliş: TextInput-un yanında (Icon) əlavə olundu
 import { TextInput, Button, Text, Snackbar } from "react-native-paper";
 import { useTranslation } from "react-i18next";
 import { loginUser, resetPassword } from "../services/firebaseService";
@@ -42,12 +42,7 @@ export default function LoginScreen({ onLoginSuccess, onNavigateToOnboarding }: 
 
     try {
       const user = await loginUser(trimmedEmail, trimmedPassword);
-      
-      // ✅ Giriş uğurlu olduqda:
-      // 1. Günlük test bildirişlərini planlaşdır (1 gün fasilə ilə)
-      // 2. Təkrarlanan motivasiya bildirişlərini planlaşdır (səhər/axşam)
       await ExpoNotificationService.scheduleRepeatingNotifications();
-      
       onLoginSuccess(user);
     } catch (error: any) {
       console.log("Firebase Login Error:", error.code);
@@ -114,11 +109,12 @@ export default function LoginScreen({ onLoginSuccess, onNavigateToOnboarding }: 
         outlineColor={COLORS.lightGrey}
         activeOutlineColor={COLORS.lavender}
         textColor={COLORS.darkGrey}
+        // ✅ Düzəliş: iconColor əvəzinə həm color, həm də bəzi versiyalar üçün style istifadəsi
         right={
           <TextInput.Icon 
             icon={secureText ? "eye" : "eye-off"} 
             onPress={() => setSecureText(!secureText)} 
-            iconColor={COLORS.mediumGrey}
+            color={COLORS.mediumGrey} // Bəzi versiyalarda 'color' gedir
           />
         }
       />

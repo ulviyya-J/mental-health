@@ -12,7 +12,6 @@ import {
   Button,
   Text,
   Card,
-  Title,
   useTheme,
   Surface,
 } from "react-native-paper";
@@ -29,7 +28,7 @@ const COLORS = {
   darkGrey: "#2D3436",
   mediumGrey: "#636E72",
   lightGrey: "#DFE6E9",
-  placeholderGrey: "#A0A0A0", // Daha təmiz və oxunaqlı boz
+  placeholderGrey: "#A0A0A0",
   white: "#FFFFFF",
   bg: "#F8F9FA"
 };
@@ -57,7 +56,8 @@ export default function JournalScreen({ onStartSession }: Props) {
   }, []);
 
   const fetchData = async () => {
-    const user = auth.currentUser;
+    // ✅ Düzəliş: auth() funksiya kimi çağırıldı
+    const user = auth().currentUser;
     if (user) {
       const data = await getUserData(user.uid);
       if (data?.fullName) {
@@ -102,7 +102,8 @@ export default function JournalScreen({ onStartSession }: Props) {
     if (!note.trim()) return;
     setLoading(true);
     try {
-      const user = auth.currentUser;
+      // ✅ Düzəliş: auth() funksiya kimi çağırıldı
+      const user = auth().currentUser;
       if (user) {
         await saveJournalNote(user.uid, note.trim());
         setNote("");
@@ -118,7 +119,8 @@ export default function JournalScreen({ onStartSession }: Props) {
 
   const handleStartSession = async () => {
     if (!canStartSession) return;
-    const user = auth.currentUser;
+    // ✅ Düzəliş: auth() funksiya kimi çağırıldı
+    const user = auth().currentUser;
     if (user) {
       const fullContext = accumulatedNotes + (note ? "\n" + note : "");
       await startAISessionUpdate(user.uid);
@@ -217,14 +219,14 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
   mainTitle: {
-    fontSize: 22, // Ölçünü kiçiltdim ki, daha zərif görününsün
+    fontSize: 22,
     fontWeight: "700",
     color: COLORS.darkGrey,
     marginTop: 2,
   },
   noteCard: {
     borderRadius: 16,
-    elevation: 0, // Çox qabarıq olmasın
+    elevation: 0,
     backgroundColor: COLORS.white,
     marginBottom: 20,
     borderWidth: 1,
@@ -245,10 +247,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#F8F9FB",
     borderRadius: 12,
     fontSize: 16,
-    minHeight: 120, // Sahəni geniş saxladım
+    minHeight: 120,
     marginBottom: 15,
     paddingHorizontal: 10,
-    textAlignVertical: 'top', // Yazının yuxarıdan başlaması üçün
+    textAlignVertical: 'top',
   },
   saveButton: {
     borderRadius: 12,

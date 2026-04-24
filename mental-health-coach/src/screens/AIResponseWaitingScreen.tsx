@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, StyleSheet, ActivityIndicator } from "react-native";
 import { useTranslation } from "react-i18next";
 import { Text } from "react-native-paper";
-import { getAuth } from "firebase/auth";
-import { getFirestore, doc, getDoc } from "firebase/firestore";
+import { auth, db, getUserData } from "../services/firebaseService"; // ✅ Yeni servisdən götürürük
 
 interface Props {
   onNavigateToAIIntroduction: () => void;
@@ -17,16 +16,13 @@ export default function AIResponseWaitingScreen({ onNavigateToAIIntroduction }: 
   useEffect(() => {
     const loadUserData = async () => {
       try {
-        const auth = getAuth();
-        const user = auth.currentUser;
+        const user = auth().currentUser; // ✅ Native SDK sintaksisi
         
         if (user) {
-          const db = getFirestore();
-          const userDocRef = doc(db, "users", user.uid);
-          const userDocSnap = await getDoc(userDocRef);
+          // Servisdə yaratdığımız getUserData funksiyasını istifadə edirik
+          const userData = await getUserData(user.uid);
 
-          if (userDocSnap.exists()) {
-            const userData = userDocSnap.data();
+          if (userData) {
             if (userData.fullName) {
               setName(userData.fullName);
             } else if (user.email) {
@@ -60,7 +56,7 @@ export default function AIResponseWaitingScreen({ onNavigateToAIIntroduction }: 
 
   return (
     <View style={styles.container}>
-      <ActivityIndicator size="large" />
+      <ActivityIndicator size="large" color="#B7A6E6" />
       <Text style={styles.title}>{t("ai_wait.title")}</Text>
       <Text style={styles.subtitle}>
         {t("ai_wait.subtitle_with_name", { name: name || "User" })}
@@ -79,18 +75,25 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
+    backgroundColor: "#F9FAFB",
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
     textAlign: "center",
+    color: "#2D3436",
   },
   subtitle: {
     fontSize: 16,
     textAlign: "center",
-    color: "gray",
+    color: "#636E72",
     marginBottom: 20,
   },
-  countdown: { fontSize: 18, marginTop: 20, fontWeight: "bold" },
+  countdown: { 
+    fontSize: 18, 
+    marginTop: 20, 
+    fontWeight: "bold",
+    color: "#B7A6E6" 
+  },
 });

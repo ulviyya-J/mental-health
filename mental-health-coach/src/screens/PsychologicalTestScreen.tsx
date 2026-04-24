@@ -12,11 +12,10 @@ import {
 import { useTranslation } from "react-i18next";
 import dayjs from "dayjs";
 import { Button, Card, ProgressBar } from "react-native-paper";
-import { saveTestResult } from "../services/firebaseService";
-import { getAuth } from "firebase/auth";
+import { saveTestResult, auth } from "../services/firebaseService"; // ✅ Auth-u bizim servisdən götürürük
 
 const COLORS = {
-  lavender: "#B7A6E6", // Sənin əsas rəngin
+  lavender: "#B7A6E6",
   darkGrey: "#2D3436",
   mediumGrey: "#636E72",
   lightGrey: "#E2E8F0",
@@ -26,7 +25,8 @@ const COLORS = {
 
 export default function PsychologicalTestScreen({ onNavigateToAIResponseWaiting }: any) {
   const { t } = useTranslation();
-  const auth = getAuth();
+  
+  // ✅ Native SDK-da auth().currentUser şəklində istifadə edəcəyik
   const [answers, setAnswers] = useState<any[]>([]);
 
   const questions = t("test.questions", { returnObjects: true }) as any[];
@@ -55,7 +55,7 @@ export default function PsychologicalTestScreen({ onNavigateToAIResponseWaiting 
     }
 
     const score = answers.reduce((sum, current) => sum + current.value, 0);
-    const user = auth.currentUser;
+    const user = auth().currentUser; // ✅ Native SDK sintaksisi
 
     if (user) {
       try {
@@ -67,8 +67,11 @@ export default function PsychologicalTestScreen({ onNavigateToAIResponseWaiting 
         });
         onNavigateToAIResponseWaiting();
       } catch (error) {
+        console.error("Save test result error:", error);
         Alert.alert("Xəta", "Nəticə yadda saxlanılmadı");
       }
+    } else {
+      Alert.alert("Xəta", "İstifadəçi tapılmadı. Yenidən daxil olun.");
     }
   };
 
@@ -76,14 +79,12 @@ export default function PsychologicalTestScreen({ onNavigateToAIResponseWaiting 
     <View style={styles.screenContainer}>
       <StatusBar barStyle="light-content" />
       
-      {/* Onboarding-dəki kimi Bənövşəyi Header */}
       <SafeAreaView style={styles.headerSafe}>
         <View style={styles.header}>
           <Text style={styles.headerTitle}>{t("test.title")}</Text>
         </View>
       </SafeAreaView>
 
-      {/* Progress Bar Header-in düz altında */}
       <ProgressBar progress={progress} color={COLORS.lavender} style={styles.progressBar} />
 
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
@@ -139,99 +140,22 @@ export default function PsychologicalTestScreen({ onNavigateToAIResponseWaiting 
 }
 
 const styles = StyleSheet.create({
-  screenContainer: { 
-    flex: 1, 
-    backgroundColor: COLORS.background 
-  },
-  headerSafe: {
-    backgroundColor: COLORS.lavender,
-  },
-  header: {
-    height: 60,
-    backgroundColor: COLORS.lavender,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  headerTitle: {
-    fontSize: 20,
-    fontWeight: "700",
-    color: COLORS.white,
-  },
-  progressBar: { 
-    height: 4, 
-    backgroundColor: COLORS.lightGrey 
-  },
-  scrollContent: { 
-    padding: 16, 
-    paddingBottom: 40 
-  },
-  questionCard: { 
-    marginBottom: 16, 
-    borderRadius: 12, 
-    backgroundColor: COLORS.white, 
-    borderColor: COLORS.lightGrey, 
-    elevation: 0 
-  },
-  questionNumber: { 
-    fontSize: 12, 
-    color: COLORS.mediumGrey, 
-    fontWeight: "700", 
-    marginBottom: 4 
-  },
-  questionText: { 
-    fontSize: 16, 
-    fontWeight: "600", 
-    color: COLORS.darkGrey, 
-    marginBottom: 18, 
-    lineHeight: 22 
-  },
-  optionsList: { 
-    gap: 8 
-  },
-  optionItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 12,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: COLORS.lightGrey,
-    backgroundColor: COLORS.white
-  },
-  optionItemSelected: {
-    borderColor: COLORS.lavender,
-    backgroundColor: "#F8F7FF" 
-  },
-  radioOuter: {
-    width: 20,
-    height: 20,
-    borderRadius: 10,
-    borderWidth: 2,
-    borderColor: COLORS.lightGrey,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12
-  },
-  radioOuterSelected: { 
-    borderColor: COLORS.lavender 
-  },
-  radioInner: { 
-    width: 10, 
-    height: 10, 
-    borderRadius: 5, 
-    backgroundColor: COLORS.lavender 
-  },
-  optionLabel: { 
-    fontSize: 14, 
-    color: COLORS.darkGrey, 
-    fontWeight: "500" 
-  },
-  optionLabelSelected: { 
-    color: COLORS.lavender, 
-    fontWeight: "700" 
-  },
-  submitButton: { 
-    marginTop: 10, 
-    borderRadius: 12,
-    marginBottom: 20
-  },
+  screenContainer: { flex: 1, backgroundColor: COLORS.background },
+  headerSafe: { backgroundColor: COLORS.lavender },
+  header: { height: 60, backgroundColor: COLORS.lavender, justifyContent: "center", alignItems: "center" },
+  headerTitle: { fontSize: 20, fontWeight: "700", color: COLORS.white },
+  progressBar: { height: 4, backgroundColor: COLORS.lightGrey },
+  scrollContent: { padding: 16, paddingBottom: 40 },
+  questionCard: { marginBottom: 16, borderRadius: 12, backgroundColor: COLORS.white, borderColor: COLORS.lightGrey, elevation: 0 },
+  questionNumber: { fontSize: 12, color: COLORS.mediumGrey, fontWeight: "700", marginBottom: 4 },
+  questionText: { fontSize: 16, fontWeight: "600", color: COLORS.darkGrey, marginBottom: 18, lineHeight: 22 },
+  optionsList: { gap: 8 },
+  optionItem: { flexDirection: 'row', alignItems: 'center', padding: 12, borderRadius: 10, borderWidth: 1, borderColor: COLORS.lightGrey, backgroundColor: COLORS.white },
+  optionItemSelected: { borderColor: COLORS.lavender, backgroundColor: "#F8F7FF" },
+  radioOuter: { width: 20, height: 20, borderRadius: 10, borderWidth: 2, borderColor: COLORS.lightGrey, justifyContent: 'center', alignItems: 'center', marginRight: 12 },
+  radioOuterSelected: { borderColor: COLORS.lavender },
+  radioInner: { width: 10, height: 10, borderRadius: 5, backgroundColor: COLORS.lavender },
+  optionLabel: { fontSize: 14, color: COLORS.darkGrey, fontWeight: "500" },
+  optionLabelSelected: { color: COLORS.lavender, fontWeight: "700" },
+  submitButton: { marginTop: 10, borderRadius: 12, marginBottom: 20 },
 });

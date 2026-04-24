@@ -1,4 +1,3 @@
-// screens/NotificationHistoryScreen.tsx (TAM BÜTÖV - DÜZƏLDİLMİŞ)
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   View,
@@ -13,7 +12,9 @@ import { useTranslation } from 'react-i18next';
 import { useFocusEffect } from '@react-navigation/native';
 import { auth, getNotifications, deleteNotification, markAllAsRead } from '../services/firebaseService';
 import { notificationEventEmitter } from '../services/ExpoNotificationService';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+// ✅ Düzəliş: Expo üçün düzgün ikon importu
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const COLORS = {
   lavender: '#B7A6E6',
@@ -27,7 +28,7 @@ interface NotificationItem {
   id: string;
   title: string;
   body: string;
-  timestamp: string;
+  timestamp: any;
   read: boolean;
   screen?: string;
 }
@@ -38,15 +39,20 @@ export default function NotificationHistoryScreen({ navigation }: any) {
   const [refreshing, setRefreshing] = useState(false);
 
   const loadNotifications = async () => {
-    const user = auth.currentUser;
+    // ✅ Düzəliş: auth() funksiya kimi çağırıldı
+    const user = auth().currentUser;
     if (!user) {
       console.log("❌ Istifadəçi tapılmadı");
       return;
     }
-    const data = await getNotifications(user.uid);
-    console.log("📦 Yüklənən bildiriş sayı:", data.length);
-    console.log("📦 İlk bildiriş:", data[0]?.title);
-    setNotifications([...data]);
+    try {
+      const data = await getNotifications(user.uid);
+      console.log("📦 Yüklənən bildiriş sayı:", data.length);
+      // ✅ Düzəliş: Sadəcə data ötürmək kifayətdir
+      setNotifications(data as NotificationItem[]);
+    } catch (error) {
+      console.error("Bildirişlər yüklənərkən xəta:", error);
+    }
   };
 
   useFocusEffect(
@@ -78,7 +84,7 @@ export default function NotificationHistoryScreen({ navigation }: any) {
           text: t('common.delete') || 'Sil',
           style: 'destructive',
           onPress: async () => {
-            const user = auth.currentUser;
+            const user = auth().currentUser;
             if (user) {
               await deleteNotification(user.uid, id);
               loadNotifications();
@@ -98,15 +104,20 @@ export default function NotificationHistoryScreen({ navigation }: any) {
   };
 
   const handleMarkAllRead = async () => {
-    const user = auth.currentUser;
+    const user = auth().currentUser;
     if (user) {
       await markAllAsRead(user.uid);
       loadNotifications();
     }
   };
 
-  const renderItem = ({ item, index }: { item: NotificationItem; index: number }) => {
-    console.log(`🎨 Render edilir [${index}]: ${item.title}`);
+  const formatTimestamp = (timestamp: any) => {
+    if (!timestamp) return "";
+    const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+    return date.toLocaleString();
+  };
+
+  const renderItem = ({ item }: { item: NotificationItem }) => {
     return (
       <TouchableOpacity style={styles.notificationItem} onPress={() => handlePress(item)}>
         <View style={styles.notificationContent}>
@@ -117,7 +128,7 @@ export default function NotificationHistoryScreen({ navigation }: any) {
               {item.body}
             </Text>
             <Text style={styles.date}>
-              {new Date(item.timestamp).toLocaleString()}
+              {formatTimestamp(item.timestamp)}
             </Text>
           </View>
         </View>
@@ -181,7 +192,7 @@ const styles = StyleSheet.create({
   body: { fontSize: 14, color: COLORS.mediumGrey, marginBottom: 4 },
   date: { fontSize: 11, color: COLORS.lightGrey },
   deleteBtn: { padding: 8, marginLeft: 8 },
-  emptyContainer: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingTop: 50 },
+  emptyContainer: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingTop: 100 },
   emptyText: { marginTop: 16, fontSize: 16, color: COLORS.mediumGrey },
   refreshBtn: { marginTop: 20, padding: 10, backgroundColor: COLORS.lavender, borderRadius: 8 },
   refreshText: { color: COLORS.white, fontWeight: '600' },

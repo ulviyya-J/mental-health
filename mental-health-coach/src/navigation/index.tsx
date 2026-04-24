@@ -1,4 +1,3 @@
-// navigation/RootNavigator.tsx (DÜZƏLDİLMİŞ - BÜTÖV İŞLƏK)
 import React, { useState, useEffect } from "react";
 import {
   View,
@@ -20,12 +19,14 @@ import {
   useDrawerStatus,
 } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useTranslation } from "react-i18next";
 import i18n from "../localization/i18n";
 import * as ImagePicker from "expo-image-picker";
 import { BlurView } from "expo-blur";
+
+// Native Firebase Servisləri
 import {
   getUserData,
   auth,
@@ -35,7 +36,6 @@ import {
 } from "../services/firebaseService";
 import { notificationEventEmitter } from "../services/ExpoNotificationService";
 import ExpoNotificationService from "../services/ExpoNotificationService";
-import { collection, query, where, onSnapshot } from "firebase/firestore";
 
 // Ekran importları
 import LanguageSelectScreen from "../screens/LanguageSelectScreen";
@@ -79,7 +79,7 @@ const MainHeader = ({ navigation, title }: any) => (
   </SafeAreaView>
 );
 
-const DrawerProfileHeader = ({ profileImage, onEditPhoto }: any) => (
+const DrawerProfileHeader = ({ profileImage, onEditPhoto, email }: any) => (
   <SafeAreaView style={{ backgroundColor: COLORS.lavender }}>
     <View style={[styles.headerContent, { justifyContent: "flex-start" }]}>
       <View style={styles.headerLeftArea}>
@@ -95,7 +95,7 @@ const DrawerProfileHeader = ({ profileImage, onEditPhoto }: any) => (
           </View>
         </TouchableOpacity>
         <Text style={styles.headerEmailText} numberOfLines={1}>
-          {auth.currentUser?.email}
+          {email || ""}
         </Text>
       </View>
     </View>
@@ -107,6 +107,7 @@ function CustomDrawerContent(props: any) {
   const [profileImage, setProfileImage] = useState<string | null>(null);
   const [isNotifOn, setIsNotifOn] = useState(true);
   const [unreadCount, setUnreadCount] = useState(0);
+  const [userEmail, setUserEmail] = useState<string | null>(null);
 
   useEffect(() => {
     const loadSavedPhoto = async () => {
@@ -117,17 +118,19 @@ function CustomDrawerContent(props: any) {
   }, []);
 
   useEffect(() => {
-    const user = auth.currentUser;
+    // ✅ DÜZƏLİŞ: auth().currentUser
+    const user = auth().currentUser;
     if (!user) return;
 
-    const q = query(
-      collection(db, "users", user.uid, "notifications"),
-      where("read", "==", false)
-    );
+    setUserEmail(user.email);
 
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      setUnreadCount(snapshot.size);
-    });
+    const unsubscribe = db().collection("users")
+      .doc(user.uid)
+      .collection("notifications")
+      .where("read", "==", false)
+      .onSnapshot((snapshot) => {
+        setUnreadCount(snapshot ? snapshot.size : 0);
+      }, (error) => console.error("Notification snapshot error:", error));
 
     return () => unsubscribe();
   }, []);
@@ -153,7 +156,11 @@ function CustomDrawerContent(props: any) {
 
   return (
     <View style={{ flex: 1, backgroundColor: COLORS.white }}>
-      <DrawerProfileHeader profileImage={profileImage} onEditPhoto={handleEditPhoto} />
+      <DrawerProfileHeader 
+        profileImage={profileImage} 
+        onEditPhoto={handleEditPhoto} 
+        email={userEmail} 
+      />
       <DrawerContentScrollView {...props} contentContainerStyle={{ paddingTop: 0 }}>
         <View style={styles.drawerItemsContainer}>
           <DrawerItemList {...props} />
@@ -181,7 +188,8 @@ function CustomDrawerContent(props: any) {
               style={styles.subItem}
               onPress={async () => {
                 props.navigation.navigate("Notifications");
-                const user = auth.currentUser;
+                // ✅ DÜZƏLİŞ: auth().currentUser
+                const user = auth().currentUser;
                 if (user) await markAllAsRead(user.uid);
               }}
             >
@@ -208,7 +216,7 @@ function CustomDrawerContent(props: any) {
             </View>
           </View>
           <View style={styles.divider} />
-          <TouchableOpacity style={styles.logoutBtn} onPress={() => auth.signOut()}>
+          <TouchableOpacity style={styles.logoutBtn} onPress={() => auth().signOut()}>
             <MaterialCommunityIcons name="logout" size={22} color="#d9534f" />
             <Text style={styles.logoutText}>{t("menu.logout")}</Text>
           </TouchableOpacity>
@@ -224,7 +232,7 @@ function CustomDrawerContent(props: any) {
                 style: "destructive",
                 onPress: async () => {
                   await deleteUserAccount();
-                  auth.signOut();
+                  auth().signOut();
                 },
               },
             ]);
@@ -300,8 +308,9 @@ export default function RootNavigator() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      if (!user) setIsAuthenticated(false);
+    // ✅ DÜZƏLİŞ: auth().onAuthStateChanged
+    const unsubscribe = auth().onAuthStateChanged((user) => {
+      setIsAuthenticated(!!user);
     });
     return unsubscribe;
   }, []);

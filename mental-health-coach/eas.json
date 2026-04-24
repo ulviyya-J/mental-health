@@ -5,14 +5,13 @@
   },
   "build": {
     "development": {
-      "developmentClient": false,
+      "developmentClient": true,
       "distribution": "internal",
       "channel": "development",
       "ios": {
         "buildConfiguration": "Debug",
-        "image": "macos-sequoia-15.6-xcode-26.0"
+        "image": "macos-sonoma-14.4-xcode-15.3"
       },
-      "node": "22.0.0",
       "env": {
         "EAS_SKIP_AUTO_FINGERPRINT": "1",
         "npm_config_legacy_peer_deps": "true"
@@ -22,9 +21,8 @@
       "distribution": "internal",
       "channel": "preview",
       "ios": {
-        "image": "macos-sequoia-15.6-xcode-26.0"
+        "image": "macos-sonoma-14.4-xcode-15.3"
       },
-      "node": "22.0.0",
       "env": {
         "npm_config_legacy_peer_deps": "true"
       }
@@ -33,9 +31,8 @@
       "autoIncrement": true,
       "channel": "production",
       "ios": {
-        "image": "macos-sequoia-15.6-xcode-26.0"
+        "image": "macos-sonoma-14.4-xcode-15.3"
       },
-      "node": "22.0.0",
       "env": {
         "npm_config_legacy_peer_deps": "true"
       }

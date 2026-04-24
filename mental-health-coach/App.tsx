@@ -1,49 +1,48 @@
 import 'react-native-gesture-handler';
 import React, { useEffect, useState } from 'react';
-import { View, ActivityIndicator, StyleSheet, LogBox } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, LogBox, StatusBar } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import { NavigationContainer, createNavigationContainerRef } from '@react-navigation/native';
-import RootNavigator from './src/navigation';
-import { initI18n } from './src/localization/i18n';
+
+// ✅ Firebase servislərini import et (initializeApp firebaseService.ts-də baş verir)
+import './src/services/firebaseService'; 
+
 import ExpoNotificationService from './src/services/ExpoNotificationService';
+import RootNavigator from './src/navigation/index';
+import { initI18n } from './src/localization/i18n';
 
-LogBox.ignoreLogs(['ViewPropTypes will be removed from React Native']);
-
-// ✅ Navigation Ref - bildirişdən naviqasiya üçün
+LogBox.ignoreLogs(['ViewPropTypes will be removed', 'VirtualizedLists should never be nested']);
 export const navigationRef = createNavigationContainerRef();
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
+  const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
-    const initializeApp = async () => {
+    async function prepareApp() {
       try {
         await initI18n();
-        
-        // ✅ Navigation ref-i ExpoNotificationService-ə ötür (Require Cycle-i qırır)
         ExpoNotificationService.setNavigationRef(navigationRef);
-        
         await ExpoNotificationService.configure();
-        setLoading(false);
-      } catch (error) {
-        console.error('App start error:', error);
-        setLoading(false);
+      } catch (e: any) {
+        console.error("❌ Başlatma xətası:", e);
+      } finally {
+        setAppIsReady(true);
       }
-    };
-
-    initializeApp();
+    }
+    prepareApp();
   }, []);
 
-  if (loading) {
+  if (!appIsReady) {
     return (
-      <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#6200ee" />
+      <View style={styles.loading}>
+        <ActivityIndicator size="large" color="#B7A6E6" />
       </View>
     );
   }
 
   return (
     <PaperProvider>
+      <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
       <NavigationContainer ref={navigationRef}>
         <RootNavigator />
       </NavigationContainer>
@@ -52,10 +51,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  loadingContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
+  loading: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF' },
 });

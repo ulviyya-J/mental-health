@@ -14,13 +14,14 @@ import {
 import { useTranslation } from "react-i18next";
 import { TextInput, Button, IconButton } from "react-native-paper";
 import { Ionicons } from '@expo/vector-icons';
-import { getAuth } from "firebase/auth";
-import { saveAssessmentText } from "../services/firebaseService";
+
+// ✅ Düzəliş: auth-u birbaşa buradan götürürük, getAuth-a ehtiyac yoxdur
+import { auth, saveAssessmentText } from "../services/firebaseService";
 
 const COLORS = {
   lavender: "#B7A6E6",
   darkGrey: "#2D3436",
-  mediumGrey: "#718096", // Daha professional boz tonu
+  mediumGrey: "#718096",
   lightGrey: "#E2E8F0",
   white: "#FFFFFF",
   background: "#F9FAFB",
@@ -29,7 +30,6 @@ const COLORS = {
 export default function AssessmentScreen({ onBack, onNavigateToPsychologicalTest }: any) {
   const { t } = useTranslation();
   const [assessmentText, setAssessmentText] = useState("");
-  const auth = getAuth();
 
   const handleSubmit = async () => {
     if (assessmentText.trim().length < 10) {
@@ -37,13 +37,18 @@ export default function AssessmentScreen({ onBack, onNavigateToPsychologicalTest
       return;
     }
 
-    const user = auth.currentUser;
-    if (!user) return;
+    // ✅ Düzəliş: Import etdiyimiz auth-dan istifadə edirik
+    const user = auth().currentUser;
+    if (!user) {
+      Alert.alert("Xəta", "İstifadəçi tapılmadı. Yenidən daxil olun.");
+      return;
+    }
 
     try {
       await saveAssessmentText(user.uid, assessmentText);
       onNavigateToPsychologicalTest();
     } catch (error) {
+      console.error("Save assessment error:", error);
       Alert.alert("Xəta", "Məlumat saxlanılmadı.");
     }
   };
@@ -135,7 +140,7 @@ const styles = StyleSheet.create({
     letterSpacing: -0.4 
   },
   scrollContent: { 
-    paddingHorizontal: 28, // Şəkildəkindən daha geniş kənar boşluğu
+    paddingHorizontal: 28, 
     paddingTop: 36, 
     paddingBottom: 40 
   },
@@ -143,11 +148,11 @@ const styles = StyleSheet.create({
     marginBottom: 32 
   },
   title: { 
-    fontSize: 24, // Bir az kiçiltdik ki, daha kübar dursun
+    fontSize: 24, 
     fontWeight: "800", 
     color: "#1A202C", 
     marginBottom: 10,
-    letterSpacing: -0.6, // Hərflər bir az daha sıx və modern
+    letterSpacing: -0.6, 
     lineHeight: 32,
   },
   subtitle: { 
@@ -158,11 +163,11 @@ const styles = StyleSheet.create({
     fontWeight: "400",
   },
   input: { 
-    height: 260, // Sabit hündürlük, daxili scroll üçün
+    height: 260, 
     backgroundColor: COLORS.white, 
     fontSize: 17,
     letterSpacing: -0.2,
-    borderRadius: 16, // Daha yumşaq künclər
+    borderRadius: 16, 
   },
   inputContent: { 
     paddingTop: 16, 
@@ -177,11 +182,10 @@ const styles = StyleSheet.create({
   buttonWrapper: {
     paddingHorizontal: 28,
     paddingTop: 16,
-    // Düyməni şəkildəkindən xeyli yuxarı qaldırdıq (nəfəs alması üçün)
     paddingBottom: Platform.OS === 'ios' ? 40 : 32, 
   },
   submitButton: {
-    borderRadius: 28, // Twitter tərzi tam yumru düymə
+    borderRadius: 28, 
     elevation: 0,
   },
   buttonLabel: { 

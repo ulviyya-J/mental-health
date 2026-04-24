@@ -1,8 +1,16 @@
 import { registerRootComponent } from 'expo';
-
+import firebase from '@react-native-firebase/app';
 import App from './App';
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
+// ✅ Native Firebase-də initializeApp() daxilinə heç nə yazmağa ehtiyac yoxdur.
+// ✅ O, konfiqurasiyanı avtomatik olaraq native fayllardan (json/plist) götürür.
+if (!firebase.apps.length) {
+  try {
+    firebase.initializeApp({}); 
+    console.log("✅ Firebase index.ts-də uğurla başladıldı");
+  } catch (error) {
+    console.error("❌ Firebase başlatma xətası:", error);
+  }
+}
+
 registerRootComponent(App);

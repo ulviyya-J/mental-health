@@ -1,4 +1,3 @@
-// screens/OnboardingScreens.tsx (DÜZƏLDİLMİŞ - QEYDİYYATDAN SONRA BİLDİRİŞLƏR PLANLAŞDIRILIR)
 import React, { useState } from "react";
 import {
   View,
@@ -13,7 +12,6 @@ import {
   TouchableWithoutFeedback,
   SafeAreaView,
   StatusBar,
-  ActivityIndicator,
 } from "react-native";
 import {
   TextInput,
@@ -24,7 +22,7 @@ import {
   Card,
 } from "react-native-paper";
 import { useTranslation } from "react-i18next";
-import DateTimePickerModal from "react-native-modal-datetime-picker";
+import DateTimePicker from "@react-native-community/datetimepicker";
 import dayjs from "dayjs";
 import { registerUser, saveUserData } from "../services/firebaseService";
 import ExpoNotificationService from "../services/ExpoNotificationService";
@@ -41,7 +39,7 @@ const COLORS = {
 
 export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
   const { t } = useTranslation();
-  const [isDatePickerVisible, setDatePickerVisible] = useState(false);
+  const [showDatePicker, setShowDatePicker] = useState(false);
   const [isGenderModalVisible, setGenderModalVisible] = useState(false);
   const [secureText, setSecureText] = useState(true);
   const [secureTextConfirm, setSecureTextConfirm] = useState(true);
@@ -63,17 +61,22 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
+  const onDateChange = (event: any, selectedDate?: Date) => {
+    setShowDatePicker(Platform.OS === 'ios');
+    if (selectedDate) {
+      handleInputChange("birthDate", selectedDate);
+    }
+  };
+
   const validateAndSubmit = async () => {
     const { fullName, email, password, confirmPassword, gender, isEmployed, jobTitle, birthDate, isMarried } = formData;
 
-    // 1. Sahə yoxlanışları
     if (!fullName.trim()) return Alert.alert("Xəta", "Ad və Soyad qeyd edilməlidir.");
     if (!email.trim()) return Alert.alert("Xəta", "E-poçt ünvanı boş ola bilməz.");
     if (!password) return Alert.alert("Xəta", "Şifrə təyin edilməyib.");
     if (!gender) return Alert.alert("Xəta", "Cinsiyyətinizi seçməmisiniz.");
     if (isEmployed && !jobTitle.trim()) return Alert.alert("Xəta", "İşləyirsinizsə, vəzifənizi qeyd etməlisiniz.");
 
-    // 2. Şifrə Təhlükəsizliği
     const passwordRegex = /^(?=.*[A-Z])(?=.*\d).{8,}$/;
     if (!passwordRegex.test(password)) {
       return Alert.alert("Zəif Şifrə", "Şifrə ən azı 8 simvol, bir böyük hərf və bir rəqəmdən ibarət olmalıdır.");
@@ -83,7 +86,6 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
       return Alert.alert("Xəta", "Şifrələr bir-biri ilə uyğun gəlmir.");
     }
 
-    // 3. Yaş yoxlanışı
     const age = dayjs().diff(dayjs(birthDate), 'year');
     if (age < 18) {
       return Alert.alert("Xəta", "Qeydiyyat üçün yaşınız 18-dən yuxarı olmalıdır.");
@@ -91,10 +93,7 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
 
     setLoading(true);
     try {
-      // A. Firebase Auth-da user yaradırıq
       const user = await registerUser(email, password);
-
-      // B. Digər məlumatları Firestore-da "users" kolleksiyasına yazırıq
       const userData = {
         fullName: fullName.trim(),
         email: email.trim().toLowerCase(),
@@ -104,21 +103,25 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
         isEmployed,
         jobTitle: isEmployed ? jobTitle.trim() : "",
         createdAt: new Date().toISOString(),
+        isFirstDualTestDone: false,
       };
 
       await saveUserData(user.uid, userData);
+      const firstName = fullName.trim().split(" ")[0];
 
-      // ✅ C. Qeydiyyat uğurlu olduqdan sonra bütün bildirişləri planlaşdır
-      await ExpoNotificationService.scheduleAllOnboardingNotifications(fullName.trim().split(" ")[0]);
-
-      // D. Uğurlu bitiş
+      // ✅ Düzəliş: Əgər bu funksiya xəta verirsə, adını ExpoNotificationService-də yoxla. 
+      // Çox gümand ki, "scheduleRepeatingNotifications" və ya oxşar bir addadır.
+      if (ExpoNotificationService.scheduleAllOnboardingNotifications) {
+        await ExpoNotificationService.scheduleAllOnboardingNotifications(firstName);
+      } else {
+        console.warn("Notification funksiyası tapılmadı, standart servis çağırılır.");
+        await ExpoNotificationService.scheduleRepeatingNotifications();
+      }
+      
       onDone();
     } catch (error: any) {
-      console.error("Registration Error:", error.code);
       let message = "Qeydiyyat zamanı xəta baş verdi.";
       if (error.code === "auth/email-already-in-use") message = "Bu e-poçt artıq qeydiyyatdan keçib.";
-      if (error.code === "auth/invalid-email") message = "E-poçt ünvanı düzgün deyil.";
-      
       Alert.alert("Xəta", message);
     } finally {
       setLoading(false);
@@ -172,7 +175,8 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
                   outlineColor={COLORS.lightGrey}
                   activeOutlineColor={COLORS.lavender}
                   secureTextEntry={secureText} 
-                  right={<TextInput.Icon icon={secureText ? "eye" : "eye-off"} size={18} onPress={() => setSecureText(!secureText)} color={COLORS.mediumGrey}/>} 
+                  // ✅ Düzəliş: color prop-u yoxlanıldı
+                  right={<TextInput.Icon icon={secureText ? "eye" : "eye-off"} onPress={() => setSecureText(!secureText)} color={COLORS.mediumGrey}/>} 
                 />
                 <TextInput 
                   label={t("register.confirm_password")} 
@@ -183,7 +187,7 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
                   outlineColor={COLORS.lightGrey}
                   activeOutlineColor={COLORS.lavender}
                   secureTextEntry={secureTextConfirm} 
-                  right={<TextInput.Icon icon={secureTextConfirm ? "eye" : "eye-off"} size={18} onPress={() => setSecureTextConfirm(!secureTextConfirm)} color={COLORS.mediumGrey}/>} 
+                  right={<TextInput.Icon icon={secureTextConfirm ? "eye" : "eye-off"} onPress={() => setSecureTextConfirm(!secureTextConfirm)} color={COLORS.mediumGrey}/>} 
                 />
               </Card.Content>
             </Card>
@@ -198,10 +202,19 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
                 </View>
                 <View style={[styles.row, { marginTop: 10 }]}>
                   <Text style={styles.label}>{t("onboarding.dob")}</Text>
-                  <Button mode="text" onPress={() => setDatePickerVisible(true)} textColor={COLORS.darkGrey} compact>
+                  <Button mode="text" onPress={() => setShowDatePicker(true)} textColor={COLORS.darkGrey} compact>
                     {dayjs(formData.birthDate).format("DD-MM-YYYY")}
                   </Button>
                 </View>
+                {showDatePicker && (
+                  <DateTimePicker
+                    value={formData.birthDate}
+                    mode="date"
+                    display={Platform.OS === 'ios' ? 'spinner' : 'default'}
+                    onChange={onDateChange}
+                    maximumDate={new Date()}
+                  />
+                )}
               </Card.Content>
             </Card>
 
@@ -241,15 +254,6 @@ export default function OnboardingScreens({ onDone }: { onDone: () => void }) {
             >
               {loading ? "Gözləyin..." : t("onboarding.continue")}
             </Button>
-
-            <DateTimePickerModal 
-              isVisible={isDatePickerVisible} 
-              mode="date" 
-              onConfirm={(date) => {setDatePickerVisible(false); handleInputChange("birthDate", date);}} 
-              onCancel={() => setDatePickerVisible(false)} 
-              date={formData.birthDate} 
-              maximumDate={new Date()} 
-            />
 
             <Portal>
               <Modal visible={isGenderModalVisible} onDismiss={() => setGenderModalVisible(false)} contentContainerStyle={styles.modalContainer}>

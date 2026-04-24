@@ -11,72 +11,56 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "ios": {
+      "bundleIdentifier": "com.lavia.app",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "android": {
+      "package": "com.lavia.app",
+      "googleServicesFile": "./google-services.json"
+    },
     "plugins": [
       [
         "expo-build-properties",
         {
           "ios": {
-            "deploymentTarget": "16.0",
             "useFrameworks": "static",
-            "flipper": false
-          },
-          "android": {
-            "compileSdkVersion": 34,
-            "targetSdkVersion": 34,
-            "buildToolsVersion": "34.0.0"
+            "deploymentTarget": "16.0",
+            "extraPods": [
+              { "name": "RNFBApp", "modular_headers": true },
+              { "name": "RNFBAuth", "modular_headers": true },
+              { "name": "RNFBMessaging", "modular_headers": true },
+              { "name": "RNFBFirestore", "modular_headers": true }
+            ]
           }
         }
       ],
+      [
+        "@react-native-firebase/app",
+        {
+          "ios": { "googleServicesFile": "./GoogleService-Info.plist" }
+        }
+      ],
       "expo-localization",
+      "expo-notifications",
       [
         "expo-image-picker",
         {
           "photosPermission": "Lavia profil şəklinizi seçmək üçün qalereyaya giriş icazəsi istəyir.",
           "cameraPermission": "Lavia şəkil çəkmək üçün kameraya giriş icazəsi istəyir."
         }
-      ]
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.lavia.app",
-      "infoPlist": {
-        "NSPhotoLibraryUsageDescription": "Lavia profil şəklinizi dəyişmək üçün qalereyaya giriş tələb edir.",
-        "NSCameraUsageDescription": "Lavia şəkil çəkmək üçün kameraya giriş tələb edir.",
-        "UIBackgroundModes": [
-          "remote-notification"
-        ],
-        "ITSAppUsesNonExemptEncryption": false
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.lavia.app",
-      "permissions": [
-        "RECEIVE_BOOT_COMPLETED",
-        "SCHEDULE_EXACT_ALARM",
-        "WAKE_LOCK",
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
       ],
-      "googleServicesFile": "./google-services.json"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+      "@react-native-community/datetimepicker"
+    ],
     "extra": {
       "eas": {
         "projectId": "0c97eaab-9551-46dd-8f75-cfcf5b22bca2"
       }
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    },
-    "updates": {
-      "url": "https://u.dev/0c97eaab-9551-46dd-8f75-cfcf5b22bca2"
     }
   }
 }
