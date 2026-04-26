@@ -16,8 +16,11 @@
       "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
       "infoPlist": {
+        "NSFaceIDUsageDescription": "Lavia tətbiqinə təhlükəsiz giriş üçün Face ID istifadə olunur.",
         "ITSAppUsesNonExemptEncryption": false,
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
       }
     },
     "android": {
@@ -25,27 +28,6 @@
       "googleServicesFile": "./google-services.json"
     },
     "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "useFrameworks": "static",
-            "deploymentTarget": "16.0",
-            "extraPods": [
-              { "name": "RNFBApp", "modular_headers": true },
-              { "name": "RNFBAuth", "modular_headers": true },
-              { "name": "RNFBMessaging", "modular_headers": true },
-              { "name": "RNFBFirestore", "modular_headers": true }
-            ]
-          }
-        }
-      ],
-      [
-        "@react-native-firebase/app",
-        {
-          "ios": { "googleServicesFile": "./GoogleService-Info.plist" }
-        }
-      ],
       "expo-localization",
       "expo-notifications",
       [
@@ -55,7 +37,10 @@
           "cameraPermission": "Lavia şəkil çəkmək üçün kameraya giriş icazəsi istəyir."
         }
       ],
-      "@react-native-community/datetimepicker"
+      "@react-native-community/datetimepicker",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-local-authentication"
     ],
     "extra": {
       "eas": {
